@@ -16,7 +16,7 @@
     "rach_gia"
   ],
   "contract_version": "weather-production-contract-1.0",
-  "generated_at": "2026-10-11T01:31:35.921127+00:00",
+  "generated_at": "2026-10-11T07:18:46.815912+00:00",
   "point_authority": {
     "an_thoi": {
       "lat": 10.0191,
@@ -68,31 +68,31 @@
     }
   },
   "production_reference": "weather.openphuquoc.com",
-  "report_cycle": "0600",
+  "report_cycle": "1800",
   "required_production_points": [
     "duong_dong",
     "an_thoi",
     "ganh_dau"
   ],
   "snapshot": {
-    "archive_path": "weather/snapshots/2026/10/11/083133/LAB_SNAPSHOT_V1.json",
-    "archive_url": "/weather/snapshots/2026/10/11/083133/LAB_SNAPSHOT_V1.json",
-    "cutoff_time": "2026-10-11T08:31:33.249216+07:00",
+    "archive_path": "weather/snapshots/2026/10/11/141844/LAB_SNAPSHOT_V1.json",
+    "archive_url": "/weather/snapshots/2026/10/11/141844/LAB_SNAPSHOT_V1.json",
+    "cutoff_time": "2026-10-11T14:18:44.109019+07:00",
     "data_mode": "B",
     "formula_bundle_version": "weather-lab-0.2.0",
-    "generated_at": "2026-10-11T01:31:35.784338+00:00",
-    "git_commit_sha": "ef7d8d9562f3b26ef1b056ffcfa954c7d0a02c4f",
+    "generated_at": "2026-10-11T07:18:46.600798+00:00",
+    "git_commit_sha": "d3ab7ebcb926282c9cf53af484b6c66392e25fb8",
     "latest_path": "weather/snapshots/latest.json",
     "latest_url": "/weather/snapshots/latest.json",
-    "payload_hash": "d32618f97cf3e2c5fdb2ea37512c2fb59b3cb28006bfbee506594ad8bed8e5f5",
+    "payload_hash": "a47974f1bd50f9a31dc0efe8802f208ab5e1c99ec21d5bc54f7424af06925d58",
     "schema_version": "1.0",
-    "snapshot_id": "PQWX_CANONICAL_20261011_083133+0700_V1"
+    "snapshot_id": "PQWX_CANONICAL_20261011_141844+0700_V1"
   },
   "source_cycles": {
     "ECMWF": "2026-10-10T18:00:00+00:00",
     "ECMWF_MEDIUM": "2026-10-10T12:00:00+00:00",
-    "GEFS": "2026-10-10T18:00:00+00:00",
-    "ICON": "2026-10-10T18:00:00+00:00"
+    "GEFS": "2026-10-11T00:00:00+00:00",
+    "ICON": "2026-10-11T00:00:00+00:00"
   },
   "verified_points": [
     "an_thoi",
