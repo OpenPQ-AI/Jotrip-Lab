@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1,user-scalable=no"/>
+<meta name="theme-color" content="#124451"/><meta name="robots" content="noindex,nofollow"/>
+<title>Living Phú Quốc - Sunset Town Vista (Game)</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;height:100dvh;overflow:hidden;overscroll-behavior:none;touch-action:none;font-family:system-ui,-apple-system,sans-serif;background:#789eae;color:#fff}
+#world{position:fixed;inset:0;width:100%;height:100%;touch-action:none;display:block}
+#shade{position:fixed;inset:0;pointer-events:none;background:linear-gradient(180deg,#071a2b91 0%,transparent 19%,transparent 65%,#05222d9e 100%)}
+#head{position:fixed;z-index:4;top:max(13px,env(safe-area-inset-top));left:max(14px,env(safe-area-inset-left));right:max(14px,env(safe-area-inset-right));display:flex;align-items:flex-start;justify-content:space-between;gap:8px;pointer-events:none;text-shadow:0 2px 5px #082532}
+#head small{display:block;color:#ffe5b5;letter-spacing:.16em;font-size:9px;font-weight:800}
+#head strong{font-size:clamp(16px,4vw,24px);display:block;margin-top:3px;letter-spacing:-.04em}
+#head span{font-size:10px;color:#ecf2eccc}
+#actions{display:flex;gap:6px;pointer-events:auto}
+.round{background:#0f3846a3;border:1px solid #ffffff73;color:#fff;border-radius:50%;width:40px;height:40px;font-size:20px;backdrop-filter:blur(11px);cursor:pointer}
+#meter{position:fixed;top:calc(max(13px,env(safe-area-inset-top)) + 77px);left:max(14px,env(safe-area-inset-left));background:#0b3844b0;padding:8px 11px;border-radius:12px;font-weight:750;font-size:11px;pointer-events:none}
+#miniStatus{position:fixed;top:calc(max(13px,env(safe-area-inset-top)) + 77px);right:max(14px,env(safe-area-inset-right));background:#0b3844b0;padding:8px 10px;border-radius:12px;font-size:11px}
+#message{position:fixed;bottom:calc(max(18px,env(safe-area-inset-bottom)) + 150px);left:16px;right:16px;font-size:11px;text-align:center;pointer-events:none;text-shadow:0 1px 4px #061e2b}
+#lookPad{position:fixed;right:0;top:18%;width:60%;bottom:160px;touch-action:none;cursor:grab}
+#joystick{position:fixed;left:max(20px,env(safe-area-inset-left));bottom:calc(max(20px,env(safe-area-inset-bottom)) + 8px);width:122px;height:122px;border:2px solid #fffbd3b5;border-radius:50%;background:#1a505a6b;box-shadow:inset 0 0 20px #163d4866;touch-action:none;backdrop-filter:blur(5px);z-index:3}
+#knob{position:absolute;left:38px;top:38px;width:42px;height:42px;border-radius:50%;background:#b7e0d2;border:2px solid #fff8e6;box-shadow:0 2px 12px #133b4d88;pointer-events:none}
+#mode{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:calc(max(21px,env(safe-area-inset-bottom)) + 27px);display:flex;flex-direction:column;gap:8px;z-index:3}
+#mode button{border:1px solid #efeee3a1;background:#153f4ac7;color:white;font-size:12px;font-weight:740;border-radius:24px;min-width:93px;min-height:43px;backdrop-filter:blur(12px);cursor:pointer}
+#mode .selected{background:#f8e0af;color:#163a42;border-color:#fff5cf}
+#hint{position:fixed;right:16px;bottom:calc(max(21px,env(safe-area-inset-bottom)) + 141px);font-size:10px;text-shadow:0 1px 6px #063b4c;text-align:right;pointer-events:none}
+#foot{position:fixed;z-index:2;left:15px;right:15px;bottom:max(5px,env(safe-area-inset-bottom));text-align:center;font-size:9px;color:#ecf4e6b0;pointer-events:none}
+#loading{position:fixed;inset:0;z-index:10;background:#143848;display:grid;place-content:center;gap:10px;text-align:center}
+#loading strong{font:700 25px Georgia,serif}#loading span{font-size:12px;color:#dbeae9}
+.hide{display:none!important}
+@media(orientation:landscape){#head{top:8px}#head strong{font-size:16px}
+ #meter,#miniStatus{top:56px}
+ #joystick{width:92px;height:92px;left:15px;bottom:12px}#knob{width:32px;height:32px;left:28px;top:28px}
+ #mode{right:13px;bottom:10px;flex-direction:row}#mode button{min-width:85px;min-height:37px}
+ #lookPad{bottom:60px}#message{bottom:36px}#hint{bottom:90px}
+}
+</style></head>
+<body>
+<canvas id="world" aria-label="Thế giới game 3D Apollo Sunset Town"></canvas>
+<div id="shade"></div>
+<header id="head">
+ <div><small>OPEN PHÚ QUỐC · LIVING ISLAND</small><strong>Sunset Town - xuống biển</strong><span>Game 3D thử nghiệm - địa hình và kiến trúc chưa xác minh 70%</span></div>
+ <div id="actions"><button id="restart" class="round" aria-label="Chơi lại">↺</button><button id="guide" class="round" aria-label="Tự đi tham quan">▷</button></div>
+</header>
+<div id="meter">0.0 m · đang khởi động</div><div id="miniStatus">Đang khám phá</div>
+<div id="lookPad" aria-label="Vuốt để đổi hướng nhìn"></div>
+<div id="message">Dùng cần trái để đi, vuốt bên phải để nhìn</div>
+<div id="joystick" aria-label="Điều khiển di chuyển"><div id="knob"></div></div>
+<div id="mode"><button id="walk" class="selected">🚶 Đi bộ</button><button id="drive">🛵 Lái xe</button></div>
+<div id="hint">VUỐT ĐỂ NHÌN ↔</div>
+<div id="foot">Không phải bản quét 3D chính xác · Mô hình thực sự có thể di chuyển</div>
+<div id="loading"><strong>Living Phú Quốc</strong><span>Đang tải một thế giới 3D thật...</span></div>
+<script src="./bundle.js"></script>
+</body></html>
