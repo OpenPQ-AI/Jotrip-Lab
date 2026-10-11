@@ -1,0 +1,113 @@
+{
+  "status": "TECHNICAL_INPUT_PASS_VISUAL_REVIEW_REQUIRED",
+  "checks": {
+    "ready": true,
+    "actual3D": true,
+    "photoProjected": true,
+    "motion": true,
+    "viewTurn": true,
+    "noNetworkOrJS": true,
+    "shots": true
+  },
+  "issues": [],
+  "shots": [
+    {
+      "png": "R24_WEBGL_FRONT.png",
+      "size": 943070,
+      "state": {
+        "ready": true,
+        "webgl": true,
+        "walked": 0,
+        "moveFrames": 0,
+        "stoppedFrames": 37,
+        "lookCount": 0,
+        "headingDeg": 25.65567072787885,
+        "position": [
+          5.7,
+          2.05,
+          12.05
+        ],
+        "texturedMeshes": 456,
+        "gate": "VISUAL_HOLD_USER_REVIEW_REQUIRED",
+        "source": "REAL_CC_BY_SA_APOLLO_PHOTO_PROJECTED_ON_ART_3D",
+        "notScan": true,
+        "notSurveyed": true,
+        "release": "LOCAL_ONLY_NO_DEPLOY"
+      }
+    },
+    {
+      "png": "R24_WEBGL_WALK.png",
+      "size": 952323,
+      "state": {
+        "ready": true,
+        "webgl": true,
+        "walked": 3.238745999985939,
+        "moveFrames": 41,
+        "stoppedFrames": 57,
+        "lookCount": 0,
+        "headingDeg": 25.65567072787885,
+        "position": [
+          4.297746705333997,
+          2.05,
+          9.130554616023234
+        ],
+        "texturedMeshes": 456,
+        "gate": "VISUAL_HOLD_USER_REVIEW_REQUIRED",
+        "source": "REAL_CC_BY_SA_APOLLO_PHOTO_PROJECTED_ON_ART_3D",
+        "notScan": true,
+        "notSurveyed": true,
+        "release": "LOCAL_ONLY_NO_DEPLOY"
+      }
+    },
+    {
+      "png": "R24_WEBGL_TURN.png",
+      "size": 488707,
+      "state": {
+        "ready": true,
+        "webgl": true,
+        "walked": 3.238745999985939,
+        "moveFrames": 41,
+        "stoppedFrames": 136,
+        "lookCount": 14,
+        "headingDeg": 65.87730794606267,
+        "position": [
+          4.297746705333997,
+          2.05,
+          9.130554616023234
+        ],
+        "texturedMeshes": 456,
+        "gate": "VISUAL_HOLD_USER_REVIEW_REQUIRED",
+        "source": "REAL_CC_BY_SA_APOLLO_PHOTO_PROJECTED_ON_ART_3D",
+        "notScan": true,
+        "notSurveyed": true,
+        "release": "LOCAL_ONLY_NO_DEPLOY"
+      }
+    },
+    {
+      "png": "R24_WEBGL_LEFT.png",
+      "size": 844984,
+      "state": {
+        "ready": true,
+        "webgl": true,
+        "walked": 3.238745999985939,
+        "moveFrames": 41,
+        "stoppedFrames": 162,
+        "lookCount": 14,
+        "headingDeg": -10.23104344451823,
+        "position": [
+          -2.25,
+          1.82,
+          9.6
+        ],
+        "texturedMeshes": 456,
+        "gate": "VISUAL_HOLD_USER_REVIEW_REQUIRED",
+        "source": "REAL_CC_BY_SA_APOLLO_PHOTO_PROJECTED_ON_ART_3D",
+        "notScan": true,
+        "notSurveyed": true,
+        "release": "LOCAL_ONLY_NO_DEPLOY"
+      }
+    }
+  ],
+  "truth": "Source-guided art geometry with photo projection. No physical survey, no real photos from hidden surfaces, no iPhone hardware pass.",
+  "release": "NO_MERGE_NO_DEPLOY"
+}
