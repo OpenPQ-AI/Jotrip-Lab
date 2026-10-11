@@ -1,0 +1,271 @@
+/* OPENPQ SÓNG / LIVING WATER V1.1
+ * Approved concept: deep ocean, living pearl + water, state-driven by true runtime.
+ * No timer changes application state. All infinite motion is compositor-friendly.
+ */
+:root{
+ color-scheme:dark;
+ --paper:#031e2b;--surface:#082e41;--surface2:#0a4354;
+ --ink:#f2fafa;--sub:#b9d6db;--deep:#8adfd9;
+ --line:rgba(180,232,229,.22);--shadow:0 14px 34px rgba(0,12,26,.27);
+ --ocean-0:#031e2b;--ocean-1:#052d41;--ocean-2:#08617a;--gold:#e4c48a;
+ --pearl:#fff9e9;--water:#8adfd9;
+}
+body{color-scheme:dark;background:var(--ocean-0);color:var(--ink)}
+body::before{
+ position:fixed;inset:0;z-index:-1;pointer-events:none;content:"";
+ background:
+ radial-gradient(ellipse 68% 48% at 49% 34%,rgba(20,125,154,.31),transparent 76%),
+ radial-gradient(ellipse 44% 37% at 82% 5%,rgba(225,174,103,.14),transparent 79%),
+ radial-gradient(ellipse 55% 48% at 5% 88%,rgba(10,120,126,.16),transparent 75%),
+ linear-gradient(165deg,#031e2b 0%,#06374d 51%,#031e2b 100%);
+}
+.song-app{background:transparent;isolation:isolate}
+.song-header{border-bottom-color:rgba(190,238,238,.14)}
+.song-identity .small-mark{background:transparent!important;border-radius:0}
+.song-identity .small-mark img{position:static;display:block;width:41px!important;height:40px!important;object-fit:contain}
+.identity-caption b{font-size:14px;color:#f3fbfb}
+.identity-caption .identity-by{font-weight:500;color:#b6d9dc;font-size:11px}
+.identity-caption small{color:#b6d9dc;font-size:8px}
+.lang-indicator,.icon-btn,.quiet-icon{color:var(--ink);border-color:var(--line)}
+.icon-btn,.quiet-icon{background:rgba(255,255,255,.025)}
+.icon-btn:hover,.quiet-icon:hover{background:rgba(255,255,255,.08)}
+.presence{
+ padding:clamp(6px,2vh,29px) 17px 28px;
+ min-height:calc(100svh - 189px);
+}
+.song-water-stage{
+ --orb-size:clamp(180px,28svh,272px);
+ width:min(94vw,550px);
+ height:clamp(237px,38svh,344px);
+ position:relative;
+ isolation:isolate;
+ flex:none;
+ display:block;
+ overflow:visible;
+ user-select:none;
+ pointer-events:none;
+ contain:layout style;
+}
+.song-water-halo{
+ position:absolute;z-index:0;left:50%;top:10%;
+ width:var(--orb-size);height:var(--orb-size);
+ margin-left:calc(var(--orb-size)/-2);border-radius:50%;
+ background:radial-gradient(circle,rgba(251,225,159,.23),rgba(78,224,220,.14) 38%,rgba(18,161,183,.065) 62%,transparent 77%);
+ filter:blur(14px);transform:scale(.94);opacity:.62;
+ animation:water-halo-breathe 5.2s ease-in-out infinite;
+}
+.song-water-pearl{
+ position:absolute;z-index:3;top:2%;left:50%;
+ width:var(--orb-size);height:auto;
+ margin-left:calc(var(--orb-size)/-2);
+ filter:drop-shadow(0 13px 18px rgba(0,15,30,.23));
+ transform:translate3d(0,0,0);
+ animation:water-orb-float 6.4s ease-in-out infinite;
+ will-change:transform;
+}
+.song-water-pearl img{display:block;width:100%;height:auto;object-fit:contain}
+.song-water-plane{
+ position:absolute;z-index:1;left:50%;bottom:5%;
+ width:min(470px,92%);height:clamp(112px,16svh,142px);
+ transform:translateX(-50%);
+ filter:drop-shadow(0 0 9px rgba(99,226,229,.1));
+ pointer-events:none;
+}
+.song-water-plane::before{
+ position:absolute;content:"";left:12%;bottom:9%;width:76%;height:51%;
+ border-radius:50%;
+ background:radial-gradient(ellipse,rgba(184,245,229,.26),rgba(24,200,208,.13) 42%,transparent 75%);
+ filter:blur(10px);
+}
+.song-ripple{
+ position:absolute;left:50%;bottom:13%;
+ width:70%;height:54%;margin-left:-35%;border-radius:50%;
+ border:1.1px solid rgba(187,246,232,.6);
+ box-shadow:inset 0 0 10px rgba(154,237,222,.1),0 0 11px rgba(107,222,225,.1);
+ transform:scale(.45);opacity:0;
+ animation:water-ripple-out 5.8s linear infinite;
+ will-change:transform,opacity;
+}
+.song-ripple-b{animation-delay:-1.933s}
+.song-ripple-c{animation-delay:-3.866s}
+.song-water-line{
+ position:absolute;left:50%;bottom:22%;width:59%;height:17%;transform:translateX(-50%);
+ border-bottom:1px solid rgba(188,239,231,.37);border-radius:50%;
+}
+.song-water-line-b{width:86%;bottom:9%;opacity:.47}
+.song-water-light{
+ position:absolute;left:50%;bottom:14%;width:min(47%,225px);height:52px;
+ border-radius:50%;transform:translateX(-50%);
+ background:radial-gradient(ellipse,rgba(226,211,159,.3),rgba(87,219,216,.09),transparent 75%);
+ filter:blur(11px);z-index:2;opacity:.64;
+ animation:water-light-breathe 5.2s ease-in-out infinite;
+}
+.song-water-reflection{
+ position:absolute;z-index:0;left:50%;top:62%;width:calc(var(--orb-size)*.70);
+ height:calc(var(--orb-size)*.53);overflow:hidden;pointer-events:none;
+ opacity:.13;filter:blur(6px);
+ transform:translateX(-50%) scaleY(-.32);
+ -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 82%);
+ mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 82%);
+}
+.song-water-reflection img{width:100%;height:auto}
+.presence h1{
+ margin:0 0 9px;
+ font-family:Georgia,"Times New Roman",serif;
+ font-size:clamp(27px,6.4vw,42px);
+ font-weight:400;letter-spacing:-.035em;color:var(--pearl);
+ text-shadow:0 3px 18px rgba(1,25,42,.18);
+}
+.welcome-subtitle{color:#c9e0e2;font-size:15px;max-width:420px}
+.voice-start{
+ margin-top:clamp(13px,2.8vh,24px);border:1px solid rgba(150,240,225,.48);
+ background:linear-gradient(125deg,#086273 0%,#087d84 50%,#075265 100%);
+ color:#f8ffff!important;box-shadow:0 11px 24px rgba(0,9,25,.22),0 0 18px rgba(60,219,220,.12);
+}
+.cta-mic{background:rgba(255,255,255,.13)}
+.privacy-hint{color:#b8d8db;font-size:11px;margin:8px 0 13px}
+.quick-chips button{background:rgba(230,250,249,.045);border-color:rgba(225,249,244,.23);color:#e2f3f4;box-shadow:none}
+.quick-chips button span{color:#86ded9}
+.welcome-footline{color:#9fc5c9}
+.composer-wrap{
+ background:linear-gradient(180deg,transparent 0,rgba(3,30,43,.9) 14px,#031e2b 39px,#031e2b 100%);
+ border-top-color:rgba(147,221,217,.14);
+}
+.composer{background:rgba(244,253,251,.1);border-color:rgba(229,248,246,.32);box-shadow:0 10px 25px rgba(0,10,24,.18)}
+.composer-mic{background:rgba(109,212,209,.13);color:#c8f5ee}
+.composer-send{background:#8adfd9;color:#053540}
+#question{color:#f5ffff}
+#question::placeholder{color:#bed6d9}
+.composer-meta a{color:#9de8e1}
+.status-row,.composer-meta{color:#b7d2d7}
+.status-dot{background:#81d2b4}
+body[data-state="listening"] .status-dot{background:#8adfd9}
+body[data-state="thinking"] .status-dot,body[data-state="transcribing"] .status-dot{background:#e4c48a}
+body[data-state="speaking"] .status-dot{background:#8adfd9}
+body[data-state="error"] .status-dot{background:#e99a93}
+.compact-presence{background:rgba(3,30,43,.94);border-bottom-color:var(--line);backdrop-filter:blur(9px)}
+.compact-icon{
+ background:radial-gradient(circle,rgba(116,209,202,.18),transparent 72%)!important;
+ border-radius:50%;overflow:visible;display:grid;place-items:center;isolation:isolate;
+}
+.compact-icon img{position:relative!important;left:auto!important;top:auto!important;width:54px!important;max-width:initial;height:auto}
+.song-mini-halo{position:absolute;inset:0;border:1px solid rgba(154,240,225,.22);border-radius:50%;animation:water-mini-breathe 5.8s ease-in-out infinite;pointer-events:none}
+.compact-copy strong{color:#f3ffff}.compact-copy span{color:#aecfd3}
+.thread-intro,.visual-card,.truth-card,.settings-panel{
+ background:rgba(7,46,63,.96);color:var(--ink);border-color:var(--line)
+}
+.thread-intro strong,.visual-card h2{color:var(--pearl)}
+.thread-intro p,.visual-card p,.visual-card small,.truth-card p{color:var(--sub)}
+.message.user{background:#0b5262;color:#eaffff}
+.assistant-heading,.assistant-content,.message-meta{color:var(--ink)}
+.assistant-heading .tiny-wave{color:#8adfd9;background:rgba(127,217,214,.08);border-color:var(--line)}
+.message-meta{color:#b6d3d8}
+.message-actions button,.result-actions button{color:#a9e8e0;background:var(--surface);border-color:var(--line)}
+.result-top,.visual-card a{color:#b5ece3}
+.result-panel{position:relative}
+.result-panel::before{
+ content:"";pointer-events:none;display:block;position:absolute;z-index:1;right:49px;top:0;
+ width:49px;height:45px;background:url('/song-symbol-water.png') center/contain no-repeat;
+ filter:drop-shadow(0 0 9px rgba(139,235,219,.2));
+ animation:water-mini-breathe 6.4s ease-in-out infinite;
+}
+.result-top{padding-right:92px;min-height:45px}
+.transcript-panel{background:#082e41;border-color:#497b80}
+#transcript-edit{background:#052a3a;color:#f4ffff;border-color:#3a7983}
+.transcript-actions button{background:#0c4b5c;color:#f5ffff;border-color:var(--line)}
+.transcript-actions .primary-small,.settings-done{background:#0e7882;color:#fff}
+.settings-overlay{background:rgba(0,14,29,.77)}
+.settings-choice,.settings-note{color:#cce3e5}
+.qa-copy{background:#0c4c5c;color:#c6f4ed}
+@keyframes water-ripple-out{
+ 0%{transform:scale(.45);opacity:0}
+ 14%{opacity:.64}
+ 76%{opacity:.11}
+ 100%{transform:scale(1.65);opacity:0}
+}
+@keyframes water-orb-float{0%,100%{transform:translate3d(0,0,0) rotate(-.24deg)}50%{transform:translate3d(0,-5px,0) rotate(.28deg)}}
+@keyframes water-halo-breathe{0%,100%{opacity:.51;transform:scale(.94)}50%{opacity:.85;transform:scale(1.035)}}
+@keyframes water-light-breathe{0%,100%{opacity:.45}50%{opacity:.8}}
+@keyframes water-mini-breathe{0%,100%{opacity:.58;transform:scale(.95)}50%{opacity:.9;transform:scale(1.045)}}
+/* Real state driver: document.body.dataset.state from live microphone, STT, AI and TTS. */
+body[data-state="listening"] .song-ripple{animation-duration:2.4s;border-color:rgba(145,242,224,.82)}
+body[data-state="listening"] .song-water-halo{animation-duration:2.15s;background:radial-gradient(circle,rgba(100,232,226,.32),rgba(37,197,199,.12) 53%,transparent 75%)}
+body[data-state="listening"] .song-water-pearl{animation-duration:9s}
+body[data-state="thinking"] .song-water-halo,body[data-state="transcribing"] .song-water-halo,
+body[data-state="buffering"] .song-water-halo{animation-duration:2.8s;background:radial-gradient(circle,rgba(248,210,143,.29),rgba(108,225,215,.12),transparent 76%)}
+body[data-state="thinking"] .song-ripple,body[data-state="transcribing"] .song-ripple,body[data-state="buffering"] .song-ripple{animation-duration:2.8s}
+body[data-state="speaking"] .song-ripple{animation-duration:2.1s;border-color:rgba(244,219,164,.74)}
+body[data-state="speaking"] .song-water-halo{animation-duration:1.7s}
+body[data-state="speaking"] .song-water-light{animation-duration:1.65s}
+body[data-state="error"] .song-ripple{animation-play-state:paused;opacity:0}
+body[data-state="error"] .song-water-halo{opacity:.34;animation-play-state:paused}
+body.is-hidden .song-ripple,body.is-hidden .song-water-pearl,body.is-hidden .song-water-halo,
+body.is-hidden .song-water-light,body.is-hidden .song-mini-halo,body.is-hidden .result-panel::before{
+ animation-play-state:paused!important;
+}
+/* Deep Ocean is the default. An explicit alternative changes contrast only; the ocean stays dominant. */
+body[data-theme="light"]{
+ color-scheme:light;
+ --paper:#e6f4f4;--surface:#f1fbfa;--surface2:#d3eded;--ink:#064450;--sub:#417077;
+ --deep:#0e5f62;--line:rgba(14,95,98,.18);--shadow:0 12px 28px rgba(3,48,60,.1);
+}
+body[data-theme="light"]::before{background:radial-gradient(ellipse 60% 46% at 48% 32%,rgba(97,206,205,.35),transparent 71%),linear-gradient(150deg,#d6eef1,#b4d8e1 48%,#e1f3f4)}
+body[data-theme="light"] .song-header{border-bottom-color:rgba(14,95,98,.14)}
+body[data-theme="light"] .identity-caption b,body[data-theme="light"] .presence h1{color:#083b4a}
+body[data-theme="light"] .identity-caption small,body[data-theme="light"] .identity-by,body[data-theme="light"] .welcome-subtitle,body[data-theme="light"] .privacy-hint{color:#315e69}
+body[data-theme="light"] .lang-indicator,body[data-theme="light"] .icon-btn{color:#06404d}
+body[data-theme="light"] .quick-chips button{background:#effafa;color:#0e555e;border-color:rgba(14,95,98,.2)}
+body[data-theme="light"] .composer-wrap{background:linear-gradient(180deg,transparent,#e6f4f4 18px,#e6f4f4)}
+body[data-theme="light"] #question{color:#083b4a}
+body[data-theme="light"] #question::placeholder{color:#537e82}
+body[data-theme="light"] .compact-presence{background:#e5f2f2}
+body[data-theme="light"] .thread-intro,body[data-theme="light"] .visual-card,body[data-theme="light"] .truth-card{background:#f1fbfa}
+body[data-theme="light"] .thread-intro strong,body[data-theme="light"] .visual-card h2{color:#06394a}
+body[data-theme="light"] .assistant-content,body[data-theme="light"] .assistant-heading{color:#164e58}
+body[data-theme="light"] .message.user{background:#c8e6e5;color:#154852}
+body[data-theme="light"] .settings-panel,body[data-theme="light"] .transcript-panel{background:#ecf8f8;color:#073d4b}
+body[data-theme="light"] #transcript-edit{background:#fff;color:#073d4b}
+body[data-theme="light"] .settings-choice,body[data-theme="light"] .settings-note{color:#3f7079}
+@media(max-height:740px){
+ .presence{padding-top:2px}
+ .song-water-stage{--orb-size:clamp(153px,24svh,210px);height:clamp(188px,31svh,250px)}
+ .presence h1{margin-top:1px}
+ .voice-start{margin-top:12px;min-height:51px}
+ .privacy-hint{margin:5px 0 9px}
+}
+@media(max-width:400px){
+ .presence{padding-left:12px;padding-right:12px}
+ .song-water-stage{width:min(100%,370px);height:clamp(205px,33svh,262px)}
+ .presence h1{font-size:clamp(25px,7.5vw,32px)}
+ .welcome-subtitle{font-size:14px;line-height:1.4}
+ .identity-caption small{font-size:7px}
+ .quick-chips{gap:6px}
+ .quick-chips button{font-size:12px;padding:9px}
+}
+@media(max-width:380px) and (max-height:700px){
+ .song-water-stage{--orb-size:clamp(147px,23svh,180px);height:174px}
+ .presence h1{font-size:24px;margin:0 0 4px}
+ .voice-start{margin-top:7px}
+ .quick-chips button{font-size:11px;padding:7px 4px}
+ .welcome-footline{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+ .song-ripple,.song-water-pearl,.song-water-halo,.song-water-light,.song-mini-halo,
+ .result-panel::before{animation:none!important;will-change:auto!important}
+ .song-ripple{opacity:.15;transform:scale(1.08)}
+ .song-water-halo{opacity:.5}
+ .song-water-pearl{transform:none}
+}
+body[data-motion="reduced"] .song-ripple,body[data-motion="reduced"] .song-water-pearl,
+body[data-motion="reduced"] .song-water-halo,body[data-motion="reduced"] .song-water-light,
+body[data-motion="reduced"] .song-mini-halo,body[data-motion="reduced"] .result-panel::before{
+ animation:none!important;will-change:auto!important;
+}
+
+body[data-theme="dark"]{
+ color-scheme:dark;--paper:#031e2b;--surface:#082e41;--surface2:#0a4354;
+ --ink:#f2fafa;--sub:#b9d6db;--deep:#8adfd9;
+ --line:rgba(180,232,229,.22);--shadow:0 14px 34px rgba(0,12,26,.27);
+}
+body[data-theme="dark"] .song-water-pearl{background:transparent;border-radius:0;mix-blend-mode:normal}
+body[data-theme="dark"] .small-mark,body[data-theme="dark"] .compact-icon{background:transparent}
