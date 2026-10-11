@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"/>
+<title>Living Phú Quốc · Apollo PhotoWalk</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#f5f6f4;background:#082432}*{box-sizing:border-box}
+body{margin:0;width:100vw;height:100dvh;overflow:hidden;overscroll-behavior:none}
+#viewport{position:fixed;inset:0;overflow:hidden;touch-action:none;background:#123747}
+.frame{position:absolute;inset:-4%;width:108%;height:108%;object-fit:cover;object-position:center;transition:opacity .15s linear;will-change:transform,opacity;opacity:0;filter:brightness(.96) saturate(1.03)}
+#shade{position:absolute;inset:0;background:linear-gradient(90deg,#09242da8 0%,transparent 45%,#081d2738 100%),linear-gradient(0deg,#071c25dd 0%,transparent 28%,transparent 74%,#071c2598 100%);pointer-events:none}
+#top{position:fixed;top:max(18px,env(safe-area-inset-top));left:max(24px,env(safe-area-inset-left));display:flex;align-items:center;gap:14px}
+#brand{height:39px;width:39px;border:1px solid #f1dcc9b3;border-radius:50%;display:grid;place-items:center;background:#17465a80;font-family:Georgia,serif;font-size:22px}
+#top small{font-size:10px;letter-spacing:.24em;font-weight:700;color:#d7e9e5;display:block}
+#top strong{font-size:21px;font-weight:750;letter-spacing:-.04em;display:block;margin-top:2px}
+#status{position:fixed;top:max(22px,env(safe-area-inset-top));right:max(24px,env(safe-area-inset-right));color:#dae7e2a6;font-size:10px;letter-spacing:.11em;font-weight:700;text-align:right}
+#story{position:absolute;left:max(7vw,45px);bottom:clamp(78px,14vh,125px);max-width:520px;pointer-events:none;text-shadow:0 2px 8px #0018}
+#eyebrow{font-size:11px;letter-spacing:.24em;color:#fbdab4;font-weight:800;text-transform:uppercase}
+#headline{font-size:clamp(28px,4vw,60px);line-height:1.03;letter-spacing:-.058em;font-weight:790;margin:10px 0 10px}
+#subtitle{color:#e7eeee;font-size:13px;line-height:1.5;max-width:440px}
+#footer{position:fixed;left:max(7vw,45px);right:max(7vw,45px);bottom:max(23px,env(safe-area-inset-bottom));display:flex;justify-content:space-between;align-items:end;gap:20px}
+#progress{height:3px;background:#f7e9d15b;width:min(33vw,330px);position:relative;border-radius:5px;margin-bottom:14px}
+#progress span{position:absolute;inset:0 auto 0 0;background:#fed99b;border-radius:5px;width:0}
+#guide{font-size:11px;color:#e9f3f0b7;max-width:340px;line-height:1.45}
+#nav{display:flex;align-items:center;gap:7px}
+button{appearance:none;background:#092b37bd;color:white;cursor:pointer;border:1px solid #fff7;border-radius:99px;font-size:12px;font-weight:760;min-width:44px;height:43px;padding:0 15px;backdrop-filter:blur(12px)}
+button:hover,button:focus-visible{background:#d8be9199;outline:1px solid #f9e7bf}
+#start{background:#ead0aa;color:#103140;border-color:#ead0aa;min-width:136px}
+#start:hover{background:#ffead0}
+#source{position:fixed;right:24px;bottom:83px;text-align:right;font-size:10px;max-width:310px;line-height:1.35;color:#f4f0e8c2;pointer-events:none}
+#rotate{display:none}
+@media(orientation:portrait) and (pointer:coarse){#rotate{display:grid;place-items:center;position:fixed;inset:0;background:#092a39ed;text-align:center;padding:50px;z-index:20;font-size:22px;font-weight:700}}
+@media(max-width:780px){#top{left:14px;top:8px;gap:9px}#brand{width:27px;height:27px;font-size:16px}#top strong{font-size:14px}#top small{font-size:7px}
+#status{top:11px;right:10px;font-size:8px}#story{left:19px;bottom:66px;max-width:72%}#headline{font-size:28px;margin:5px 0}#subtitle{font-size:10px}#eyebrow{font-size:8px}
+#footer{left:17px;right:11px;bottom:10px}#progress{margin-bottom:4px}#guide{font-size:9px}#nav{gap:3px}button{height:35px;min-width:35px;padding:0 9px;font-size:9px}#start{min-width:95px}#source{right:12px;bottom:52px;font-size:8px;max-width:30%}}
+</style></head><body>
+<div id="viewport" aria-label="Apollo Cafe original photo based interactive viewer">
+<img class="frame" id="photoA" alt="Apollo Cafe view A"/><img class="frame" id="photoB" alt="Apollo Cafe view B"/>
+<div id="shade"></div></div>
+<div id="top"><div id="brand">P</div><div><small>OPEN PHÚ QUỐC LAB</small><strong>Living Phú Quốc</strong></div></div>
+<div id="status">APOLLO · PHOTO WALK PROOF<br/>REAL PHOTOGRAPHS · NOT 3D SCAN</div>
+<section id="story" aria-live="polite"><div id="eyebrow">01 / 04 · Góc mặt tiền</div><div id="headline">Bước vào Apollo.</div><div id="subtitle">Đi dọc những góc ảnh thực tế của Apollo Café và quảng trường.</div></section>
+<div id="source">Ảnh thật: Vivu Vietnam · Wikimedia Commons · CC BY-SA 4.0. Chuyển góc ảnh, không phải đường đi 3D đo đạc.</div>
+<div id="footer"><div><div id="progress"><span id="progressFill"></span></div><div id="guide">Giữ W hoặc ↑ để khám phá · S để lùi · Kéo / vuốt để ngắm quanh · Phím ← → đổi góc.</div></div><div id="nav"><button id="prev" aria-label="Góc trước">←</button><button id="start">▶ Tham quan 25s</button><button id="next" aria-label="Góc sau">→</button></div></div>
+<div id="rotate">Xoay ngang iPhone để xem Living Phú Quốc</div>
+<script src="/main.js"></script></body></html>
