@@ -2,10 +2,10 @@
 /* Apollo PhotoWalk: four actual photographs, controlled transitions. This deliberately
    does NOT purport to be continuous calibrated 3D travel or surveyed physical geography. */
 const views=[
- {src:'/view_07.jpg',tag:'01 / 04 · Phía con phố',title:'Apollo, thật gần.',desc:'Tháp kính xanh và con phố bên cạnh. Ảnh thực tế chụp từ mặt đất.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
- {src:'/view_06.jpg',tag:'02 / 04 · Mặt tiền',title:'Sắc xanh Apollo.',desc:'Điểm nhấn đồng, kính và khối nhà phía sau. Đây là góc ảnh khác, không phải camera 3D liên tục.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
- {src:'/view_04.jpg',tag:'03 / 04 · Quảng trường',title:'Thị trấn lên đèn.',desc:'Một góc quảng trường Sunset Town ở thời điểm khác trong ngày.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
- {src:'/view_08.jpg',tag:'04 / 04 · Góc nhìn trên cao',title:'Một góc toàn cảnh.',desc:'Ảnh drone thật. Chuyển điểm nhìn để quan sát kiến trúc và khu vực xung quanh, không phải bay trong không gian 3D.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'}
+ {src:'view_07.jpg',tag:'01 / 04 · Phía con phố',title:'Apollo, thật gần.',desc:'Tháp kính xanh và con phố bên cạnh. Ảnh thực tế chụp từ mặt đất.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
+ {src:'view_06.jpg',tag:'02 / 04 · Mặt tiền',title:'Sắc xanh Apollo.',desc:'Điểm nhấn đồng, kính và khối nhà phía sau. Đây là góc ảnh khác, không phải camera 3D liên tục.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
+ {src:'view_04.jpg',tag:'03 / 04 · Quảng trường',title:'Thị trấn lên đèn.',desc:'Một góc quảng trường Sunset Town ở thời điểm khác trong ngày.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'},
+ {src:'view_08.jpg',tag:'04 / 04 · Góc nhìn trên cao',title:'Một góc toàn cảnh.',desc:'Ảnh drone thật. Chuyển điểm nhìn để quan sát kiến trúc và khu vực xung quanh, không phải bay trong không gian 3D.',credit:'Vivu Vietnam · Wikimedia Commons CC BY-SA 4.0'}
 ];
 const $=id=>document.getElementById(id);
 const A=$('photoA'),B=$('photoB'),view=$('viewport');
