@@ -16,7 +16,7 @@
     "rach_gia"
   ],
   "contract_version": "weather-production-contract-1.0",
-  "generated_at": "2026-10-11T18:50:28.803922+00:00",
+  "generated_at": "2026-10-11T22:49:02.436729+00:00",
   "point_authority": {
     "an_thoi": {
       "lat": 10.0191,
@@ -75,24 +75,24 @@
     "ganh_dau"
   ],
   "snapshot": {
-    "archive_path": "weather/snapshots/2026/10/12/015025/LAB_SNAPSHOT_V1.json",
-    "archive_url": "/weather/snapshots/2026/10/12/015025/LAB_SNAPSHOT_V1.json",
-    "cutoff_time": "2026-10-12T01:50:25.869361+07:00",
+    "archive_path": "weather/snapshots/2026/10/12/054859/LAB_SNAPSHOT_V1.json",
+    "archive_url": "/weather/snapshots/2026/10/12/054859/LAB_SNAPSHOT_V1.json",
+    "cutoff_time": "2026-10-12T05:48:59.343445+07:00",
     "data_mode": "B",
     "formula_bundle_version": "weather-lab-0.2.0",
-    "generated_at": "2026-10-11T18:50:28.596084+00:00",
-    "git_commit_sha": "1e6be11e327e2bd8da5ff95cdfe98f0ac2c8276d",
+    "generated_at": "2026-10-11T22:49:02.220100+00:00",
+    "git_commit_sha": "3bdbe949a5dce2d966817246317c2070d103fa93",
     "latest_path": "weather/snapshots/latest.json",
     "latest_url": "/weather/snapshots/latest.json",
-    "payload_hash": "bb6faf9e9776f4072ade5d8f9f32837414f92fa2b0dbcc11c7a74f7b61ebc3bf",
+    "payload_hash": "62f2007d718b1bdac77ad1b50256d2460880d863a432b0183a758e9894a20ebf",
     "schema_version": "1.0",
-    "snapshot_id": "PQWX_CANONICAL_20261012_015025+0700_V1"
+    "snapshot_id": "PQWX_CANONICAL_20261012_054859+0700_V1"
   },
   "source_cycles": {
-    "ECMWF": "2026-10-11T06:00:00+00:00",
-    "ECMWF_MEDIUM": "2026-10-11T00:00:00+00:00",
-    "GEFS": "2026-10-11T12:00:00+00:00",
-    "ICON": "2026-10-11T12:00:00+00:00"
+    "ECMWF": "2026-10-11T12:00:00+00:00",
+    "ECMWF_MEDIUM": "2026-10-11T12:00:00+00:00",
+    "GEFS": "2026-10-11T18:00:00+00:00",
+    "ICON": "2026-10-11T18:00:00+00:00"
   },
   "verified_points": [
     "an_thoi",
