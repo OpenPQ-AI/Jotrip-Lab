@@ -1,0 +1,34 @@
+{
+  "status": "ACTUAL_DRIVE_ROUTE_PASS",
+  "route": [
+    {
+      "seconds": 5,
+      "z": -4.514630111815443,
+      "distance": 32.515,
+      "speed": 7.955218718848927,
+      "fps": 57,
+      "collision": 0,
+      "image": "VISTA_SCOOTER_5S.png"
+    },
+    {
+      "seconds": 10,
+      "z": -47.45108493708215,
+      "distance": 75.451,
+      "speed": 7.9998267936081895,
+      "fps": 56,
+      "collision": 0,
+      "image": "VISTA_SCOOTER_10S.png"
+    },
+    {
+      "seconds": 15,
+      "z": -62.98934124176411,
+      "distance": 90.989,
+      "speed": 7.999999235818156,
+      "fps": 56,
+      "collision": 185,
+      "image": "VISTA_SCOOTER_15S.png"
+    }
+  ],
+  "errors": [],
+  "accuracy": "Art-directed geometry, not surveyed 70% verified; 15 seconds genuine browser camera and scooter world movement; software renderer FPS is NOT device FPS."
+}
