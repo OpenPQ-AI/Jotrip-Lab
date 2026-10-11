@@ -1,0 +1,77 @@
+{
+  "plaster": {
+    "id": "blue_plaster_weathered",
+    "license": "CC0",
+    "asset_url": "https://polyhaven.com/a/blue_plaster_weathered",
+    "maps": {
+      "albedo": {
+        "file": "textures/plaster_albedo.jpg",
+        "size": 710236,
+        "sha256": "76a149dc21c5e53db9a61e7d65e9398fbaa217f9e75b4206695e32a05dc1e2d3",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_plaster_weathered/blue_plaster_weathered_diff_1k.jpg"
+      },
+      "normal": {
+        "file": "textures/plaster_normal.jpg",
+        "size": 676587,
+        "sha256": "f329329b56dfeefee707cf04602148ba799ea4a97f32e3c38edf9f60185471f8",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_plaster_weathered/blue_plaster_weathered_nor_gl_1k.jpg"
+      },
+      "rough": {
+        "file": "textures/plaster_rough.jpg",
+        "size": 272132,
+        "sha256": "ad0f8b5305de367b5c9848c3e28a7954f74ca7ee1f718f78c151d77a30aca411",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/blue_plaster_weathered/blue_plaster_weathered_rough_1k.jpg"
+      }
+    }
+  },
+  "paving": {
+    "id": "cobblestone_pavement",
+    "license": "CC0",
+    "asset_url": "https://polyhaven.com/a/cobblestone_pavement",
+    "maps": {
+      "albedo": {
+        "file": "textures/paving_albedo.jpg",
+        "size": 811243,
+        "sha256": "23836906f541944eac09108d94d232a4f80d0c22f52aa5b2f849c22f1dda3a25",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_pavement/cobblestone_pavement_diff_1k.jpg"
+      },
+      "normal": {
+        "file": "textures/paving_normal.jpg",
+        "size": 606222,
+        "sha256": "46695fa2e50044144d866c4305bf9e391dce7ecfa6fb4e24f7770fe849b60276",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_pavement/cobblestone_pavement_nor_gl_1k.jpg"
+      },
+      "rough": {
+        "file": "textures/paving_rough.jpg",
+        "size": 239176,
+        "sha256": "20548051a9d0e6e0a570c370cf4e7e95ab62cf9af3c48f5eb8536b7ab0e8b836",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_pavement/cobblestone_pavement_rough_1k.jpg"
+      }
+    }
+  },
+  "roof": {
+    "id": "clay_roof_tiles_02",
+    "license": "CC0",
+    "asset_url": "https://polyhaven.com/a/clay_roof_tiles_02",
+    "maps": {
+      "albedo": {
+        "file": "textures/roof_albedo.jpg",
+        "size": 903929,
+        "sha256": "227a062b38b170e02c27eaa513dae45dc8bc893a62cbd8d0c08e2c32b381fc25",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_diff_1k.jpg"
+      },
+      "normal": {
+        "file": "textures/roof_normal.jpg",
+        "size": 990101,
+        "sha256": "1548d3ebce335a4590d9e421556c4189a7b63852c793a568c71b9e533f8b62d5",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_nor_gl_1k.jpg"
+      },
+      "rough": {
+        "file": "textures/roof_rough.jpg",
+        "size": 341520,
+        "sha256": "6d7596c4f3644ac50237381aeadf58f9b68a6dddeb66b6eef4f64462dcbbf82f",
+        "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_rough_1k.jpg"
+      }
+    }
+  }
+}
