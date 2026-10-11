@@ -4,256 +4,256 @@
     "readiness": "MEMBER_COMPLETE",
     "qc": "PASS",
     "kind": "atmosphere",
-    "run_time": "2026-10-10T18:00:00+00:00",
+    "run_time": "2026-10-11T00:00:00+00:00",
     "lead_hours": 3,
     "selected_endpoint": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/gens/prod",
     "members": [
       {
         "member": "c00",
-        "value": -3.9434936523437503,
+        "value": -4.2044311523437505,
         "unit": "m s**-1",
-        "index_record": "67:12234299:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=low-res ctl",
-        "display_value": -14.2,
+        "index_record": "67:11626674:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=low-res ctl",
+        "display_value": -15.14,
         "display_unit": "km/h"
       },
       {
         "member": "p01",
-        "value": -5.26950439453125,
+        "value": -3.1286279296875,
         "unit": "m s**-1",
-        "index_record": "67:12401061:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+1",
-        "display_value": -18.97,
+        "index_record": "67:12255368:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+1",
+        "display_value": -11.26,
         "display_unit": "km/h"
       },
       {
         "member": "p02",
-        "value": -3.5882080078125003,
+        "value": -2.9407421875,
         "unit": "m s**-1",
-        "index_record": "67:11895919:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+2",
-        "display_value": -12.92,
+        "index_record": "67:13053336:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+2",
+        "display_value": -10.59,
         "display_unit": "km/h"
       },
       {
         "member": "p03",
-        "value": -3.5723999023437503,
+        "value": -4.459443359375,
         "unit": "m s**-1",
-        "index_record": "67:12915251:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+3",
-        "display_value": -12.86,
+        "index_record": "67:12425170:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+3",
+        "display_value": -16.05,
         "display_unit": "km/h"
       },
       {
         "member": "p04",
-        "value": -2.50781494140625,
+        "value": -4.2367431640625,
         "unit": "m s**-1",
-        "index_record": "67:12901297:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+4",
-        "display_value": -9.03,
+        "index_record": "67:12437328:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+4",
+        "display_value": -15.25,
         "display_unit": "km/h"
       },
       {
         "member": "p05",
-        "value": -4.49597900390625,
+        "value": -4.224521484375,
         "unit": "m s**-1",
-        "index_record": "67:12293476:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+5",
-        "display_value": -16.19,
+        "index_record": "67:12434888:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+5",
+        "display_value": -15.21,
         "display_unit": "km/h"
       },
       {
         "member": "p06",
-        "value": -4.65343017578125,
+        "value": -4.5373339843750005,
         "unit": "m s**-1",
-        "index_record": "67:12291658:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+6",
-        "display_value": -16.75,
+        "index_record": "67:12689663:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+6",
+        "display_value": -16.33,
         "display_unit": "km/h"
       },
       {
         "member": "p07",
-        "value": -4.299008178710937,
+        "value": -2.32913818359375,
         "unit": "m s**-1",
-        "index_record": "67:11907788:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+7",
-        "display_value": -15.48,
+        "index_record": "67:12024709:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+7",
+        "display_value": -8.38,
         "display_unit": "km/h"
       },
       {
         "member": "p08",
-        "value": -3.826572265625,
+        "value": -3.8319189453125,
         "unit": "m s**-1",
-        "index_record": "67:12111192:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+8",
-        "display_value": -13.78,
+        "index_record": "67:12439423:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+8",
+        "display_value": -13.79,
         "display_unit": "km/h"
       },
       {
         "member": "p09",
-        "value": -2.198187255859375,
+        "value": -4.26913818359375,
         "unit": "m s**-1",
-        "index_record": "67:12114031:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+9",
-        "display_value": -7.91,
+        "index_record": "67:12895899:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+9",
+        "display_value": -15.37,
         "display_unit": "km/h"
       },
       {
         "member": "p10",
-        "value": -2.6636962890625,
+        "value": -4.1389111328125,
         "unit": "m s**-1",
-        "index_record": "67:12511037:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+10",
-        "display_value": -9.59,
+        "index_record": "67:12471336:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+10",
+        "display_value": -14.9,
         "display_unit": "km/h"
       },
       {
         "member": "p11",
-        "value": -4.72748291015625,
+        "value": -3.151611328125,
         "unit": "m s**-1",
-        "index_record": "67:12110776:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+11",
-        "display_value": -17.02,
+        "index_record": "67:13062158:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+11",
+        "display_value": -11.35,
         "display_unit": "km/h"
       },
       {
         "member": "p12",
-        "value": -2.24654296875,
+        "value": -4.0725036621093755,
         "unit": "m s**-1",
-        "index_record": "67:12712486:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+12",
-        "display_value": -8.09,
+        "index_record": "67:12295071:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+12",
+        "display_value": -14.66,
         "display_unit": "km/h"
       },
       {
         "member": "p13",
-        "value": -4.846494140625,
+        "value": -2.943447265625,
         "unit": "m s**-1",
-        "index_record": "67:12707435:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+13",
-        "display_value": -17.45,
+        "index_record": "67:13031365:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+13",
+        "display_value": -10.6,
         "display_unit": "km/h"
       },
       {
         "member": "p14",
-        "value": -4.879775390625,
+        "value": -4.568508911132812,
         "unit": "m s**-1",
-        "index_record": "67:12103705:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+14",
-        "display_value": -17.57,
+        "index_record": "67:12332742:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+14",
+        "display_value": -16.45,
         "display_unit": "km/h"
       },
       {
         "member": "p15",
-        "value": -3.860390625,
+        "value": -4.45057373046875,
         "unit": "m s**-1",
-        "index_record": "67:12502359:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+15",
-        "display_value": -13.9,
+        "index_record": "67:12248033:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+15",
+        "display_value": -16.02,
         "display_unit": "km/h"
       },
       {
         "member": "p16",
-        "value": -1.19691650390625,
+        "value": -4.07332763671875,
         "unit": "m s**-1",
-        "index_record": "67:12124706:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+16",
-        "display_value": -4.31,
+        "index_record": "67:13059784:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+16",
+        "display_value": -14.66,
         "display_unit": "km/h"
       },
       {
         "member": "p17",
-        "value": -2.83749755859375,
+        "value": -4.2745361328125,
         "unit": "m s**-1",
-        "index_record": "67:12914762:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+17",
-        "display_value": -10.21,
+        "index_record": "67:13033983:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+17",
+        "display_value": -15.39,
         "display_unit": "km/h"
       },
       {
         "member": "p18",
-        "value": -3.8941162109375003,
+        "value": -3.65843017578125,
         "unit": "m s**-1",
-        "index_record": "67:12108517:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+18",
-        "display_value": -14.02,
+        "index_record": "67:12688445:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+18",
+        "display_value": -13.17,
         "display_unit": "km/h"
       },
       {
         "member": "p19",
-        "value": -4.1176562500000005,
+        "value": -4.086627197265625,
         "unit": "m s**-1",
-        "index_record": "67:12106790:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+19",
-        "display_value": -14.82,
+        "index_record": "67:12222615:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+19",
+        "display_value": -14.71,
         "display_unit": "km/h"
       },
       {
         "member": "p20",
-        "value": -3.90214599609375,
+        "value": -3.24654541015625,
         "unit": "m s**-1",
-        "index_record": "67:12098869:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+20",
-        "display_value": -14.05,
+        "index_record": "67:12469561:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+20",
+        "display_value": -11.69,
         "display_unit": "km/h"
       },
       {
         "member": "p21",
-        "value": -3.96755859375,
+        "value": -3.7301300048828128,
         "unit": "m s**-1",
-        "index_record": "67:12708125:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+21",
-        "display_value": -14.28,
+        "index_record": "67:12106100:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+21",
+        "display_value": -13.43,
         "display_unit": "km/h"
       },
       {
         "member": "p22",
-        "value": -3.70787353515625,
+        "value": -3.50457275390625,
         "unit": "m s**-1",
-        "index_record": "67:12908274:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+22",
-        "display_value": -13.35,
+        "index_record": "67:13128272:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+22",
+        "display_value": -12.62,
         "display_unit": "km/h"
       },
       {
         "member": "p23",
-        "value": -3.6522753906250003,
+        "value": -4.31168212890625,
         "unit": "m s**-1",
-        "index_record": "67:12912990:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+23",
-        "display_value": -13.15,
+        "index_record": "67:12693365:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+23",
+        "display_value": -15.52,
         "display_unit": "km/h"
       },
       {
         "member": "p24",
-        "value": -3.02404296875,
+        "value": -4.49600830078125,
         "unit": "m s**-1",
-        "index_record": "67:12315555:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+24",
-        "display_value": -10.89,
+        "index_record": "67:12481552:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+24",
+        "display_value": -16.19,
         "display_unit": "km/h"
       },
       {
         "member": "p25",
-        "value": -4.6692138671875005,
+        "value": -2.85541015625,
         "unit": "m s**-1",
-        "index_record": "67:12097148:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+25",
-        "display_value": -16.81,
+        "index_record": "67:12287350:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+25",
+        "display_value": -10.28,
         "display_unit": "km/h"
       },
       {
         "member": "p26",
-        "value": -4.72340087890625,
+        "value": -4.26283935546875,
         "unit": "m s**-1",
-        "index_record": "67:12508403:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+26",
-        "display_value": -17.0,
+        "index_record": "67:12282576:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+26",
+        "display_value": -15.35,
         "display_unit": "km/h"
       },
       {
         "member": "p27",
-        "value": -2.637119140625,
+        "value": -4.9549462890625,
         "unit": "m s**-1",
-        "index_record": "67:12726326:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+27",
-        "display_value": -9.49,
+        "index_record": "67:12228594:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+27",
+        "display_value": -17.84,
         "display_unit": "km/h"
       },
       {
         "member": "p28",
-        "value": -1.9631713867187501,
+        "value": -3.9606640625000002,
         "unit": "m s**-1",
-        "index_record": "67:12524206:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+28",
-        "display_value": -7.07,
+        "index_record": "67:12828798:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+28",
+        "display_value": -14.26,
         "display_unit": "km/h"
       },
       {
         "member": "p29",
-        "value": -4.0947290039062505,
+        "value": -3.784287109375,
         "unit": "m s**-1",
-        "index_record": "67:12686457:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+29",
-        "display_value": -14.74,
+        "index_record": "67:12497845:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+29",
+        "display_value": -13.62,
         "display_unit": "km/h"
       },
       {
         "member": "p30",
-        "value": -3.3127734375,
+        "value": -5.10633056640625,
         "unit": "m s**-1",
-        "index_record": "67:12432879:d=2026101018:UGRD:10 m above ground:3 hour fcst:ENS=+30",
-        "display_value": -11.93,
+        "index_record": "67:12297362:d=2026101100:UGRD:10 m above ground:3 hour fcst:ENS=+30",
+        "display_value": -18.38,
         "display_unit": "km/h"
       }
     ],
@@ -262,210 +262,210 @@
       "member_count": 31,
       "expected_members": 31,
       "completion_ratio": 1.0,
-      "q25": -4.397,
-      "q50": -3.86,
-      "q75": -2.931,
-      "q90": -2.247,
-      "q95": -2.081
+      "q25": -4.293,
+      "q50": -4.087,
+      "q75": -3.582,
+      "q90": -2.943,
+      "q95": -2.898
     },
     "attempt_count": 0,
     "attempts": [],
-    "checked_at": "2026-10-10T22:38:05.198528+00:00"
+    "checked_at": "2026-10-11T07:16:20.434325+00:00"
   },
   "wave": {
     "status": "ELIGIBLE",
     "readiness": "MEMBER_COMPLETE",
     "qc": "PASS",
     "kind": "wave",
-    "run_time": "2026-10-10T18:00:00+00:00",
+    "run_time": "2026-10-11T00:00:00+00:00",
     "lead_hours": 3,
     "selected_endpoint": "https://nomads.ncep.noaa.gov/pub/data/nccf/com/gens/prod",
     "members": [
       {
         "member": "c00",
-        "value": 0.23,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3028117:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3030571:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p01",
-        "value": 0.25,
+        "value": 0.13,
         "unit": "m",
-        "index_record": "6:3101000:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3102484:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p02",
-        "value": 0.19,
+        "value": 0.09,
         "unit": "m",
-        "index_record": "6:3094598:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3094173:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p03",
-        "value": 0.22,
+        "value": 0.18,
         "unit": "m",
-        "index_record": "6:3094761:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098617:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p04",
-        "value": 0.17,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3094745:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099692:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p05",
-        "value": 0.22,
+        "value": 0.15,
         "unit": "m",
-        "index_record": "6:3095793:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3101304:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p06",
         "value": 0.19,
         "unit": "m",
-        "index_record": "6:3097690:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3101005:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p07",
-        "value": 0.2,
+        "value": 0.09,
         "unit": "m",
-        "index_record": "6:3096553:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098427:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p08",
         "value": 0.13,
         "unit": "m",
-        "index_record": "6:3096919:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3100001:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p09",
-        "value": 0.22,
+        "value": 0.15,
         "unit": "m",
-        "index_record": "6:3097985:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3102444:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p10",
-        "value": 0.11,
+        "value": 0.15,
         "unit": "m",
-        "index_record": "6:3099948:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098116:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p11",
-        "value": 0.27,
+        "value": 0.12,
         "unit": "m",
-        "index_record": "6:3100793:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099585:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p12",
-        "value": 0.08,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3098731:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098668:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p13",
-        "value": 0.23,
+        "value": 0.11,
         "unit": "m",
-        "index_record": "6:3097663:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3097973:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p14",
-        "value": 0.24,
+        "value": 0.17,
         "unit": "m",
-        "index_record": "6:3101109:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099921:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p15",
-        "value": 0.23,
+        "value": 0.17,
         "unit": "m",
-        "index_record": "6:3093904:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3101759:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p16",
-        "value": 0.16,
+        "value": 0.15,
         "unit": "m",
-        "index_record": "6:3101494:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098000:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p17",
-        "value": 0.2,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3094382:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3096700:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p18",
-        "value": 0.16,
+        "value": 0.14,
         "unit": "m",
-        "index_record": "6:3100906:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099266:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p19",
-        "value": 0.24,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3098021:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3097338:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p20",
-        "value": 0.18,
+        "value": 0.1,
         "unit": "m",
-        "index_record": "6:3096664:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3103814:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p21",
-        "value": 0.14,
+        "value": 0.13,
         "unit": "m",
-        "index_record": "6:3098109:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3101545:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p22",
-        "value": 0.24,
+        "value": 0.1,
         "unit": "m",
-        "index_record": "6:3093957:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3094930:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p23",
-        "value": 0.19,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3095701:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3101862:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p24",
-        "value": 0.15,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3101835:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3100026:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p25",
-        "value": 0.24,
+        "value": 0.1,
         "unit": "m",
-        "index_record": "6:3099925:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098600:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p26",
-        "value": 0.23,
+        "value": 0.16,
         "unit": "m",
-        "index_record": "6:3095980:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3098264:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p27",
-        "value": 0.22,
+        "value": 0.19,
         "unit": "m",
-        "index_record": "6:3098244:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3097080:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p28",
-        "value": 0.09,
+        "value": 0.13,
         "unit": "m",
-        "index_record": "6:3098447:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3096231:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p29",
-        "value": 0.27,
+        "value": 0.14,
         "unit": "m",
-        "index_record": "6:3097320:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099661:d=2026101100:HTSGW:surface:3 hour fcst:"
       },
       {
         "member": "p30",
-        "value": 0.18,
+        "value": 0.19,
         "unit": "m",
-        "index_record": "6:3101978:d=2026101018:HTSGW:surface:3 hour fcst:"
+        "index_record": "6:3099374:d=2026101100:HTSGW:surface:3 hour fcst:"
       }
     ],
     "summary": {
@@ -473,14 +473,14 @@
       "member_count": 31,
       "expected_members": 31,
       "completion_ratio": 1.0,
-      "q25": 0.165,
-      "q50": 0.2,
-      "q75": 0.23,
-      "q90": 0.24,
-      "q95": 0.26
+      "q25": 0.13,
+      "q50": 0.15,
+      "q75": 0.16,
+      "q90": 0.18,
+      "q95": 0.19
     },
     "attempt_count": 0,
     "attempts": [],
-    "checked_at": "2026-10-10T22:38:23.682490+00:00"
+    "checked_at": "2026-10-11T07:16:36.193155+00:00"
   }
 }
