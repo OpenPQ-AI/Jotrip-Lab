@@ -1,0 +1,20 @@
+[
+  {
+    "asset_id": "palm",
+    "filename": "palm.glb",
+    "size": 832208,
+    "sha256": "8ce61a0f77a473e89802d19bc287728c9d71bb2edb3bb770bffc3e40e032bf35",
+    "url": "https://www.innerscene.com/tools/library/3d-parts/palm-detailed-a8777b8c",
+    "license": "CC0",
+    "download": "https://www.innerscene.com/api/library/palm-detailed-a8777b8c/download"
+  },
+  {
+    "asset_id": "keystone",
+    "filename": "keystone.glb",
+    "size": 485996,
+    "sha256": "fcfdc37dc3d771ca9c5993102ee7ac102b4b1048a6e4a1be99f643e8e479210c",
+    "url": "https://www.innerscene.com/tools/library/3d-parts/keystone-arch-original-exterior-model-2c0a8059",
+    "license": "CC0",
+    "download": "https://www.innerscene.com/api/library/keystone-arch-original-exterior-model-2c0a8059/download"
+  }
+]
