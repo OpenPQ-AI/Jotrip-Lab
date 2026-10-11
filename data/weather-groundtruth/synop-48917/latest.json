@@ -1,6 +1,6 @@
 {
   "schema_version": "weather-raw-synop-v3",
-  "generated_at": "2026-10-11T15:26:45.588731+00:00",
+  "generated_at": "2026-10-11T16:45:32.790837+00:00",
   "source_namespace": "WMO_INDEX",
   "identifier": "48917",
   "station_name": "PHU QUOC",
@@ -64,9 +64,9 @@
   "source": "OGIMET_GETSYNOP",
   "data_class": "ACTUAL",
   "observation_class": "RAW_OBS",
-  "begin": "2026-10-09T15:26:42.814546+00:00",
-  "end": "2026-10-11T15:26:42.814546+00:00",
-  "provenance_url": "https://www.ogimet.com/cgi-bin/getsynop?block=48917&begin=202610091526&end=202610111526&lang=eng&header=yes",
+  "begin": "2026-10-09T16:45:29.777138+00:00",
+  "end": "2026-10-11T16:45:29.777138+00:00",
+  "provenance_url": "https://www.ogimet.com/cgi-bin/getsynop?block=48917&begin=202610091645&end=202610111645&lang=eng&header=yes",
   "raw_response_hash": "4574cbed71372039e07ba260f23dc8db64b52daffe717105a2353af01a1f6d36",
   "count": 12,
   "observations": [
