@@ -1,0 +1,18 @@
+{
+  "test_date_utc": "2026-10-11T08:06:54.592237+00:00",
+  "photo_credit": "Vivu Vietnam, Wikimedia Commons CC BY-SA 4.0",
+  "model_description": "Original manual 3D geometry inspired by Apollo+Gallery; not survey or photogrammetry, not derived geometry from fSpy.",
+  "render_result": "PASS TECHNICAL WEBGL; FAIL/NOT_ACCEPTED 70 PERCENT VISUAL TARGET",
+  "pnp": "REJECT RMS=65.4px, MAX=89.6px on approximate manual 3D-2D landmarks",
+  "assets": "Nine auditable PolyHaven 1K CC0 PBR maps and three GLTF models (street lamp, planter, potted plant).",
+  "release": "NO DEPLOY / NO MERGE / NO CORE",
+  "gaps": [
+    "gallery upper tiers and bow fabric form",
+    "elongated Apollo cafe wing glazing proportion",
+    "gold coupling distribution",
+    "surrounding facade textures, tropical foliage, fountain",
+    "manual PnP pose reprojection >35px"
+  ],
+  "comparison": "LIVINGPQ_APOLLO_GEO_2X2_REVIEW.jpg",
+  "next_gate": "Correct coordinate and silhouette using multi-photo annotated landmark correspondences / fSpy on adequately sized modeling machine; run 3 true 3D renders before any Play changes"
+}
