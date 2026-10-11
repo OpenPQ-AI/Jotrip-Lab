@@ -4,10 +4,10 @@
   "dates": [
     {
       "date": "2026-10-12",
-      "sample_count": 1,
-      "material_event_count": 8,
+      "sample_count": 2,
+      "material_event_count": 12,
       "first_sampled_time": "2026-10-11T18:00:20Z",
-      "last_sampled_time": "2026-10-11T18:00:20Z",
+      "last_sampled_time": "2026-10-11T18:30:20Z",
       "raw": "raw/2026-10-12.json",
       "events": "history/2026-10-12/events.jsonl",
       "summary": "summary/2026-10-12.json",
@@ -798,5 +798,5 @@
     }
   ],
   "latest_date": "2026-10-12",
-  "updated_at": "2026-10-11T18:26:46.793643+00:00"
+  "updated_at": "2026-10-11T18:56:58.467527+00:00"
 }
