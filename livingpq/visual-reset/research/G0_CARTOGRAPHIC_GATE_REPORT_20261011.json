@@ -1,0 +1,132 @@
+{
+  "status": "G0_PARTIAL_PENDING_TRUE_STREET_VIEW_AND_ELEVATION",
+  "basis": "OpenStreetMap Overpass API",
+  "license": "ODbL; attribute OpenStreetMap contributors",
+  "bbox": "10.025..10.035 104.000..104.012",
+  "osm_elements_count": 664,
+  "ways": 636,
+  "building_yes_count": 480,
+  "footways_count": 66,
+  "steps_count": 22,
+  "bridges": [
+    {
+      "id": 1489681583,
+      "mid": [
+        191.9,
+        -151.5
+      ],
+      "length": 32,
+      "name": ""
+    },
+    {
+      "id": 1492289873,
+      "mid": [
+        -195.2,
+        410.6
+      ],
+      "length": 14.2,
+      "name": ""
+    },
+    {
+      "id": 1492375816,
+      "mid": [
+        157,
+        -282.5
+      ],
+      "length": 31.7,
+      "name": ""
+    },
+    {
+      "id": 1492375822,
+      "mid": [
+        154.5,
+        -272.1
+      ],
+      "length": 15.3,
+      "name": ""
+    },
+    {
+      "id": 1492375823,
+      "mid": [
+        165.2,
+        -285.6
+      ],
+      "length": 13.6,
+      "name": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": 895948741,
+      "type": "footway",
+      "length_m_approx": 111.7,
+      "first_lat_lon": [
+        10.032611,
+        104.0045249
+      ],
+      "end_lat_lon": [
+        10.0332466,
+        104.0037212
+      ],
+      "mid_offset_m_approx": [
+        -256.5,
+        424.2
+      ],
+      "nearby_shape_only": true,
+      "sea_visible": null,
+      "downhill_verified": false,
+      "suitability": "candidate for actual photo viewpoint survey, NOT approved route"
+    },
+    {
+      "id": 895948740,
+      "type": "footway",
+      "length_m_approx": 367,
+      "first_lat_lon": [
+        10.0324663,
+        104.0043865
+      ],
+      "end_lat_lon": [
+        10.0299413,
+        104.0064588
+      ],
+      "mid_offset_m_approx": [
+        -112.4,
+        236.1
+      ],
+      "nearby_shape_only": true,
+      "sea_visible": null,
+      "downhill_verified": false,
+      "suitability": "candidate for actual photo viewpoint survey, NOT approved route"
+    },
+    {
+      "id": 1492289869,
+      "type": "steps",
+      "length_m_approx": 38.2,
+      "first_lat_lon": [
+        10.0330038,
+        104.0044552
+      ],
+      "end_lat_lon": [
+        10.0330907,
+        104.0044535
+      ],
+      "mid_offset_m_approx": [
+        -220.8,
+        437.4
+      ],
+      "nearby_shape_only": true,
+      "sea_visible": null,
+      "downhill_verified": false,
+      "suitability": "candidate for actual photo viewpoint survey, NOT approved route"
+    }
+  ],
+  "unknown": [
+    "exact street gradient",
+    "eye-level visible sea opening",
+    "which buildings actually border chosen 20-30m segment",
+    "Kiss Bridge visibility from selected point",
+    "up-to-date building facades"
+  ],
+  "decision": "No claim of chosen sea-facing downhill route until independent photo+elevation validated",
+  "map": "OSM_SITE_LAYOUT_RESEARCH.png"
+}
