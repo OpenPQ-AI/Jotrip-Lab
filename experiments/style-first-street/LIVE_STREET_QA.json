@@ -1,0 +1,34 @@
+{
+  "screens": [
+    {
+      "name": "ANDROID_PORTRAIT",
+      "http": 200,
+      "before": {
+        "fps": 0,
+        "triangles": 56446,
+        "meshes": 31
+      },
+      "movement": 1.7228465918986502,
+      "looks": 7,
+      "pass": true
+    },
+    {
+      "name": "IPHONE_PORTRAIT",
+      "http": 200,
+      "before": {
+        "fps": 0,
+        "triangles": 56446,
+        "meshes": 31
+      },
+      "movement": 1.6883713545887737,
+      "looks": 7,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "source": "https://play.openphuquoc.com/street/?v=micro20261011",
+  "health": true,
+  "rootStillWorks": true,
+  "verdict": "PUBLIC_BETA_PASS",
+  "truth": "Real WebGL walk and touch, rendered in desktop Edge emulating mobile dimensions, not physical Android or iPhone. Fictionalized Sunset Town-inspired street, no surveyed 3D."
+}
