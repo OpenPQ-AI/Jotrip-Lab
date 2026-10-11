@@ -1,0 +1,49 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover,user-scalable=no"/>
+<meta name="theme-color" content="#8fbfcb"/>
+<title>Living Phú Quốc | Sunset Street Environment Lab</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#fef5e8;background:#87b4c3;touch-action:none}
+*{box-sizing:border-box}html,body{width:100%;height:100dvh;margin:0;overflow:hidden;overscroll-behavior:none}
+#world{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none}
+#veil{position:fixed;inset:0;background:linear-gradient(180deg,#0a2d3e7e 0%,transparent 19%,transparent 63%,#081d2a8f 100%);pointer-events:none}
+#head{position:fixed;top:max(15px,env(safe-area-inset-top));left:max(17px,env(safe-area-inset-left));right:max(17px,env(safe-area-inset-right));display:flex;justify-content:space-between;align-items:flex-start;gap:10px;pointer-events:none;text-shadow:0 2px 6px #092c42ac}
+#brand small{font-size:9px;font-weight:800;letter-spacing:.18em;color:#feecc7}
+#brand strong{display:block;font-size:20px;letter-spacing:-.04em;line-height:1.15;margin-top:4px}
+#brand span{display:block;font-size:10px;color:#fff4dabd;margin-top:6px}
+#topRight{display:flex;gap:8px;pointer-events:auto}
+.bubble{width:42px;height:42px;display:grid;place-items:center;border:1px solid #f5f4ed83;color:#fff;border-radius:50%;background:#0f3b4b8f;font-size:18px;backdrop-filter:blur(9px);cursor:pointer}
+#meter{position:fixed;top:calc(max(15px,env(safe-area-inset-top)) + 94px);left:max(17px,env(safe-area-inset-left));font-size:11px;font-weight:750;background:#143a43bd;border:1px solid #fff2;border-radius:11px;padding:7px 10px;color:#fff8ec;pointer-events:none}
+#debug{position:fixed;top:calc(max(15px,env(safe-area-inset-top)) + 130px);left:17px;color:white;font-size:10px;background:#082732b6;padding:7px;border-radius:6px}
+#progress{position:fixed;left:17px;right:17px;bottom:calc(max(23px,env(safe-area-inset-bottom)) + 153px);height:4px;background:#fff6;border-radius:4px;overflow:hidden;pointer-events:none}
+#progressBar{display:block;height:100%;width:0%;background:#fed492;transition:width .3s}
+#bottomTip{position:fixed;left:16px;right:16px;bottom:calc(max(23px,env(safe-area-inset-bottom)) + 177px);text-align:center;font-size:11px;color:#fcf2e9e8;text-shadow:0 1px 5px #213d45;pointer-events:none}
+#joystick{position:fixed;left:max(27px,env(safe-area-inset-left));bottom:calc(max(22px,env(safe-area-inset-bottom)) + 18px);width:122px;height:122px;border-radius:50%;border:2px solid #efffe2bd;background:#112d3b55;box-shadow:inset 0 0 35px #14303b4d;backdrop-filter:blur(3px);touch-action:none}
+#knob{position:absolute;left:39px;top:39px;width:40px;height:40px;border-radius:50%;border:2px solid #fffbed;background:#a3d7c4dc;box-shadow:0 3px 13px #234;pointer-events:none}
+#lookPad{position:fixed;right:0;top:17%;bottom:135px;width:59%;touch-action:none;cursor:grab}
+#lookHint{position:fixed;bottom:calc(max(22px,env(safe-area-inset-bottom)) + 60px);right:15px;font-size:11px;letter-spacing:.06em;text-shadow:0 1px 4px #1a3547;pointer-events:none;text-align:right}
+#signature{position:fixed;bottom:max(9px,env(safe-area-inset-bottom));right:15px;font-size:9px;color:#fff9e0b5;text-align:right;pointer-events:none}
+.hide{display:none!important}
+#loading{position:fixed;inset:0;display:grid;place-content:center;text-align:center;gap:10px;background:#143746;color:#fff;z-index:20}
+#loading strong{font-size:21px}
+#loading span{font-size:12px}
+@media(orientation:landscape){
+ #head{top:8px;left:12px;right:12px}#brand strong{font-size:15px}#brand span{display:none}
+ #meter{top:62px;left:12px}#joystick{height:90px;width:90px;left:16px;bottom:10px}
+ #knob{width:32px;height:32px;left:27px;top:27px}
+ #lookPad{top:12%;bottom:55px}
+ #progress{bottom:17px;left:140px;right:145px}
+ #bottomTip{bottom:33px;left:140px;right:145px;font-size:10px}
+ #lookHint{bottom:85px}#signature{font-size:8px;bottom:4px}
+}
+</style></head>
+<body><canvas id="world" aria-label="Live three-dimensional Mediterranean street"></canvas><div id="veil"></div>
+<header id="head"><div id="brand"><small>OPEN PHÚ QUỐC · LIVING ISLAND LAB</small><strong>Một con phố ở Sunset Town</strong><span>Thế giới game phỏng dựng · bản visual thử nghiệm</span></div><div id="topRight"><button class="bubble" id="reset" title="Quay lại điểm bắt đầu">↺</button><button class="bubble" id="stats" title="Xem hiệu năng">◎</button></div></header>
+<div id="meter">0.0 m đi bộ · đang tải</div><div id="debug" class="hide"></div>
+<div id="lookPad" aria-label="Vuốt bên phải để nhìn xung quanh"></div>
+<div id="bottomTip">Đi bộ dọc phố, khám phá không gian thật trong 3D</div>
+<div id="progress"><div id="progressBar"></div></div>
+<div id="joystick" aria-label="Điều khiển đi bộ"><div id="knob"></div></div><div id="lookHint">VUỐT ĐỂ NHÌN ↔</div>
+<div id="signature">Phỏng dựng nghệ thuật lấy cảm hứng Phú Quốc<br/>Không phải bản đồ hay bản quét 3D chính xác</div>
+<div id="loading"><strong>Living Phú Quốc</strong><span>Đang dựng thế giới 3D...</span></div>
+<script src="./bundle.js"></script></body></html>
