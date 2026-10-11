@@ -1,0 +1,54 @@
+{
+  "verdict": "PLAYABLE_BETA_LOCAL_QA_PASS",
+  "cases": [
+    {
+      "size": "IPHONE_390x844",
+      "pass": true,
+      "checks": {
+        "http200": true,
+        "assetsReady": true,
+        "true3D": true,
+        "walking": true,
+        "touchLook": true,
+        "scooterMode": true,
+        "scooterMoves": true,
+        "restart": true,
+        "fpsObserved": true,
+        "noAppErrors": true
+      },
+      "measure": {
+        "walk": 5.768,
+        "drive": 19.215,
+        "lookEvents": 9,
+        "fpsBrowser": 49
+      },
+      "errors": []
+    },
+    {
+      "size": "ANDROID_412x915",
+      "pass": true,
+      "checks": {
+        "http200": true,
+        "assetsReady": true,
+        "true3D": true,
+        "walking": true,
+        "touchLook": true,
+        "scooterMode": true,
+        "scooterMoves": true,
+        "restart": true,
+        "fpsObserved": true,
+        "noAppErrors": true
+      },
+      "measure": {
+        "walk": 5.73,
+        "drive": 19.152,
+        "lookEvents": 9,
+        "fpsBrowser": 19
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "truth": "True mobile touch WebGL gameplay with scooter + on-foot, actual camera movement and collision. Architectural 70% fidelity remains unapproved. Edge mobile emulation, NOT physical phone FPS.",
+  "deployment": "NOT_DEPLOYED"
+}
