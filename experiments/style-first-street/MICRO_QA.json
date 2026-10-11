@@ -1,0 +1,177 @@
+{
+  "status": "TECHNICAL_PASS__VISUAL_REVIEW_REQUIRED",
+  "checks": {
+    "webgl": true,
+    "continuous3D": true,
+    "batchedDraws": true,
+    "hasTriangles": true,
+    "keyboardWalk": true,
+    "mouseLook": true,
+    "noErrors": true,
+    "screenshots": true
+  },
+  "shots": [
+    {
+      "name": "PORTRAIT_START",
+      "size": 253618,
+      "snap": {
+        "ready": true,
+        "webgl": true,
+        "release": "LIVINGPQ_STYLE_FIRST_OFFLINE",
+        "label": "ART_DIRECTED_PHU_QUOC_INSPIRED_NOT_GEO_REGISTERED",
+        "camera": {
+          "x": 0,
+          "y": 1.7000000000000004,
+          "z": 15,
+          "yaw": -0.28,
+          "pitch": 0.07
+        },
+        "walkedMeters": 0,
+        "movingFrames": 0,
+        "stoppedFrames": 77,
+        "lookEvents": 0,
+        "frameCount": 77,
+        "fpsBrowser": 48,
+        "triangles": 56446,
+        "meshes": 31,
+        "batchedGeoBytes": 2032056,
+        "routeProgress": 0,
+        "trueContinuous3D": true,
+        "notVerifiedSunsetGeography": true,
+        "physicalIPhoneTest": "NOT_RUN",
+        "visualGate": "PENDING_HUMAN_REVIEW",
+        "production": "NO_DEPLOY"
+      }
+    },
+    {
+      "name": "PORTRAIT_WALK",
+      "size": 229998,
+      "snap": {
+        "ready": true,
+        "webgl": true,
+        "release": "LIVINGPQ_STYLE_FIRST_OFFLINE",
+        "label": "ART_DIRECTED_PHU_QUOC_INSPIRED_NOT_GEO_REGISTERED",
+        "camera": {
+          "x": 2.5384614936144567,
+          "y": 1.7277663670255272,
+          "z": 6.172236804073626,
+          "yaw": -0.28,
+          "pitch": 0.07
+        },
+        "walkedMeters": 9.18548799998759,
+        "movingFrames": 250,
+        "stoppedFrames": 89,
+        "lookEvents": 0,
+        "frameCount": 339,
+        "fpsBrowser": 57,
+        "triangles": 56446,
+        "meshes": 31,
+        "batchedGeoBytes": 2032056,
+        "routeProgress": 0.2206940798981593,
+        "trueContinuous3D": true,
+        "notVerifiedSunsetGeography": true,
+        "physicalIPhoneTest": "NOT_RUN",
+        "visualGate": "PENDING_HUMAN_REVIEW",
+        "production": "NO_DEPLOY"
+      }
+    },
+    {
+      "name": "PORTRAIT_TURN",
+      "size": 211143,
+      "snap": {
+        "ready": true,
+        "webgl": true,
+        "release": "LIVINGPQ_STYLE_FIRST_OFFLINE",
+        "label": "ART_DIRECTED_PHU_QUOC_INSPIRED_NOT_GEO_REGISTERED",
+        "camera": {
+          "x": 2.5384614936144567,
+          "y": 1.7000000705577425,
+          "z": 6.172236804073626,
+          "yaw": 0.18619999999999998,
+          "pitch": 0.07
+        },
+        "walkedMeters": 9.18548799998759,
+        "movingFrames": 250,
+        "stoppedFrames": 143,
+        "lookEvents": 10,
+        "frameCount": 393,
+        "fpsBrowser": 57,
+        "triangles": 56446,
+        "meshes": 31,
+        "batchedGeoBytes": 2032056,
+        "routeProgress": 0.2206940798981593,
+        "trueContinuous3D": true,
+        "notVerifiedSunsetGeography": true,
+        "physicalIPhoneTest": "NOT_RUN",
+        "visualGate": "PENDING_HUMAN_REVIEW",
+        "production": "NO_DEPLOY"
+      }
+    },
+    {
+      "name": "DESKTOP_HERO",
+      "size": 677504,
+      "snap": {
+        "ready": true,
+        "webgl": true,
+        "release": "LIVINGPQ_STYLE_FIRST_OFFLINE",
+        "label": "ART_DIRECTED_PHU_QUOC_INSPIRED_NOT_GEO_REGISTERED",
+        "camera": {
+          "x": 0,
+          "y": 1.7000000000000015,
+          "z": 15,
+          "yaw": -0.28,
+          "pitch": 0.07
+        },
+        "walkedMeters": 0,
+        "movingFrames": 250,
+        "stoppedFrames": 201,
+        "lookEvents": 10,
+        "frameCount": 451,
+        "fpsBrowser": 56,
+        "triangles": 56446,
+        "meshes": 31,
+        "batchedGeoBytes": 2032056,
+        "routeProgress": 0,
+        "trueContinuous3D": true,
+        "notVerifiedSunsetGeography": true,
+        "physicalIPhoneTest": "NOT_RUN",
+        "visualGate": "PENDING_HUMAN_REVIEW",
+        "production": "NO_DEPLOY"
+      }
+    },
+    {
+      "name": "LANDSCAPE",
+      "size": 324112,
+      "snap": {
+        "ready": true,
+        "webgl": true,
+        "release": "LIVINGPQ_STYLE_FIRST_OFFLINE",
+        "label": "ART_DIRECTED_PHU_QUOC_INSPIRED_NOT_GEO_REGISTERED",
+        "camera": {
+          "x": 0,
+          "y": 1.7000000000000002,
+          "z": 15,
+          "yaw": -0.28,
+          "pitch": 0.07
+        },
+        "walkedMeters": 0,
+        "movingFrames": 250,
+        "stoppedFrames": 267,
+        "lookEvents": 10,
+        "frameCount": 517,
+        "fpsBrowser": 44,
+        "triangles": 56446,
+        "meshes": 31,
+        "batchedGeoBytes": 2032056,
+        "routeProgress": 0,
+        "trueContinuous3D": true,
+        "notVerifiedSunsetGeography": true,
+        "physicalIPhoneTest": "NOT_RUN",
+        "visualGate": "PENDING_HUMAN_REVIEW",
+        "production": "NO_DEPLOY"
+      }
+    }
+  ],
+  "errors": [],
+  "claim": "This is an authored stylized playable 3D 40m microstreet inspired by Sunset Town. Layout is fictionalized, NOT matched survey, Apollo is an impression. Edge SwiftShader FPS is NOT phone FPS."
+}
