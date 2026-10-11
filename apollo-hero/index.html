@@ -1,0 +1,35 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>LivingPQ | Apollo landmark geometry study</title>
+<style>
+*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#9ec2cc;color:#f7f7f1;font-family:system-ui,-apple-system,sans-serif}
+#world{position:fixed;inset:0;width:100%;height:100%;display:block}
+#shade{position:fixed;pointer-events:none;inset:0;background:linear-gradient(180deg,#0a3047ad 0%,transparent 27%,transparent 68%,#062a36b8 100%)}
+header{position:fixed;top:16px;left:24px;right:20px;text-shadow:0 2px 7px #263c40;pointer-events:none}
+header small{font-size:11px;letter-spacing:.22em;color:#ffedc7}header h1{font-size:clamp(20px,3vw,34px);margin:6px 0 4px;letter-spacing:-.04em}
+header p{font-size:12px;margin:0;color:#e9e4d5}
+#stats{position:fixed;left:24px;bottom:105px;font-size:11px;color:#f9ecdc;pointer-events:none}
+#controls{position:fixed;bottom:24px;left:22px;right:22px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#controls button{font:700 12px system-ui;cursor:pointer;border-radius:50px;background:#103d4be6;border:1px solid #ffe9b9c2;padding:12px 14px;color:#fff;backdrop-filter:blur(12px)}
+#controls button.active{background:#f5d9aa;color:#113a46}
+#angle{margin-left:auto;font-size:11px;text-transform:uppercase;color:#f4e9d7}
+#loading{position:fixed;z-index:9;inset:0;background:#174153;display:grid;place-items:center;font-size:23px;font-weight:800}
+#truth{position:fixed;right:22px;top:20px;font-size:10px;line-height:1.5;text-align:right;color:#fff7de;max-width:26%;pointer-events:none}
+@media(max-width:640px){header{top:12px;left:13px;right:10px;max-width:70%}header small{font-size:8px}header h1{font-size:19px}header p{font-size:10px}
+#truth{top:auto;bottom:103px;right:13px;max-width:60%;text-align:right;font-size:9px}
+#controls{left:8px;right:8px;bottom:10px;gap:5px}#controls button{font-size:10px;padding:9px 10px}#stats{bottom:85px;left:12px;font-size:9px}#angle{display:none}}
+</style></head><body>
+<canvas id="world" aria-label="Apollo 3D study"></canvas><div id="shade"></div>
+<header><small>OPEN PHÚ QUỐC · LIVING ISLAND LAB</small><h1>Apollo / Sunset Town</h1>
+<p>Mô hình nghiên cứu bố cục kiến trúc, chưa kiểm chứng phối cảnh hay đạt 70%</p></header>
+<div id="truth">Mô hình 3D phỏng dựng từ ảnh tham chiếu thật.<br/>Không phải bản quét hay dữ liệu địa lý đo đạc.<br/>Bản cục bộ - không xuất bản.</div>
+<div id="stats">Đang khởi tạo...</div>
+<div id="controls">
+<button data-view="plaza-front" class="active">Quảng trường</button>
+<button data-view="oblique-close">Cận cảnh</button>
+<button data-view="street-side">Bên đường</button>
+<button data-view="aerial-context">Trên cao</button>
+<span id="angle">plaza-front</span></div>
+<div id="loading">Đang dựng kiến trúc Apollo...</div>
+<script src="./bundle.js"></script></body></html>
