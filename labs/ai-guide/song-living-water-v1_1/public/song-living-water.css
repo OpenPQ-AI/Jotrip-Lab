@@ -269,3 +269,20 @@ body[data-theme="dark"]{
 }
 body[data-theme="dark"] .song-water-pearl{background:transparent;border-radius:0;mix-blend-mode:normal}
 body[data-theme="dark"] .small-mark,body[data-theme="dark"] .compact-icon{background:transparent}
+
+/* Accessible 48px companion in S2: action uses the real conversation, not a fake chat bubble. */
+.result-panel::before{content:none!important;display:none!important}
+.song-result-presence{position:absolute;z-index:3;right:49px;top:0;width:50px;height:50px;
+ padding:2px;border:1px solid rgba(170,229,219,.28);border-radius:50%;
+ background:radial-gradient(circle,rgba(112,218,207,.17),transparent 77%);
+ display:grid;place-items:center;cursor:pointer;box-shadow:0 0 12px rgba(8,170,183,.08);
+ animation:water-mini-breathe 6.4s ease-in-out infinite}
+.song-result-presence img{display:block;width:44px;height:39px;object-fit:contain}
+.song-result-presence:focus-visible{outline:3px solid #e4c48a;outline-offset:2px}
+body.is-hidden .song-result-presence{animation-play-state:paused!important}
+body[data-motion="reduced"] .song-result-presence{animation:none!important}
+@media(prefers-reduced-motion:reduce){.song-result-presence{animation:none!important}}
+
+/* Preserve the tappable S2 presence below the sticky conversation header on Safari. */
+.result-panel{scroll-margin-top:86px}
+.song-result-presence{scroll-margin-top:86px}
