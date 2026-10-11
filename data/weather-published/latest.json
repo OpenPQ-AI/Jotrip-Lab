@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-11T19:40:11.952401+00:00",
+  "published_at": "2026-10-11T20:53:17.814798+00:00",
   "local_engine": "PQ_LOCAL_NOW_V2",
   "points": {
     "duong_dong": {
-      "temperature_c": 25.7,
-      "wind_kmh": 11.1,
+      "temperature_c": 25.3,
+      "wind_kmh": 9.0,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.51,
+      "wind_confidence": 0.56,
       "wind_ensemble_q50_kmh": 5.60104,
       "wind_ensemble_q90_kmh": 10.337158,
-      "wind_adaptive_gain": 1.159,
+      "wind_adaptive_gain": 1.138,
       "rain_rate_mm_h": 3.75,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -21,13 +21,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "an_thoi": {
-      "temperature_c": 27.4,
-      "wind_kmh": 17.1,
+      "temperature_c": 27.2,
+      "wind_kmh": 15.5,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.41,
+      "wind_confidence": 0.45,
       "wind_ensemble_q50_kmh": 12.186369,
       "wind_ensemble_q90_kmh": 16.922487,
-      "wind_adaptive_gain": 1.055,
+      "wind_adaptive_gain": 1.037,
       "rain_rate_mm_h": 4.92,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -39,13 +39,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "ganh_dau": {
-      "temperature_c": 27.4,
-      "wind_kmh": 11.2,
+      "temperature_c": 27.2,
+      "wind_kmh": 10.3,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.33,
+      "wind_confidence": 0.37,
       "wind_ensemble_q50_kmh": 10.413453,
       "wind_ensemble_q90_kmh": 21.544094,
-      "wind_adaptive_gain": 0.879,
+      "wind_adaptive_gain": 0.869,
       "rain_rate_mm_h": 1.91,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -57,13 +57,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "cua_can": {
-      "temperature_c": 25.4,
-      "wind_kmh": 10.6,
+      "temperature_c": 25.2,
+      "wind_kmh": 9.2,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.39,
+      "wind_confidence": 0.43,
       "wind_ensemble_q50_kmh": 10.413453,
       "wind_ensemble_q90_kmh": 21.544094,
-      "wind_adaptive_gain": 0.958,
+      "wind_adaptive_gain": 0.943,
       "rain_rate_mm_h": 3.75,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -75,13 +75,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "bai_thom": {
-      "temperature_c": 27.3,
-      "wind_kmh": 11.2,
+      "temperature_c": 27.1,
+      "wind_kmh": 10.3,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.32,
+      "wind_confidence": 0.36,
       "wind_ensemble_q50_kmh": 10.413453,
       "wind_ensemble_q90_kmh": 21.544094,
-      "wind_adaptive_gain": 0.864,
+      "wind_adaptive_gain": 0.856,
       "rain_rate_mm_h": 1.91,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -93,13 +93,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "ham_ninh": {
-      "temperature_c": 25.6,
-      "wind_kmh": 11.5,
+      "temperature_c": 25.3,
+      "wind_kmh": 9.2,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.52,
+      "wind_confidence": 0.57,
       "wind_ensemble_q50_kmh": 12.186369,
       "wind_ensemble_q90_kmh": 16.922487,
-      "wind_adaptive_gain": 1.152,
+      "wind_adaptive_gain": 1.129,
       "rain_rate_mm_h": 3.75,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -111,13 +111,13 @@
       "data_class": "ESTIMATED_NOW"
     },
     "bai_sao": {
-      "temperature_c": 27.5,
-      "wind_kmh": 17.2,
+      "temperature_c": 27.2,
+      "wind_kmh": 15.5,
       "wind_method": "PQ_LOCAL_NOW_V3_MULTI_GROUND_ANCHOR",
-      "wind_confidence": 0.43,
+      "wind_confidence": 0.48,
       "wind_ensemble_q50_kmh": 12.186369,
       "wind_ensemble_q90_kmh": 16.076363,
-      "wind_adaptive_gain": 1.069,
+      "wind_adaptive_gain": 1.049,
       "rain_rate_mm_h": 4.92,
       "rain_method": "PQ_LOCAL_NOW_V1_MODEL_SATELLITE_BLEND",
       "rain_confidence": 0.43,
@@ -148,40 +148,40 @@
     }
   },
   "actual_refs": {
-    "vvpq_observed_at": "2026-10-11T19:30:00+00:00",
-    "vvpq_wind_kmh": 12.96,
+    "vvpq_observed_at": "2026-10-11T20:30:00+00:00",
+    "vvpq_wind_kmh": 7.41,
     "vrain": {
       "bai_thom": {
-        "observed_at": "2026-10-11T19:40:14+00:00",
+        "observed_at": "2026-10-11T20:53:23+00:00",
         "qc": "PASS",
         "increment_qc": "WINDOW_TOO_OLD_FOR_CURRENT_RAIN",
         "increment_mm": null,
         "increment_window_minutes": null,
         "rain_intensity_mm_h": null,
-        "accumulation_mm": 38.0,
+        "accumulation_mm": 40.0,
         "rain_observed": null
       },
       "cua_can": {
-        "observed_at": "2026-10-11T19:40:14+00:00",
+        "observed_at": "2026-10-11T20:53:23+00:00",
         "qc": "PASS",
         "increment_qc": "WINDOW_TOO_OLD_FOR_CURRENT_RAIN",
         "increment_mm": null,
         "increment_window_minutes": null,
         "rain_intensity_mm_h": null,
-        "accumulation_mm": 33.4,
+        "accumulation_mm": 36.4,
         "rain_observed": null
       },
       "an_thoi": {
-        "observed_at": "2026-10-11T19:40:14+00:00",
+        "observed_at": "2026-10-11T20:53:23+00:00",
         "qc": "PASS",
         "increment_qc": "WINDOW_TOO_OLD_FOR_CURRENT_RAIN",
         "increment_mm": null,
         "increment_window_minutes": null,
         "rain_intensity_mm_h": null,
-        "accumulation_mm": 3.2,
+        "accumulation_mm": 6.6,
         "rain_observed": null
       }
     }
   },
-  "bucket_local": "2026-10-12T02:30:00+07:00"
+  "bucket_local": "2026-10-12T03:30:00+07:00"
 }
