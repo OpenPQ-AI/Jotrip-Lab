@@ -1,0 +1,43 @@
+{
+  "status": "THREE_DIMENSION_RENDER_PASS_VISUAL_REVIEW_REQUIRED",
+  "shots": [
+    {
+      "name": "plaza-front",
+      "view": "plaza-front",
+      "meshCount": 1523,
+      "tris": 94214,
+      "fpsBrowser": 21,
+      "bytes": 793846
+    },
+    {
+      "name": "oblique-close",
+      "view": "oblique-close",
+      "meshCount": 1523,
+      "tris": 94214,
+      "fpsBrowser": 20,
+      "bytes": 631489
+    },
+    {
+      "name": "street-side",
+      "view": "street-side",
+      "meshCount": 1523,
+      "tris": 94214,
+      "fpsBrowser": 17,
+      "bytes": 578802
+    },
+    {
+      "name": "aerial-context",
+      "view": "aerial-context",
+      "meshCount": 1523,
+      "tris": 94214,
+      "fpsBrowser": 17,
+      "bytes": 869494
+    }
+  ],
+  "mobile": {
+    "bytes": 300691
+  },
+  "issues": [],
+  "truth": "3D-authored source-guided architecture without actual calibrated camera pose; PBR CC0 assets; 70% likeness NOT tested; no public deploy and no real iPhone FPS.",
+  "reference": "R13/06 and R13/08 original CC-BY-SA images are outside preview scene for visual comparison, not projected as 3D texture."
+}
