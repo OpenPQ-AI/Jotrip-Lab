@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "product": "JOTRIP_WEATHER_ANALYTICS",
-  "generated_at": "2026-10-11T13:11:48.038269+00:00",
+  "generated_at": "2026-10-11T14:06:11.966618+00:00",
   "learning_status": "READY",
   "minimum_samples": 30,
   "ready_groups": 25,
   "total_groups": 25,
   "matched_cases": 6954,
   "forecast_archive_files": 81,
-  "groundtruth_archive_files": 1764,
+  "groundtruth_archive_files": 1765,
   "groups": [
     {
       "target": "vrain_an_thoi",
@@ -583,7 +583,7 @@
   ],
   "latest_actual": {
     "vvpq": {
-      "observed_at": "2026-10-11T13:00:00+00:00",
+      "observed_at": "2026-10-11T14:00:00+00:00",
       "temperature_c": 28.0,
       "wind_kmh": 3.7
     },
@@ -592,7 +592,7 @@
         "observed_at": "2026-10-11T13:11:37+00:00",
         "increment_mm": null,
         "window_minutes": null,
-        "increment_qc": "NO_PREVIOUS_SAMPLE",
+        "increment_qc": "NO_NEW_SENSOR_SAMPLE",
         "accumulation_mm": 0.0
       },
       "vrain_bai_thom": {
@@ -606,7 +606,7 @@
         "observed_at": "2026-10-11T13:11:37+00:00",
         "increment_mm": null,
         "window_minutes": null,
-        "increment_qc": "NO_PREVIOUS_SAMPLE",
+        "increment_qc": "NO_NEW_SENSOR_SAMPLE",
         "accumulation_mm": 0.0
       }
     }
