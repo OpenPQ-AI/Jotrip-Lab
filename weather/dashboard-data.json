@@ -1,6 +1,6 @@
 {
-  "snapshot_id": "PQWX_LIVE_20261011_212027",
-  "generated_at": "2026-10-11T21:20:27.831230+07:00",
+  "snapshot_id": "PQWX_LIVE_20261012_015025",
+  "generated_at": "2026-10-12T01:50:25.869361+07:00",
   "data_mode": "B",
   "completeness": 86,
   "confidence": null,
@@ -18,8 +18,8 @@
   "source_cycles": {
     "ECMWF": "2026-10-11T06:00:00+00:00",
     "ECMWF_MEDIUM": "2026-10-11T00:00:00+00:00",
-    "GEFS": "2026-10-11T06:00:00+00:00",
-    "ICON": "2026-10-11T06:00:00+00:00"
+    "GEFS": "2026-10-11T12:00:00+00:00",
+    "ICON": "2026-10-11T12:00:00+00:00"
   },
   "sources": {
     "ECMWF": {
@@ -78,26 +78,26 @@
           "sampled_lat": 10.166666666666657,
           "sampled_lon": 104.0,
           "distance_km": 7.17,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.25,
           "sampled_lon": 103.91668701171875,
           "distance_km": 5.92,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 24.5,
-      "wind": 6.1,
+      "temperature": 24.3,
+      "wind": 9.8,
       "gust": null,
-      "wave_max": 0.35,
-      "wave": 0.17,
-      "period": 2.35,
-      "rain": 6.05,
-      "current": 0.3,
-      "wave_regional_hs": 0.2,
+      "wave_max": 0.33,
+      "wave": 0.18,
+      "period": 2.43,
+      "rain": 8.41,
+      "current": 0.23,
+      "wave_regional_hs": 0.19,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -1681,10 +1681,10 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 12.3,
           "gust_max": 28.7,
-          "rain_total": 4.23,
+          "rain_total": 2.31,
           "hs_max": 0.38,
           "hmax_max": 0.66,
           "status": "TREND_ONLY",
@@ -1692,7 +1692,7 @@
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 7.5,
           "gust_max": 22.4,
           "rain_total": 9.31,
@@ -1703,7 +1703,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 9.8,
           "gust_max": 18.0,
           "rain_total": 1.86,
@@ -1728,26 +1728,26 @@
           "sampled_lat": 10.0,
           "sampled_lon": 104.0,
           "distance_km": 2.685,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.0,
           "sampled_lon": 104.0,
           "distance_km": 2.685,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 26.7,
-      "wind": 9.2,
+      "temperature": 26.4,
+      "wind": 15.9,
       "gust": null,
-      "wave_max": 0.39,
-      "wave": 0.21,
-      "period": 2.35,
-      "rain": 5.88,
-      "current": 0.69,
-      "wave_regional_hs": 0.22,
+      "wave_max": 0.41,
+      "wave": 0.23,
+      "period": 2.28,
+      "rain": 11.03,
+      "current": 0.74,
+      "wave_regional_hs": 0.23,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -2512,10 +2512,10 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 18.9,
           "gust_max": 27.5,
-          "rain_total": 3.11,
+          "rain_total": 1.55,
           "hs_max": 0.34,
           "hmax_max": 0.59,
           "status": "TREND_ONLY",
@@ -2523,7 +2523,7 @@
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 13.9,
           "gust_max": 23.1,
           "rain_total": 10.09,
@@ -2534,7 +2534,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 16.3,
           "gust_max": 23.7,
           "rain_total": 3.73,
@@ -2559,26 +2559,26 @@
           "sampled_lat": 10.416666666666657,
           "sampled_lon": 103.83333333333331,
           "distance_km": 8.586,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.416671752929688,
           "sampled_lon": 103.91668701171875,
           "distance_km": 4.887,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 27.1,
-      "wind": 3.6,
+      "temperature": 26.5,
+      "wind": 10.7,
       "gust": null,
-      "wave_max": 0.28,
-      "wave": 0.14,
-      "period": 2.22,
-      "rain": 8.01,
-      "current": 0.25,
-      "wave_regional_hs": 0.16,
+      "wave_max": 0.21,
+      "wave": 0.11,
+      "period": 2.44,
+      "rain": 4.27,
+      "current": 0.19,
+      "wave_regional_hs": 0.12,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -3343,18 +3343,18 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 10.4,
-          "gust_max": 25.6,
-          "rain_total": 2.84,
-          "hs_max": 0.2,
-          "hmax_max": 0.36,
+          "gust_max": 21.8,
+          "rain_total": 1.19,
+          "hs_max": 0.18,
+          "hmax_max": 0.32,
           "status": "TREND_ONLY",
           "confidence": "UNSCORED"
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 13.7,
           "gust_max": 22.2,
           "rain_total": 1.37,
@@ -3365,7 +3365,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 12.7,
           "gust_max": 20.5,
           "rain_total": 2.29,
@@ -3390,26 +3390,26 @@
           "sampled_lat": 10.0,
           "sampled_lon": 105.0,
           "distance_km": 8.624,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.0,
           "sampled_lon": 105.08334350585938,
           "distance_km": 0.924,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 26.8,
-      "wind": 4.1,
+      "temperature": 25.4,
+      "wind": 5.5,
       "gust": null,
       "wave_max": 0.05,
-      "wave": 0.03,
+      "wave": 0.02,
       "period": 2.81,
-      "rain": 1.72,
-      "current": 0.08,
+      "rain": 4.88,
+      "current": 0.11,
       "wave_regional_hs": 0.03,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -4174,10 +4174,10 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 13.2,
           "gust_max": 36.2,
-          "rain_total": 14.38,
+          "rain_total": 14.23,
           "hs_max": 0.16,
           "hmax_max": 0.29,
           "status": "TREND_ONLY",
@@ -4185,7 +4185,7 @@
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 13.8,
           "gust_max": 23.7,
           "rain_total": 20.83,
@@ -4196,7 +4196,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 13.1,
           "gust_max": 25.6,
           "rain_total": 0.21,
@@ -4227,26 +4227,26 @@
           "sampled_lat": 10.333333333333329,
           "sampled_lon": 103.83333333333331,
           "distance_km": 9.993,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.25,
           "sampled_lon": 103.91668701171875,
           "distance_km": 4.752,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 24.5,
-      "wind": 6.1,
+      "temperature": 24.3,
+      "wind": 9.8,
       "gust": null,
-      "wave_max": 0.28,
-      "wave": 0.14,
-      "period": 2.27,
-      "rain": 6.05,
-      "current": 0.3,
-      "wave_regional_hs": 0.16,
+      "wave_max": 0.3,
+      "wave": 0.12,
+      "period": 2.46,
+      "rain": 8.41,
+      "current": 0.23,
+      "wave_regional_hs": 0.17,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -5011,18 +5011,18 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 12.3,
           "gust_max": 28.7,
-          "rain_total": 4.23,
-          "hs_max": 0.3,
-          "hmax_max": 0.52,
+          "rain_total": 2.31,
+          "hs_max": 0.28,
+          "hmax_max": 0.49,
           "status": "TREND_ONLY",
           "confidence": "UNSCORED"
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 7.5,
           "gust_max": 22.4,
           "rain_total": 9.31,
@@ -5033,7 +5033,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 9.8,
           "gust_max": 18.0,
           "rain_total": 1.86,
@@ -5058,26 +5058,26 @@
           "sampled_lat": 10.5,
           "sampled_lon": 104.0,
           "distance_km": 10.383,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.416671752929688,
           "sampled_lon": 104.08334350585938,
           "distance_km": 5.745,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 27.1,
-      "wind": 3.6,
+      "temperature": 26.5,
+      "wind": 10.7,
       "gust": null,
-      "wave_max": 0.37,
-      "wave": 0.17,
-      "period": 2.42,
-      "rain": 8.01,
-      "current": 0.16,
-      "wave_regional_hs": 0.21,
+      "wave_max": 0.23,
+      "wave": 0.1,
+      "period": 2.37,
+      "rain": 4.27,
+      "current": 0.11,
+      "wave_regional_hs": 0.13,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -5842,18 +5842,18 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 10.4,
-          "gust_max": 25.6,
-          "rain_total": 2.84,
-          "hs_max": 0.2,
-          "hmax_max": 0.36,
+          "gust_max": 21.8,
+          "rain_total": 1.19,
+          "hs_max": 0.18,
+          "hmax_max": 0.32,
           "status": "TREND_ONLY",
           "confidence": "UNSCORED"
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 13.7,
           "gust_max": 22.2,
           "rain_total": 1.37,
@@ -5864,7 +5864,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 12.7,
           "gust_max": 20.5,
           "rain_total": 2.29,
@@ -5895,26 +5895,26 @@
           "sampled_lat": 10.166666666666657,
           "sampled_lon": 104.08333333333331,
           "distance_km": 4.511,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.166671752929688,
           "sampled_lon": 104.08334350585938,
           "distance_km": 4.512,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 24.5,
-      "wind": 6.1,
+      "temperature": 24.3,
+      "wind": 9.8,
       "gust": null,
-      "wave_max": 0.41,
-      "wave": 0.2,
-      "period": 2.32,
-      "rain": 6.05,
-      "current": 0.16,
-      "wave_regional_hs": 0.23,
+      "wave_max": 0.37,
+      "wave": 0.19,
+      "period": 2.42,
+      "rain": 8.41,
+      "current": 0.19,
+      "wave_regional_hs": 0.21,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -7498,10 +7498,10 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 12.3,
           "gust_max": 28.7,
-          "rain_total": 4.23,
+          "rain_total": 2.31,
           "hs_max": 0.44,
           "hmax_max": 0.77,
           "status": "TREND_ONLY",
@@ -7509,7 +7509,7 @@
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 7.5,
           "gust_max": 22.4,
           "rain_total": 9.31,
@@ -7520,7 +7520,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 9.8,
           "gust_max": 18.0,
           "rain_total": 1.86,
@@ -7545,26 +7545,26 @@
           "sampled_lat": 10.083333333333329,
           "sampled_lon": 104.0,
           "distance_km": 4.928,
-          "sampled_time": "2026-10-11T15:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         },
         "current": {
           "sampled_lat": 10.083335876464844,
           "sampled_lon": 104.08334350585938,
           "distance_km": 5.902,
-          "sampled_time": "2026-10-11T12:00:00Z"
+          "sampled_time": "2026-10-11T18:00:00Z"
         }
       },
-      "temperature": 26.7,
-      "wind": 9.2,
+      "temperature": 26.4,
+      "wind": 15.9,
       "gust": null,
       "wave_max": 0.41,
-      "wave": 0.18,
-      "period": 2.32,
-      "rain": 5.88,
-      "current": 0.28,
+      "wave": 0.2,
+      "period": 2.39,
+      "rain": 11.03,
+      "current": 0.4,
       "wave_regional_hs": 0.23,
       "wave_max_method": "RAYLEIGH_20MIN_PROXY_FROM_REGIONAL_HS",
-      "marine_sampled_time": "2026-10-11T15:00:00Z",
+      "marine_sampled_time": "2026-10-11T18:00:00Z",
       "forecast_end": "2026-10-21T07:00:00+07:00",
       "long_range_status": "CONTROL_TREND_ONLY",
       "caveat": "D0-D3 dùng cycle ECMWF mới nhất. D4-D10 nối từ cycle 00/12 có horizon 240 giờ. Hs và Hmax dùng để nhìn biển nền và biên rủi ro; D4-D10 hiện là xu hướng control forecast, chưa phải quyết định vận hành vì lớp ensemble consensus còn đang bổ sung.",
@@ -8329,10 +8329,10 @@
       "daily_outlook": [
         {
           "date": "19/10",
-          "day_offset": 8,
+          "day_offset": 7,
           "wind_max": 18.9,
           "gust_max": 27.5,
-          "rain_total": 3.11,
+          "rain_total": 1.55,
           "hs_max": 0.34,
           "hmax_max": 0.59,
           "status": "TREND_ONLY",
@@ -8340,7 +8340,7 @@
         },
         {
           "date": "20/10",
-          "day_offset": 9,
+          "day_offset": 8,
           "wind_max": 13.9,
           "gust_max": 23.1,
           "rain_total": 10.09,
@@ -8351,7 +8351,7 @@
         },
         {
           "date": "21/10",
-          "day_offset": 10,
+          "day_offset": 9,
           "wind_max": 16.3,
           "gust_max": 23.7,
           "rain_total": 3.73,
