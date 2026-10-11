@@ -2,98 +2,98 @@
   "schema_version": "weather-nowcast-daily-summary-v1",
   "date": "2026-10-12",
   "archive_mode": "DAILY_RAW_PLUS_MATERIAL_EVENTS_PLUS_DAILY_SUMMARY",
-  "sample_count": 4,
+  "sample_count": 5,
   "first_sampled_time": "2026-10-11T18:00:20Z",
-  "last_sampled_time": "2026-10-11T19:20:20Z",
+  "last_sampled_time": "2026-10-11T21:50:20Z",
   "points": {
     "duong_dong": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 390.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.4,
-      "max_cold_cloud_top_temp_c": -70.0,
-      "min_high_cloud_top_height_m": 14670.0,
+      "max_cold_cloud_top_temp_c": -62.9,
+      "min_high_cloud_top_height_m": 13764.0,
       "max_high_cloud_top_height_m": 15588.0,
-      "min_cooling_c_per_20m_proxy": 0.3,
+      "min_cooling_c_per_20m_proxy": -3.4,
       "max_cooling_c_per_20m_proxy": 2.3,
-      "avg_score": 75.0,
+      "avg_score": 78.0,
       "peak_level": "HIGH"
     },
     "an_thoi": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 380.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 80.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.1,
-      "max_cold_cloud_top_temp_c": -69.7,
-      "min_high_cloud_top_height_m": 14607.0,
+      "max_cold_cloud_top_temp_c": -66.9,
+      "min_high_cloud_top_height_m": 14201.0,
       "max_high_cloud_top_height_m": 15555.0,
-      "min_cooling_c_per_20m_proxy": 0.5,
+      "min_cooling_c_per_20m_proxy": -1.1,
       "max_cooling_c_per_20m_proxy": 2.7,
-      "avg_score": 75.0,
+      "avg_score": 76.0,
       "peak_level": "HIGH"
     },
     "ganh_dau": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 390.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.4,
-      "max_cold_cloud_top_temp_c": -71.6,
-      "min_high_cloud_top_height_m": 14991.0,
+      "max_cold_cloud_top_temp_c": -62.3,
+      "min_high_cloud_top_height_m": 13688.0,
       "max_high_cloud_top_height_m": 15591.0,
-      "min_cooling_c_per_20m_proxy": -0.2,
+      "min_cooling_c_per_20m_proxy": -3.5,
       "max_cooling_c_per_20m_proxy": 3.0,
-      "avg_score": 75.0,
+      "avg_score": 78.0,
       "peak_level": "HIGH"
     },
     "rach_gia": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 375.0,
+      "score_count": 5,
       "min_score": 75.0,
       "max_score": 75.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
-      "min_cold_cloud_top_temp_c": -81.6,
+      "min_cold_cloud_top_temp_c": -82.1,
       "max_cold_cloud_top_temp_c": -78.4,
       "min_high_cloud_top_height_m": 16135.0,
       "max_high_cloud_top_height_m": 16529.0,
@@ -103,102 +103,102 @@
       "peak_level": "HIGH"
     },
     "cua_can": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 390.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.5,
-      "max_cold_cloud_top_temp_c": -70.8,
-      "min_high_cloud_top_height_m": 14819.0,
+      "max_cold_cloud_top_temp_c": -62.3,
+      "min_high_cloud_top_height_m": 13687.0,
       "max_high_cloud_top_height_m": 15595.0,
-      "min_cooling_c_per_20m_proxy": -0.1,
+      "min_cooling_c_per_20m_proxy": -3.4,
       "max_cooling_c_per_20m_proxy": 2.1,
-      "avg_score": 75.0,
+      "avg_score": 78.0,
       "peak_level": "HIGH"
     },
     "bai_thom": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 380.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 80.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.6,
-      "max_cold_cloud_top_temp_c": -70.3,
-      "min_high_cloud_top_height_m": 14764.0,
+      "max_cold_cloud_top_temp_c": -67.3,
+      "min_high_cloud_top_height_m": 14277.0,
       "max_high_cloud_top_height_m": 15607.0,
-      "min_cooling_c_per_20m_proxy": -0.1,
+      "min_cooling_c_per_20m_proxy": -2.4,
       "max_cooling_c_per_20m_proxy": 2.9,
-      "avg_score": 75.0,
+      "avg_score": 76.0,
       "peak_level": "HIGH"
     },
     "ham_ninh": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 380.0,
+      "score_count": 5,
       "min_score": 75.0,
-      "max_score": 75.0,
+      "max_score": 80.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.4,
-      "max_cold_cloud_top_temp_c": -69.7,
-      "min_high_cloud_top_height_m": 14619.0,
+      "max_cold_cloud_top_temp_c": -66.7,
+      "min_high_cloud_top_height_m": 14175.0,
       "max_high_cloud_top_height_m": 15592.0,
-      "min_cooling_c_per_20m_proxy": 0.5,
+      "min_cooling_c_per_20m_proxy": -2.1,
       "max_cooling_c_per_20m_proxy": 2.4,
-      "avg_score": 75.0,
+      "avg_score": 76.0,
       "peak_level": "HIGH"
     },
     "bai_sao": {
-      "sample_count": 4,
-      "score_sum": 300.0,
-      "score_count": 4,
+      "sample_count": 5,
+      "score_sum": 375.0,
+      "score_count": 5,
       "min_score": 75.0,
       "max_score": 75.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 4
+        "HIGH": 5
       },
       "levels_seen": [
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -75.2,
-      "max_cold_cloud_top_temp_c": -69.7,
-      "min_high_cloud_top_height_m": 14607.0,
+      "max_cold_cloud_top_temp_c": -66.9,
+      "min_high_cloud_top_height_m": 14237.0,
       "max_high_cloud_top_height_m": 15558.0,
-      "min_cooling_c_per_20m_proxy": 0.5,
+      "min_cooling_c_per_20m_proxy": -0.9,
       "max_cooling_c_per_20m_proxy": 2.6,
       "avg_score": 75.0,
       "peak_level": "HIGH"
     }
   },
-  "last_generated_at": "2026-10-11T19:42:36.866268+00:00",
-  "material_event_count": 15
+  "last_generated_at": "2026-10-11T22:16:43.450794+00:00",
+  "material_event_count": 20
 }
