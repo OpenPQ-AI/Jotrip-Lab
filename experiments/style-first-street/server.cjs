@@ -1,0 +1,4 @@
+'use strict';
+const http=require('http'),fs=require('fs'),path=require('path');const files={'/':'index.html','/index.html':'index.html','/bundle.js':'bundle.js'};
+function createServer(){return http.createServer((req,res)=>{const p=new URL(req.url,'http://127.0.0.1').pathname;if(p==='/favicon.ico'){res.writeHead(204).end();return}const n=files[p];if(!n){res.writeHead(404).end('not found');return}const f=path.join(__dirname,n);res.writeHead(200,{'Content-Type':n.endsWith('.js')?'text/javascript;charset=UTF-8':'text/html;charset=UTF-8','Content-Length':fs.statSync(f).size});fs.createReadStream(f).pipe(res);})}
+module.exports={createServer};if(require.main===module)createServer().listen(Number(process.argv[2]||4203),'127.0.0.1',()=>console.log('LOCAL_3D_LAB_READY'));
