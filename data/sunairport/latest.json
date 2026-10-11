@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-12T00:46:34+07:00",
+  "collected_at_vn": "2026-10-12T04:04:44+07:00",
   "source_date": "2026-10-12",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 00:46",
+  "page_last_updated": "Official API fetched 04:04",
   "counts": {
     "arrivals": 63,
     "departures": 66,
@@ -70,10 +70,8 @@
     },
     "departures_by_status": {
       "LÀM THỦ TỤC LÚC": 60,
-      "ĐÃ CẤT CÁNH": 2,
-      "TRỄ": 2,
-      "CHUYẾN BAY FERRY": 1,
-      "ĐANG LÀM THỦ TỤC": 1
+      "ĐÃ CẤT CÁNH": 5,
+      "CHUYẾN BAY FERRY": 1
     },
     "arrivals_by_time_bank": {
       "09:00-11:59": 19,
@@ -2486,10 +2484,10 @@
       "aircraft": "Boeing B737-700",
       "scheduled_time": "00:25",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "00:34",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 9,
       "checkin_time": null,
       "boarding_start": "23:50",
       "boarding_finish": "00:03",
@@ -2501,7 +2499,7 @@
       "status": "ĐÃ CẤT CÁNH",
       "status_code": "DEPARTED",
       "raw_status": "ĐÃ CẤT CÁNH",
-      "source_synced_at": "2026-10-11 17:27:24",
+      "source_synced_at": "2026-10-11 17:47:05",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "00:25"
@@ -2523,10 +2521,10 @@
       "aircraft": "Boeing B737-700",
       "scheduled_time": "00:35",
       "estimated_time": "00:50",
-      "actual_time": null,
+      "actual_time": "00:59",
       "delay_minutes": 15,
       "estimated_delay_minutes": 15,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 24,
       "checkin_time": null,
       "boarding_start": "00:20",
       "boarding_finish": "00:33",
@@ -2535,16 +2533,16 @@
       "parking_bay": "8",
       "terminal": null,
       "checkin_row": "27-29",
-      "status": "TRỄ",
-      "status_code": "RESCHEDULED",
-      "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
-      "source_synced_at": "2026-10-11 17:33:42",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-11 19:32:37",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "00:35",
         "00:50"
       ],
-      "context": "TW056 • T'WAY AIR | INCHEON | 00:35 | 00:50 | CỬA KHỞI HÀNH ĐÃ ĐÓNG"
+      "context": "TW056 • T'WAY AIR | INCHEON | 00:35 | 00:50 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 58057,
@@ -2564,10 +2562,10 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "00:10",
       "estimated_time": "00:55",
-      "actual_time": null,
+      "actual_time": "01:20",
       "delay_minutes": 45,
       "estimated_delay_minutes": 45,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 70,
       "checkin_time": null,
       "boarding_start": "00:25",
       "boarding_finish": "00:39",
@@ -2576,16 +2574,16 @@
       "parking_bay": "7",
       "terminal": null,
       "checkin_row": "22-25",
-      "status": "TRỄ",
-      "status_code": "RESCHEDULED",
-      "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
-      "source_synced_at": "2026-10-11 17:39:13",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-11 18:20:58",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "00:10",
         "00:55"
       ],
-      "context": "KE486 • KOREAN AIR | INCHEON | 00:10 | 00:55 | CỬA KHỞI HÀNH ĐÃ ĐÓNG"
+      "context": "KE486 • KOREAN AIR | INCHEON | 00:10 | 00:55 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 58052,
@@ -2607,23 +2605,23 @@
       "estimated_delay_minutes": 55,
       "actual_delay_minutes": null,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "01:30",
+      "boarding_finish": "01:45",
       "gate": "10",
       "belt": null,
       "parking_bay": "5",
       "terminal": null,
       "checkin_row": "34-35",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-10-11 17:37:39",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-11 19:18:26",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:05",
         "02:00"
       ],
-      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:05 | 02:00 | ĐANG LÀM THỦ TỤC"
+      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:05 | 02:00 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 57933,
