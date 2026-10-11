@@ -319,6 +319,16 @@ $('transcript-close').addEventListener('click',()=>{clearTranscript();setStatus(
 $('stop-audio').addEventListener('click',()=>{stopAudio();setStatus('ready','Đã dừng tiếng. Nội dung chữ vẫn còn.')});
 $('back-welcome').addEventListener('click',()=>{closeVoice();stopAudio();showView('welcome');setStatus('ready')});
 $('close-result').addEventListener('click',()=>{ui.result.hidden=true;ui.conversation.dataset.hasResult='false';ui.resultOpen=false});
+$('result-orb').addEventListener('click',()=>{
+ if(ui.conversation.hidden)return;
+ ui.result.hidden=true;
+ ui.conversation.dataset.hasResult='false';
+ ui.resultOpen=false;
+ setStatus('ready','Bạn đang ở hội thoại Sóng. Hãy hỏi tiếp.');
+ document.querySelector('.compact-presence')?.scrollIntoView({block:'start',behavior:'smooth'});
+ try{ui.question.focus({preventScroll:true})}catch{ui.question.focus()}
+ stamp('presence_return_to_chat');
+});
 const dialog=$('settings-dialog'),settingsBtn=$('settings');
 function settings(open){dialog.hidden=!open;settingsBtn.setAttribute('aria-expanded',String(open));if(open)$('dark-setting').focus();else settingsBtn.focus()}
 settingsBtn.addEventListener('click',()=>settings(dialog.hidden));
