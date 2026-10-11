@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "states": [
+    {
+      "camera": {
+        "x": 2.871569538167696,
+        "y": 1.728052053607118,
+        "z": 5.013819020951345,
+        "yaw": -0.28,
+        "pitch": 0.07
+      },
+      "walked": 10.390847999987589,
+      "fps": 56,
+      "route": 0.24965452447621636
+    },
+    {
+      "camera": {
+        "x": 5.35,
+        "y": 1.6729476512439883,
+        "z": -5.022736639928008,
+        "yaw": -0.28,
+        "pitch": 0.07
+      },
+      "walked": 20.776362704871556,
+      "fps": 57,
+      "route": 0.5005684159982001
+    },
+    {
+      "camera": {
+        "x": 5.35,
+        "y": 1.7250437701919967,
+        "z": -15.054094913068445,
+        "yaw": -0.28,
+        "pitch": 0.07
+      },
+      "walked": 30.80772097801199,
+      "fps": 55,
+      "route": 0.7513523728267112
+    },
+    {
+      "camera": {
+        "x": 5.35,
+        "y": 1.6833144298831522,
+        "z": -25,
+        "yaw": -0.28,
+        "pitch": 0.07
+      },
+      "walked": 40.75362606494355,
+      "fps": 56,
+      "route": 1
+    }
+  ],
+  "errors": [],
+  "note": "Real 20s key-held browser WebGL, not arbitrary camera orbit; art-constructed Sunset Town inspired street, not surveyed data. FPS Edge software renderer only."
+}
