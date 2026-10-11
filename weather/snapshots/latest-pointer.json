@@ -1,11 +1,11 @@
 {
-  "cutoff_time": "2026-10-11T21:20:27.831230+07:00",
+  "cutoff_time": "2026-10-12T01:50:25.869361+07:00",
   "data_mode": "B",
   "formula_bundle_version": "weather-lab-0.2.0",
-  "generated_at": "2026-10-11T14:20:29.953126+00:00",
-  "git_commit_sha": "bc97cb5e1a847629bd1925c54b4baf45c3ecf0ca",
-  "path": "weather/snapshots/2026/10/11/212027/LAB_SNAPSHOT_V1.json",
-  "payload_hash": "37623887aaf653ebba58e86d4bf407d7962a1033e1283ec94f7f65218ee83c24",
+  "generated_at": "2026-10-11T18:50:28.596084+00:00",
+  "git_commit_sha": "1e6be11e327e2bd8da5ff95cdfe98f0ac2c8276d",
+  "path": "weather/snapshots/2026/10/12/015025/LAB_SNAPSHOT_V1.json",
+  "payload_hash": "bb6faf9e9776f4072ade5d8f9f32837414f92fa2b0dbcc11c7a74f7b61ebc3bf",
   "schema_version": "1.0",
-  "snapshot_id": "PQWX_CANONICAL_20261011_212027+0700_V1"
+  "snapshot_id": "PQWX_CANONICAL_20261012_015025+0700_V1"
 }
