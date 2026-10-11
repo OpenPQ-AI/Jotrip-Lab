@@ -1,0 +1,23 @@
+{
+  "street_lamp_01": {
+    "gltf": "models/street_lamp_01/street_lamp_01_1k.gltf",
+    "total_bytes": 2166163,
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/street_lamp_01",
+    "file_count": 5
+  },
+  "planter_box_01": {
+    "gltf": "models/planter_box_01/planter_box_01_1k.gltf",
+    "total_bytes": 2339417,
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/planter_box_01",
+    "file_count": 5
+  },
+  "potted_plant_04": {
+    "gltf": "models/potted_plant_04/potted_plant_04_1k.gltf",
+    "total_bytes": 2122625,
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/potted_plant_04",
+    "file_count": 5
+  }
+}
