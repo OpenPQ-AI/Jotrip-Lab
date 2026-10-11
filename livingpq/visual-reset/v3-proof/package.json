@@ -1,0 +1,17 @@
+{
+  "name": "livingpq-visual-reset-v3-proof",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node qa-visual.cjs",
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "playwright": "^1.56.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "verdict": "REAL_WEBGL_RENDER_PASS_VISUAL_REVIEW_REQUIRED",
+  "source": "Local Three.js 3D meshes + authorized CC0 palm model and PBR; no gameplay; not measured site geometry",
+  "snaps": [
+    {
+      "view": "hillside",
+      "fpsEdgeSoftware": 13,
+      "palms": 48,
+      "bridgeGapMeters": 9.4,
+      "palmError": null,
+      "sourceTruth": "PHOTO_REFERENCED_ARTIST_BLOCKOUT_NOT_SURVEYED"
+    },
+    {
+      "view": "promenade",
+      "fpsEdgeSoftware": 21,
+      "palms": 48,
+      "bridgeGapMeters": 9.4,
+      "palmError": null,
+      "sourceTruth": "PHOTO_REFERENCED_ARTIST_BLOCKOUT_NOT_SURVEYED"
+    },
+    {
+      "view": "bridge",
+      "fpsEdgeSoftware": 27,
+      "palms": 48,
+      "bridgeGapMeters": 9.4,
+      "palmError": null,
+      "sourceTruth": "PHOTO_REFERENCED_ARTIST_BLOCKOUT_NOT_SURVEYED"
+    }
+  ],
+  "errs": [],
+  "productionTouched": false,
+  "beautyGate": "NOT_APPROVED",
+  "siteGate": "NOT_CALIBRATED"
+}
