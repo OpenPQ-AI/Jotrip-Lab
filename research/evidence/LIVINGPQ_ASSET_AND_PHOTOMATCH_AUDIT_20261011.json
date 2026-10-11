@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-11",
+  "status": "RESEARCH_ONLY_NO_DEPLOY_NO_VISUAL_PASS",
+  "polyHavenAPI": {
+    "textureEntries": 867,
+    "modelEntries": 521,
+    "filteredTextureCandidates": 302,
+    "filteredModelCandidates": 132,
+    "note": "metadata matches only, not mesh quality reviewed"
+  },
+  "references": {
+    "front": {
+      "file": "R15/apollo-ref.jpg",
+      "sameAs": "R13/photos/07.jpg",
+      "identicalSHA": true,
+      "bytes": 725005,
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "houghLinesOver70": 338,
+      "over150": 46
+    },
+    "oblique": {
+      "file": "R13/photos/06.jpg",
+      "houghLinesOver70": 804,
+      "over150": 128
+    },
+    "note": "Line segments from OpenCV HoughLinesP candidate screen, not solved poses; R15 and R13/07 are exactly duplicated source frames."
+  },
+  "assets": [
+    {
+      "role": "aged blue stucco",
+      "url": "https://polyhaven.com/a/blue_plaster_weathered",
+      "license": "CC0",
+      "ready": "catalogue_verified_not_imported"
+    },
+    {
+      "role": "aged clay roof",
+      "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+      "license": "CC0",
+      "ready": "catalogue_verified_not_imported"
+    },
+    {
+      "role": "pavement",
+      "url": "https://polyhaven.com/a/cobblestone_pavement",
+      "license": "CC0",
+      "ready": "catalogue_verified_not_imported"
+    },
+    {
+      "role": "tree example",
+      "url": "https://polyhaven.com/a/island_tree_01",
+      "license": "CC0",
+      "ready": "catalogue_verified_not_fit_verified"
+    },
+    {
+      "role": "street lamp",
+      "url": "https://polyhaven.com/a/street_lamp_01",
+      "license": "CC0",
+      "ready": "catalogue_verified_not_fit_verified"
+    }
+  ],
+  "hardware": "PHUQUOCLUX Blender/fSpy command not installed, approx 1.3-1.4GB RAM free; Blender official min 8GB RAM. No new installation.",
+  "decision": "Reuse existing 3D runtime, make single camera-matched Apollo+Gallery hero mesh, 3 still viewpoint visual gate, then optimize to portrait WebGL; no public deployment until actual visual approval."
+}
