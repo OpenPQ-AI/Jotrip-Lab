@@ -7,14 +7,14 @@
 <meta name="description" content="Sóng - Trợ lý hiểu đảo Phú Quốc. Trò chuyện bằng giọng nói hoặc chữ, dựa trên những gì đã được xác minh.">
 <title>Sóng · by OpenPQ AI - The Island, Understood.</title>
 <link rel="stylesheet" href="/song-v1.css?v=1011">
-<link rel="stylesheet" href="/song-living-water.css?v=1101">
+<link rel="stylesheet" href="/song-living-water.css?v=1102">
 </head>
 <body data-view="welcome" data-theme="dark" data-mode="text">
 <div class="song-app">
 <header class="song-header">
   <a class="song-identity" href="/song-v1" aria-label="Sóng - by OpenPQ AI, về trang chào">
     <span class="small-mark" aria-hidden="true"><img src="/song-symbol-water.png" width="260" height="200" alt=""></span>
-    <span class="identity-caption"><b>Sóng <span class="identity-by">by OpenPQ AI</span></b><small>THE ISLAND, UNDERSTOOD.</small></span>
+    <span class="identity-caption"><b>by OpenPQ AI</b><small>THE ISLAND, UNDERSTOOD.</small></span>
   </a>
   <div class="header-actions"><span class="lang-indicator" aria-label="Ngôn ngữ hiện tại: tiếng Việt">VI</span>
     <button type="button" id="settings" class="icon-btn" aria-label="Cài đặt" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
@@ -64,7 +64,11 @@
         </div>
       </div>
       <aside id="result-panel" class="result-panel" hidden aria-label="Thông tin trực quan">
-        <div class="result-top"><span id="result-kind">GÓC ĐẢO THẬT</span><button id="close-result" type="button" class="quiet-icon" aria-label="Đóng kết quả trực quan">×</button></div>
+        <div class="result-top"><span id="result-kind">GÓC ĐẢO THẬT</span>
+          <button id="result-orb" type="button" class="song-result-presence" aria-label="Quay lại hội thoại Sóng" title="Quay lại hội thoại">
+            <img src="/song-symbol-water.png" width="260" height="200" alt="">
+          </button>
+          <button id="close-result" type="button" class="quiet-icon" aria-label="Đóng kết quả trực quan">×</button></div>
         <div id="result-body"></div>
       </aside>
     </div>
@@ -101,6 +105,6 @@
   </div>
 </div>
 </div>
-<script type="module" src="/song-v1.js?v=1101"></script>
+<script type="module" src="/song-v1.js?v=1102"></script>
 </body>
 </html>
