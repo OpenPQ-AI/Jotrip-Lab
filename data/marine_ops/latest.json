@@ -8,102 +8,15 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "3WDS9",
-          "category": "fast_boat",
-          "departure_port": "CANG NAM DU KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9647265",
-          "issued_at_text": "12/10/2026 10:41",
-          "permit_number": "585.2026.ND/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG IV"
-        },
-        {
-          "call_sign": "3WYN8",
-          "category": "fast_boat",
-          "departure_port": "CANG RACH GIA KG",
-          "evidence_class": "DIRECT",
-          "imo": "9804679",
-          "issued_at_text": "12/10/2026 10:17",
-          "permit_number": "3522.2026.RG/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG IX"
-        },
-        {
-          "call_sign": "XVII2",
-          "category": "fast_boat",
-          "departure_port": "CANG RACH GIA KG",
-          "evidence_class": "DIRECT",
-          "imo": "9945801",
-          "issued_at_text": "12/10/2026 10:07",
-          "permit_number": "3521.2026.RG/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 18"
-        },
-        {
-          "call_sign": "3WML9",
-          "category": "fast_boat",
-          "departure_port": "CANG HA TIEN KG",
-          "evidence_class": "DIRECT",
-          "imo": "9784946",
-          "issued_at_text": "12/10/2026 10:07",
-          "permit_number": "5465.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG VII"
-        }
-      ],
-      "evidence_count": 4,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
       "confidence_cap": 100,
       "evidence": [
-        {
-          "call_sign": "XVZN2",
-          "category": "ferry",
-          "departure_port": "CANG RACH GIA KG",
-          "evidence_class": "DIRECT",
-          "imo": "1028396",
-          "issued_at_text": "12/10/2026 10:30",
-          "permit_number": "3523.2026.RG/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 16"
-        },
-        {
-          "call_sign": "XVAV7",
-          "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
-          "evidence_class": "DIRECT",
-          "imo": "1110606",
-          "issued_at_text": "12/10/2026 10:25",
-          "permit_number": "8641.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 18"
-        },
-        {
-          "call_sign": "XVKS3",
-          "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
-          "evidence_class": "DIRECT",
-          "imo": "9908877",
-          "issued_at_text": "12/10/2026 10:23",
-          "permit_number": "8642.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 8"
-        },
         {
           "category": "ferry",
           "evidence_class": "DIRECT",
@@ -150,14 +63,6 @@
           "source": "THANH_THOI_OPERATOR",
           "source_tier": "OPERATOR",
           "status": "Đã xuất bến",
-          "vessel_name": "Thriving 20"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
           "vessel_name": "Thriving 3"
         },
         {
@@ -185,15 +90,14 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 13,
+      "evidence_count": 9,
       "source_tiers": [
-        "OPERATOR",
-        "PERMIT_PORT"
+        "OPERATOR"
       ],
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-10-12T11:16:05.089116+07:00",
+  "collected_at_vn": "2026-10-13T01:44:46.227826+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
@@ -204,5 +108,5 @@
     "permit_or_departure_slip_is_direct": true
   },
   "schema_version": "marine-ops-1.0",
-  "source_date": "12/10/2026"
+  "source_date": "13/10/2026"
 }
