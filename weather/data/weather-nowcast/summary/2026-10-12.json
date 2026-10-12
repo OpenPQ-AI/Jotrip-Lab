@@ -2,21 +2,21 @@
   "schema_version": "weather-nowcast-daily-summary-v1",
   "date": "2026-10-12",
   "archive_mode": "DAILY_RAW_PLUS_MATERIAL_EVENTS_PLUS_DAILY_SUMMARY",
-  "sample_count": 15,
+  "sample_count": 16,
   "first_sampled_time": "2026-10-11T18:00:20Z",
-  "last_sampled_time": "2026-10-12T08:00:20Z",
+  "last_sampled_time": "2026-10-12T08:40:20Z",
   "points": {
     "duong_dong": {
-      "sample_count": 15,
-      "score_sum": 1155.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1230.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -27,20 +27,20 @@
       "max_high_cloud_top_height_m": 16559.0,
       "min_cooling_c_per_20m_proxy": -3.4,
       "max_cooling_c_per_20m_proxy": 3.7,
-      "avg_score": 77.0,
+      "avg_score": 76.9,
       "peak_level": "HIGH"
     },
     "an_thoi": {
-      "sample_count": 15,
-      "score_sum": 1170.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1250.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 100.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -51,20 +51,20 @@
       "max_high_cloud_top_height_m": 16543.0,
       "min_cooling_c_per_20m_proxy": -6.4,
       "max_cooling_c_per_20m_proxy": 2.7,
-      "avg_score": 78.0,
+      "avg_score": 78.1,
       "peak_level": "HIGH"
     },
     "ganh_dau": {
-      "sample_count": 15,
-      "score_sum": 1160.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1235.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -75,20 +75,20 @@
       "max_high_cloud_top_height_m": 16538.0,
       "min_cooling_c_per_20m_proxy": -5.1,
       "max_cooling_c_per_20m_proxy": 3.0,
-      "avg_score": 77.3,
+      "avg_score": 77.2,
       "peak_level": "HIGH"
     },
     "rach_gia": {
-      "sample_count": 15,
-      "score_sum": 1160.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1250.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 100.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -99,20 +99,20 @@
       "max_high_cloud_top_height_m": 16529.0,
       "min_cooling_c_per_20m_proxy": -14.4,
       "max_cooling_c_per_20m_proxy": 4.8,
-      "avg_score": 77.3,
+      "avg_score": 78.1,
       "peak_level": "HIGH"
     },
     "cua_can": {
-      "sample_count": 15,
-      "score_sum": 1160.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1235.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 90.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -122,45 +122,46 @@
       "min_high_cloud_top_height_m": 13687.0,
       "max_high_cloud_top_height_m": 16560.0,
       "min_cooling_c_per_20m_proxy": -3.4,
-      "max_cooling_c_per_20m_proxy": 2.1,
-      "avg_score": 77.3,
+      "max_cooling_c_per_20m_proxy": 4.5,
+      "avg_score": 77.2,
       "peak_level": "HIGH"
     },
     "bai_thom": {
-      "sample_count": 15,
-      "score_sum": 1140.0,
-      "score_count": 15,
-      "min_score": 75.0,
+      "sample_count": 16,
+      "score_sum": 1200.0,
+      "score_count": 16,
+      "min_score": 60.0,
       "max_score": 80.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
-        "ELEVATED": 0,
+        "ELEVATED": 1,
         "HIGH": 15
       },
       "levels_seen": [
+        "ELEVATED",
         "HIGH"
       ],
       "min_cold_cloud_top_temp_c": -80.3,
-      "max_cold_cloud_top_temp_c": -66.9,
-      "min_high_cloud_top_height_m": 14277.0,
+      "max_cold_cloud_top_temp_c": -59.3,
+      "min_high_cloud_top_height_m": 13413.0,
       "max_high_cloud_top_height_m": 16492.0,
       "min_cooling_c_per_20m_proxy": -2.4,
-      "max_cooling_c_per_20m_proxy": 2.9,
-      "avg_score": 76.0,
+      "max_cooling_c_per_20m_proxy": 7.1,
+      "avg_score": 75.0,
       "peak_level": "HIGH"
     },
     "ham_ninh": {
-      "sample_count": 15,
-      "score_sum": 1170.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1250.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 100.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -171,20 +172,20 @@
       "max_high_cloud_top_height_m": 16553.0,
       "min_cooling_c_per_20m_proxy": -7.1,
       "max_cooling_c_per_20m_proxy": 2.4,
-      "avg_score": 78.0,
+      "avg_score": 78.1,
       "peak_level": "HIGH"
     },
     "bai_sao": {
-      "sample_count": 15,
-      "score_sum": 1165.0,
-      "score_count": 15,
+      "sample_count": 16,
+      "score_sum": 1245.0,
+      "score_count": 16,
       "min_score": 75.0,
       "max_score": 100.0,
       "level_counts": {
         "LOW": 0,
         "WATCH": 0,
         "ELEVATED": 0,
-        "HIGH": 15
+        "HIGH": 16
       },
       "levels_seen": [
         "HIGH"
@@ -195,10 +196,10 @@
       "max_high_cloud_top_height_m": 16544.0,
       "min_cooling_c_per_20m_proxy": -6.3,
       "max_cooling_c_per_20m_proxy": 2.6,
-      "avg_score": 77.7,
+      "avg_score": 77.8,
       "peak_level": "HIGH"
     }
   },
-  "last_generated_at": "2026-10-12T08:26:11.433113+00:00",
-  "material_event_count": 55
+  "last_generated_at": "2026-10-12T09:08:21.746561+00:00",
+  "material_event_count": 62
 }
