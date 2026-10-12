@@ -1,6 +1,6 @@
 {
   "schema_version": "weather-source-skill-v1",
-  "generated_at": "2026-10-12T01:22:55.467193+00:00",
+  "generated_at": "2026-10-12T01:55:59.021527+00:00",
   "policy": {
     "actual_only": true,
     "early_weight_adjustment_only": true,
@@ -10,31 +10,31 @@
     "note": "Rain gauges are not scored against distant gauges; local rain variability is real. VRain early factors reflect QC/freshness only until forecast verification matures."
   },
   "vvpq": {
-    "unique_actual_samples": 853,
+    "unique_actual_samples": 854,
     "wind": {
       "deterministic_background": {
-        "sample_count": 852,
-        "mae": 4.921,
+        "sample_count": 853,
+        "mae": 4.923,
         "rmse": 6.208,
-        "mean_error": 1.094,
-        "median_error": 1.73
+        "mean_error": 1.086,
+        "median_error": 1.7
       },
       "ensemble_q50": {
-        "sample_count": 832,
-        "mae": 6.742,
-        "rmse": 8.428,
-        "mean_error": 0.979,
+        "sample_count": 833,
+        "mae": 6.739,
+        "rmse": 8.425,
+        "mean_error": 0.972,
         "median_error": 1.848
       },
-      "ensemble_gain_multiplier": 0.9639,
+      "ensemble_gain_multiplier": 0.964,
       "status": "PROVISIONAL"
     },
     "temperature": {
       "deterministic_background": {
-        "sample_count": 853,
-        "mae": 1.488,
-        "rmse": 1.842,
-        "mean_error": 1.272,
+        "sample_count": 854,
+        "mae": 1.492,
+        "rmse": 1.847,
+        "mean_error": 1.276,
         "median_error": 1.3
       }
     }
