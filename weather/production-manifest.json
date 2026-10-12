@@ -16,7 +16,7 @@
     "rach_gia"
   ],
   "contract_version": "weather-production-contract-1.0",
-  "generated_at": "2026-10-12T01:54:31.808789+00:00",
+  "generated_at": "2026-10-12T08:21:27.879017+00:00",
   "point_authority": {
     "an_thoi": {
       "lat": 10.0191,
@@ -68,31 +68,31 @@
     }
   },
   "production_reference": "weather.openphuquoc.com",
-  "report_cycle": "0600",
+  "report_cycle": "1800",
   "required_production_points": [
     "duong_dong",
     "an_thoi",
     "ganh_dau"
   ],
   "snapshot": {
-    "archive_path": "weather/snapshots/2026/10/12/085428/LAB_SNAPSHOT_V1.json",
-    "archive_url": "/weather/snapshots/2026/10/12/085428/LAB_SNAPSHOT_V1.json",
-    "cutoff_time": "2026-10-12T08:54:28.421085+07:00",
+    "archive_path": "weather/snapshots/2026/10/12/152124/LAB_SNAPSHOT_V1.json",
+    "archive_url": "/weather/snapshots/2026/10/12/152124/LAB_SNAPSHOT_V1.json",
+    "cutoff_time": "2026-10-12T15:21:24.970442+07:00",
     "data_mode": "B",
     "formula_bundle_version": "weather-lab-0.2.0",
-    "generated_at": "2026-10-12T01:54:31.587135+00:00",
-    "git_commit_sha": "5953b0ca79ae8a5397bc1be69e1a43c0ad603457",
+    "generated_at": "2026-10-12T08:21:27.746686+00:00",
+    "git_commit_sha": "13b5e711ac917074f0ddff995b4b5655733653ac",
     "latest_path": "weather/snapshots/latest.json",
     "latest_url": "/weather/snapshots/latest.json",
-    "payload_hash": "98dba056fc5eb3c6bb1cd8327cdc616fb60dea24acf8ba8b9df8761ce72e2ee8",
+    "payload_hash": "6b537353baf4d78ec27257d821353d974e0e241095e4c2543abf132ae11c0a97",
     "schema_version": "1.0",
-    "snapshot_id": "PQWX_CANONICAL_20261012_085428+0700_V1"
+    "snapshot_id": "PQWX_CANONICAL_20261012_152124+0700_V1"
   },
   "source_cycles": {
-    "ECMWF": "2026-10-11T18:00:00+00:00",
-    "ECMWF_MEDIUM": "2026-10-11T12:00:00+00:00",
-    "GEFS": "2026-10-11T18:00:00+00:00",
-    "ICON": "2026-10-11T18:00:00+00:00"
+    "ECMWF": "2026-10-12T00:00:00+00:00",
+    "ECMWF_MEDIUM": "2026-10-12T00:00:00+00:00",
+    "GEFS": "2026-10-12T00:00:00+00:00",
+    "ICON": "2026-10-12T00:00:00+00:00"
   },
   "verified_points": [
     "an_thoi",
