@@ -1,6 +1,6 @@
 {
   "schema_version": "weather-raw-synop-v3",
-  "generated_at": "2026-10-12T00:25:33.185801+00:00",
+  "generated_at": "2026-10-12T01:22:43.742658+00:00",
   "source_namespace": "WMO_INDEX",
   "identifier": "48917",
   "station_name": "PHU QUOC",
@@ -64,11 +64,11 @@
   "source": "OGIMET_GETSYNOP",
   "data_class": "ACTUAL",
   "observation_class": "RAW_OBS",
-  "begin": "2026-10-10T00:25:14.908303+00:00",
-  "end": "2026-10-12T00:25:14.908303+00:00",
-  "provenance_url": "https://www.ogimet.com/cgi-bin/getsynop?block=48917&begin=202610100025&end=202610120025&lang=eng&header=yes",
-  "raw_response_hash": "f92026a254c8baae6082b7ca9323df49dcbf1a78a4c204f6626b8728a851115b",
-  "count": 11,
+  "begin": "2026-10-10T01:22:17.016618+00:00",
+  "end": "2026-10-12T01:22:17.016618+00:00",
+  "provenance_url": "http://www.ogimet.com/cgi-bin/getsynop?block=48917&begin=202610100122&end=202610120122&lang=eng&header=yes",
+  "raw_response_hash": "e09804c2c2bb58e289fe987a620def3598f1acb3da523efab08c76a5ebfe576a",
+  "count": 12,
   "observations": [
     {
       "source_namespace": "WMO_INDEX",
@@ -646,6 +646,80 @@
         "marine": {
           "sea_surface_temperature": null,
           "wind_wave": null
+        }
+      },
+      "qc": "PASS_RAW_WITH_TESTED_SUBSET_DECODE"
+    },
+    {
+      "source_namespace": "WMO_INDEX",
+      "identifier": "48917",
+      "station_name": "PHU QUOC",
+      "reference_lat": 10.22,
+      "reference_lon": 103.97,
+      "coordinate_precision": "STATION_METADATA_APPROX_0_01_DEG",
+      "location_context": "DUONG_DONG_AREA",
+      "station_epoch": "CURRENT_2026_METADATA_DUONG_DONG",
+      "physical_identity": "PHU_QUOC_MARINE_SYNOPTIC_OBSERVATION_PROGRAM",
+      "identity_status": "INDEPENDENT_FROM_CURRENT_VVPQ",
+      "identity_confidence": "HIGH",
+      "identity_resolution_id": "WMO_INDEX:48917:CURRENT_2026_DUONG_DONG:v1",
+      "identity_policy": "Independent from current ICAO:VVPQ for operational evidence. Never merge with ICAO:VVPQ, KTT_BOOK_STATION_CODE:48917 or KTTV_AUTO:60018 solely by identifier/cross-id.",
+      "relocation_status": "NO_VERIFIED_POST_2012_RELOCATION_FOUND",
+      "source": "OGIMET_GETSYNOP",
+      "source_channel": "SYNOP_AAXX_RAW",
+      "data_class": "ACTUAL",
+      "observation_class": "RAW_OBS",
+      "observed_at": "2026-10-12T00:00:00+00:00",
+      "raw_observation": "AAXX 12001 48917 11598 60902 10261 20240 30110 40116 53018 60082 72598 82208 222// 00280 2//00 333 01026 20248 3/025 58010 82895 86299=",
+      "raw_payload_hash": "735563bceef4da82c4ec973829133cd118fb53d4b506d9f3eb0c4165441285d5",
+      "decoded_actual": {
+        "wind": {
+          "direction_deg": 90,
+          "direction_class": "DIRECTIONAL",
+          "speed_ms": 2.0,
+          "speed_kmh": 7.2,
+          "measurement_origin": "ANEMOMETER",
+          "iw": 1,
+          "raw_group": "60902"
+        },
+        "air_temperature_c": 26.1,
+        "dewpoint_c": 24.0,
+        "station_pressure_hpa": 1011.0,
+        "sea_level_pressure_hpa": 1011.6,
+        "precipitation": [
+          {
+            "section": 1,
+            "accumulation_mm": 8.0,
+            "window_hours": 12,
+            "tR": 2,
+            "trace": false,
+            "raw_group": "60082",
+            "statistic": "ACCUMULATION",
+            "data_class": "ACTUAL"
+          }
+        ],
+        "marine": {
+          "sea_surface_temperature": {
+            "temperature_c": 28.0,
+            "ss": 0,
+            "raw_group": "00280",
+            "data_class": "ACTUAL",
+            "observation_type": "SYNOP_SECTION2_SST"
+          },
+          "wind_wave": {
+            "period_s": null,
+            "period_code": "//",
+            "height_code": 0,
+            "height_nominal_m": 0.0,
+            "height_bin_m": [
+              0.0,
+              0.25
+            ],
+            "raw_group": "2//00",
+            "data_class": "ACTUAL",
+            "observation_type": "VISUAL_WIND_WAVE_CODE",
+            "instrument_hs": false
+          }
         }
       },
       "qc": "PASS_RAW_WITH_TESTED_SUBSET_DECODE"
