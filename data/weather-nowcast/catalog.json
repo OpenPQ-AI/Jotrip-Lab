@@ -4,10 +4,10 @@
   "dates": [
     {
       "date": "2026-10-12",
-      "sample_count": 17,
-      "material_event_count": 66,
+      "sample_count": 18,
+      "material_event_count": 72,
       "first_sampled_time": "2026-10-11T18:00:20Z",
-      "last_sampled_time": "2026-10-12T09:00:20Z",
+      "last_sampled_time": "2026-10-12T09:20:20Z",
       "raw": "raw/2026-10-12.json",
       "events": "history/2026-10-12/events.jsonl",
       "summary": "summary/2026-10-12.json",
@@ -27,7 +27,7 @@
         "ganh_dau": 90.0,
         "rach_gia": 100.0,
         "cua_can": 90.0,
-        "bai_thom": 80.0,
+        "bai_thom": 90.0,
         "ham_ninh": 100.0,
         "bai_sao": 100.0
       }
@@ -798,5 +798,5 @@
     }
   ],
   "latest_date": "2026-10-12",
-  "updated_at": "2026-10-12T09:25:42.407930+00:00"
+  "updated_at": "2026-10-12T09:46:58.768778+00:00"
 }
