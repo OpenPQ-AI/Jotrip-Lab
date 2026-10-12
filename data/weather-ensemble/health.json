@@ -1,9 +1,9 @@
 {
   "module": "JoTrip GEFS Local Ensemble",
-  "state": "PARTIAL_ENSEMBLE",
-  "run_time": "2026-10-11T12:00:00+00:00",
-  "generated_at": "2026-10-11T22:58:29.376162+00:00",
-  "completion_ratio": 0.3629,
+  "state": "MEMBER_MATRIX_READY",
+  "run_time": "2026-10-11T18:00:00+00:00",
+  "generated_at": "2026-10-12T00:00:26.978254+00:00",
+  "completion_ratio": 1.0,
   "horizon_hours": 240,
   "calibration_status": "READY",
   "spatial_status": "READY",
