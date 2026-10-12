@@ -1,11 +1,11 @@
 {
   "schema_version": "weather-model-cache-v1",
-  "generated_at": "2026-10-11T22:49:04.170247+00:00",
+  "generated_at": "2026-10-12T01:54:33.842145+00:00",
   "sources": {
     "ECMWF": {
-      "run_time": "2026-10-11T12:00:00+00:00",
+      "run_time": "2026-10-11T18:00:00+00:00",
       "medium_run_time": "2026-10-11T12:00:00+00:00",
-      "checked_at": "2026-10-11T22:48:17.653481+00:00",
+      "checked_at": "2026-10-12T01:53:47.252429+00:00",
       "status": "POINT_ROUTE_EXTRACTED"
     },
     "GEFS": {
@@ -19,7 +19,7 @@
       "status": "POINT_NUMERIC_READY"
     },
     "COPERNICUS": {
-      "target_time": "2026-10-11T22:30:13.438350+00:00",
+      "target_time": "2026-10-12T01:38:11.906798+00:00",
       "wave_dataset": "cmems_mod_glo_wav_anfc_0.083deg_PT3H-i",
       "current_dataset": "cmems_mod_glo_phy-cur_anfc_0.083deg_PT6H-i",
       "status": "POINT_NUMERIC_READY"
