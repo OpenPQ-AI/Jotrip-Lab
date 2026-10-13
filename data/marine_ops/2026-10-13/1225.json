@@ -1,0 +1,164 @@
+{
+  "categories": {
+    "cano": {
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "FIELD_REQUIRED"
+    },
+    "fast_boat": {
+      "confidence_cap": 100,
+      "evidence": [
+        {
+          "call_sign": "3WPL7",
+          "category": "fast_boat",
+          "departure_port": "CANG HA TIEN KG",
+          "evidence_class": "DIRECT",
+          "imo": "9858632",
+          "issued_at_text": "13/10/2026 11:55",
+          "permit_number": "5484.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "PHU QUOC EXPRESS 9"
+        },
+        {
+          "call_sign": "3WDS9",
+          "category": "fast_boat",
+          "departure_port": "CANG NAM DU KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9647265",
+          "issued_at_text": "13/10/2026 10:45",
+          "permit_number": "586.2026.ND/KGG",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "SUPERDONG IV"
+        }
+      ],
+      "evidence_count": 2,
+      "source_tiers": [
+        "PERMIT_PORT"
+      ],
+      "state": "DIRECT_CONFIRMED"
+    },
+    "ferry": {
+      "confidence_cap": 100,
+      "evidence": [
+        {
+          "call_sign": "XVCN4",
+          "category": "ferry",
+          "departure_port": "CANG THACH THOI KG",
+          "evidence_class": "DIRECT",
+          "imo": "XVCN4",
+          "issued_at_text": "13/10/2026 11:54",
+          "permit_number": "5483.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 17"
+        },
+        {
+          "call_sign": "XVKS3",
+          "category": "ferry",
+          "departure_port": "CANG QUOC CHANH KG",
+          "evidence_class": "DIRECT",
+          "imo": "9908877",
+          "issued_at_text": "13/10/2026 10:47",
+          "permit_number": "8670.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 8"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "THRIVING 18"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "THRIVING 20"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 16"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 17"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 18"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 3"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 4"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 7"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
+          "vessel_name": "Thriving 8"
+        }
+      ],
+      "evidence_count": 11,
+      "source_tiers": [
+        "OPERATOR",
+        "PERMIT_PORT"
+      ],
+      "state": "DIRECT_CONFIRMED"
+    }
+  },
+  "collected_at_vn": "2026-10-13T12:25:02.267412+07:00",
+  "errors": [],
+  "market_condition_not_data_system_condition": true,
+  "rules": {
+    "cano_independent": true,
+    "no_cross_category_inference": true,
+    "one_normal_fast_boat_can_confirm_category_absent_specific_exception": true,
+    "one_normal_ferry_can_confirm_category_absent_specific_exception": true,
+    "permit_or_departure_slip_is_direct": true
+  },
+  "schema_version": "marine-ops-1.0",
+  "source_date": "13/10/2026"
+}
