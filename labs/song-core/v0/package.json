@@ -1,0 +1,11 @@
+{
+  "name": "@openpq/song-core-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/brain.mjs && node --check src/core.mjs && node --check src/providers.mjs && node --check src/signals.mjs && node --check src/backup.mjs && node --check src/sessions.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
