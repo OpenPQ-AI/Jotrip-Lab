@@ -7,7 +7,8 @@ export function planQuestion(question) {
   const cano=/cano|ca no|xuong may/.test(q);
   const ferry=/tau cao toc|pha bien|tau khach|ferry/.test(q);
   if((cano||ferry)&&status) {
-    if(/ngay mai|mai (nay|sang|chieu|toi)|tuan sau|thang sau|hom sau/.test(q))
+    if(cano && ferry)return {intent:'MULTI_MODAL_OPERATION',needsCurrentSource:true,query:null,reason:'TRANSPORT_MODE_AMBIGUOUS'};
+    if(/\bmai\b|tuan sau|thang sau|hom sau/.test(q))
       return {intent:'FUTURE_OPERATIONAL_STATUS',needsCurrentSource:false,query:null,reason:'FUTURE_OPERATION_NOT_VERIFIED'};
     // Bare An Thoi is an area, NOT proof of the status of all canoes departing there.
     // Only a precisely named route may match a current signed operator receipt.

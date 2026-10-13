@@ -18,6 +18,8 @@ The intellectual asset is **(a) source-verified island knowledge + provenance an
 | Sóng Brain | Append-only canonical claim records, source authorizations, event precedence, correction history, retrieval indexes | Changing source truth without evidence; bundling customer PII into public Git |
 | AI vendor adapter | Inference/ASR/TTS per explicit task and data policy | Canonical memory, source authority, exclusive document format, billing/control plane |
 
+**IMPORTANT:** The current `OpenPQ-AI/Jotrip-Lab` repository is PUBLIC. It may contain these synthetic contract/test artifacts but MUST NOT become storage for proprietary demand datasets, private publisher credentials, or real customer conversation logs. G2 must select an owner-controlled private canonical code/data repository before any real dataset integration.
+
 **PHUQUOCLUX** = authorized temporary remote/transfer console only. **Git** = canonical source with pinned full SHA. **Approved VPS** = isolated build/tests/runtime/data. **Independent encrypted offsite backup** = separate failure domain. No parallel heavyweight research on Windows. No new workflow touching OpenPQ Core V1.2, CMS, Identity, production, or Cloudflare quotas.
 
 ## 2. Logical data path
@@ -41,7 +43,7 @@ Client -> Sóng API gateway (auth/token, consent, rate limits, session)
 
 **EvidenceEvent** (see `src/verified-evidence.mjs`): `schema, id, entityId, domain, predicate, value, scope:{type,id}, observedAt, validUntil, status, source:{publisherId,datasetId,uri}, signature`. A publisher key is registered privately with explicitly authorized domain/predicate/scope and maximum freshness/validity. `VERIFIED` inside a record is not its own authorization; the signature, registry and publication receipt must agree. Current POC uses Node Ed25519 and a local registry. Real publishers, registry rotation, replay prevention, canonicalization across languages and downstream receipt verification are OPEN engineering gates.
 
-**QueryPlan**: normalized query with intent, domain/predicate, explicit entity and route/station/area, requested effective time, planning vs fact classification, unknown ambiguity. A user cannot submit a trusted QueryPlan directly; the server validates every field against capabilities. A weather station observation cannot become an island-wide rain fact or a cano operational authorization. The current lexical prototype abstains on most queries; it is not semantic NLP.
+**QueryPlan**: normalized query with intent, domain/predicate, explicit entity and route/station/area, requested effective time, planning vs fact classification, unknown ambiguity. A user cannot submit a trusted QueryPlan directly; the server validates every field against capabilities. A weather station observation cannot become an island-wide rain fact or a cano operational authorization. The current lexical prototype abstains on most queries; it is not semantic NLP. Ambiguous canoe-vs-ferry queries and future time requests fail closed rather than borrowing one mode's operational evidence.
 
 **VerifiedAnswer / DecisionProof**: typed status (`SOURCE_BACKED_SCOPE_ONLY`, `UNKNOWN`, `STALE`, `CONFLICT`, `NOT_VERIFIED`, `MODEL_UNAVAILABLE`, `SOURCE_UNAVAILABLE`), claims and fingerprints, decision rationale, source age and scope, model+prompt+gate revisions. Raw model candidate is segregated for narrowly authorized synthetic QA; never assert independent factual PASS for automatically policy-filtered replies. Final text must avoid implying that one route-level operational record proves all-island or trip safety.
 

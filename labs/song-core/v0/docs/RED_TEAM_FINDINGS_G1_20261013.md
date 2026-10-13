@@ -18,6 +18,8 @@ Date 2026-10-13. Reviewer: current ChatGPT session reviewing PR #44 source and i
 | RT-12 | Provider switch can change factual quality and tool contracts even with adapter compatibility | P1 | Model is separated from knowledge and authority; no quality claim | Two real adapters on VPS and same evidence benchmark |
 | RT-13 | Public repository leaked private user data, private signing keys or cloud credentials | P0 | Synthetic fixture generated keys only; no guest logs/real signing keys committed | Code/security scan, private evidence data store and secret-scoped deployment |
 | RT-14 | Source signature over custom JS canonical JSON may not reproduce cross-platform | P1 | Versioned signature contract documented as V0.1 Node test only | Use audited standard JCS/RFC8785 or sign byte-exact publication envelope |
+| RT-15 | Multi-modal question about canoe AND ferry was resolved as canoe; “chiều mai” bypassed future gate | P0 | Reject mixed transport mode and any bounded future marker; two additional adversarial tests | Semantic intent/context planner with broad natural Vietnamese validation |
+| RT-16 | Research code sits in public Jotrip-Lab while future Brain assets should be private | P1 | Only synthetic keys, source and fixtures are committed, never customer content | Approve canonical private owner repo + private VPS database before operational implementation |
 
 ## Verdict
 
