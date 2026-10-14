@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-15T02:31:53+07:00",
+  "collected_at_vn": "2026-10-15T05:32:53+07:00",
   "source_date": "2026-10-15",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 02:31",
+  "page_last_updated": "Official API fetched 05:32",
   "counts": {
     "arrivals": 65,
     "departures": 64,
@@ -3352,7 +3352,7 @@
       "status": "LÀM THỦ TỤC LÚC",
       "status_code": "CHECKIN_SCHEDULED",
       "raw_status": "LÀM THỦ TỤC LÚC 09:10",
-      "source_synced_at": "2026-10-14 17:09:12",
+      "source_synced_at": "2026-10-14 22:32:03",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "12:10"
@@ -3533,11 +3533,11 @@
       "belt": null,
       "parking_bay": "12",
       "terminal": null,
-      "checkin_row": "19-21",
+      "checkin_row": "20-21",
       "status": "LÀM THỦ TỤC LÚC",
       "status_code": "CHECKIN_SCHEDULED",
       "raw_status": "LÀM THỦ TỤC LÚC 10:00",
-      "source_synced_at": "2026-10-14 17:09:12",
+      "source_synced_at": "2026-10-14 22:31:16",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "13:00"
