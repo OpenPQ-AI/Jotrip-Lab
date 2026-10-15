@@ -3,7 +3,7 @@
   "commit_succeeded": true,
   "direct_market_coverage": 0.1667,
   "direct_source_count": 2,
-  "last_successful_run": "2026-10-14T22:04:19.755473+07:00",
+  "last_successful_run": "2026-10-15T07:28:05.680687+07:00",
   "market_coverage": 0.3333,
   "module": "Forward Airlift",
   "normalization_passed": true,
