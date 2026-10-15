@@ -1,7 +1,7 @@
 {
   "direct_evidence_coverage_percent": 60.0,
   "failed_sources": [],
-  "generated_at_vn": "2026-10-15T20:50:49.186319+07:00",
+  "generated_at_vn": "2026-10-16T06:30:07.367123+07:00",
   "language_policy": "Ưu tiên tiếng Việt; chỉ giữ mã kỹ thuật, tên riêng, URL và trích dẫn nguyên văn khi cần.",
   "market_condition_not_data_system_condition": true,
   "missing_core_modules": [
@@ -14,14 +14,14 @@
       "automation_state": "FALLBACK_LIVE",
       "direct_evidence": false,
       "fixed_basket_ready": false,
-      "observed_at": "2026-10-15T07:33:23.746679+07:00",
+      "observed_at": "2026-10-15T22:07:00.742982+07:00",
       "qa_passed": true,
       "source_coverage": 0.75,
       "state": "FALLBACK_READY"
     },
     "aviation": {
       "direct_evidence": true,
-      "observed_at": "2026-10-15T17:02:33+07:00",
+      "observed_at": "2026-10-16T04:47:49+07:00",
       "qa_passed": true,
       "state": "OK"
     },
@@ -31,7 +31,7 @@
       "direct_market_coverage": 0.1667,
       "forward_airlift_signal_eligible": false,
       "market_coverage": 0.3333,
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "qa_passed": true,
       "state": "PARTIAL_READY"
     },
@@ -49,7 +49,7 @@
     },
     "marine_ops": {
       "direct_evidence": true,
-      "observed_at": "2026-10-15T10:08:45.272959+07:00",
+      "observed_at": "2026-10-16T06:29:17.453945+07:00",
       "qa_passed": true,
       "state": "OK"
     },
@@ -71,7 +71,7 @@
   "pipeline_health_score": null,
   "run_status": "DEGRADED",
   "schema_version": "tourism-readiness-1.1",
-  "source_freshness_score": 11.0,
+  "source_freshness_score": 49.9,
   "sources": [
     {
       "critical_data_gaps": [],
@@ -80,7 +80,7 @@
       "direct_ingest_pass_count": 5,
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 4649.4,
+        "age_minutes": 5228.7,
         "score": 0.0,
         "state": "STALE",
         "ttl_minutes": 90
@@ -95,15 +95,15 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 228.3,
-        "score": 0.0005,
+        "age_minutes": 102.3,
+        "score": 0.033,
         "state": "STALE",
         "ttl_minutes": 30
       },
       "module": "aviation",
-      "observed_at": "2026-10-15T17:02:33+07:00",
+      "observed_at": "2026-10-16T04:47:49+07:00",
       "paid": false,
-      "source_date": "2026-10-15",
+      "source_date": "2026-10-16",
       "source_id": "SUN_AIRPORT_D0",
       "state": "REPORT_READY"
     },
@@ -111,13 +111,13 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 642.1,
-        "score": 0.0,
-        "state": "STALE",
+        "age_minutes": 0.8,
+        "score": 0.9862,
+        "state": "FRESH",
         "ttl_minutes": 60
       },
       "module": "marine_ops",
-      "observed_at": "2026-10-15T10:08:45.272959+07:00",
+      "observed_at": "2026-10-16T06:29:17.453945+07:00",
       "paid": false,
       "source_id": "MARINE_PERMIT_KGG",
       "state": "OK"
@@ -126,13 +126,13 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 642.1,
-        "score": 0.0,
-        "state": "STALE",
+        "age_minutes": 0.8,
+        "score": 0.9862,
+        "state": "FRESH",
         "ttl_minutes": 60
       },
       "module": "marine_ops",
-      "observed_at": "2026-10-15T10:08:45.272959+07:00",
+      "observed_at": "2026-10-16T06:29:17.453945+07:00",
       "paid": false,
       "source_id": "THANH_THOI_OPERATOR",
       "state": "OK"
@@ -143,13 +143,13 @@
       "evidence_class": "PROXY",
       "fixed_basket_compatible": false,
       "freshness": {
-        "age_minutes": 797.4,
-        "score": 0.3304,
-        "state": "STALE",
+        "age_minutes": 503.1,
+        "score": 0.4972,
+        "state": "FRESH",
         "ttl_minutes": 720
       },
       "module": "airfare",
-      "observed_at": "2026-10-15T07:33:23.746679+07:00",
+      "observed_at": "2026-10-15T22:07:00.742982+07:00",
       "paid": false,
       "source_coverage": 0.75,
       "source_id": "AIRFARE_PUBLIC_FALLBACK",
@@ -160,14 +160,14 @@
       "direct_market_coverage": 0.1667,
       "evidence_class": "PROXY",
       "freshness": {
-        "age_minutes": 802.7,
-        "score": 0.3279,
-        "state": "STALE",
+        "age_minutes": 512.3,
+        "score": 0.4909,
+        "state": "FRESH",
         "ttl_minutes": 720
       },
       "market_coverage": 0.3333,
       "module": "forward_airlift",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "paid": false,
       "score_gate_passed": false,
       "source_id": "FORWARD_AIRLIFT_EVIDENCE",
@@ -176,11 +176,7 @@
   ],
   "stale_sources": [
     "WEATHER_LAB_CANONICAL",
-    "SUN_AIRPORT_D0",
-    "MARINE_PERMIT_KGG",
-    "THANH_THOI_OPERATOR",
-    "AIRFARE_PUBLIC_FALLBACK",
-    "FORWARD_AIRLIFT_EVIDENCE"
+    "SUN_AIRPORT_D0"
   ],
   "unresolved_conflicts": []
 }
