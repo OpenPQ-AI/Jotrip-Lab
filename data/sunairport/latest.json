@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-16T04:47:49+07:00",
+  "collected_at_vn": "2026-10-16T06:54:36+07:00",
   "source_date": "2026-10-16",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 04:47",
+  "page_last_updated": "Official API fetched 06:54",
   "counts": {
     "arrivals": 66,
     "departures": 67,
@@ -76,8 +76,9 @@
       "HỦY": 1
     },
     "departures_by_status": {
-      "LÀM THỦ TỤC LÚC": 60,
-      "ĐÃ CẤT CÁNH": 7
+      "LÀM THỦ TỤC LÚC": 59,
+      "ĐÃ CẤT CÁNH": 7,
+      "ĐANG LÀM THỦ TỤC": 1
     },
     "arrivals_by_time_bank": {
       "09:00-11:59": 18,
@@ -2837,7 +2838,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "06:45",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "4",
@@ -2845,15 +2846,15 @@
       "parking_bay": "8",
       "terminal": null,
       "checkin_row": "03-04",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 06:45",
-      "source_synced_at": "2026-10-15 06:40:55",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-10-15 23:45:27",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:45"
       ],
-      "context": "9G1954 • SUN PHUQUOC AIRWAYS | HO CHI MINH | 08:45 | LÀM THỦ TỤC LÚC 06:45"
+      "context": "9G1954 • SUN PHUQUOC AIRWAYS | HO CHI MINH | 08:45 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 1993888,
