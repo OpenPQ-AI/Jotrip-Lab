@@ -7,7 +7,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "SGN-PQC",
       "service_type": "scheduled",
@@ -22,7 +22,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "HAN-PQC",
       "service_type": "scheduled",
@@ -37,7 +37,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "KUL-PQC",
       "service_type": "scheduled",
@@ -52,22 +52,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
-      "passenger_demand_inference_allowed": false,
-      "route": "BKK-PQC",
-      "service_type": "scheduled",
-      "signal": "FORWARD_BOOKABLE_OR_PUBLISHED",
-      "source": "https://www.airasia.com/flights/from-bangkok-bkk-to-phu-quoc-pqc/",
-      "source_id": "AIRASIA_MOVE_BKK_PQC_BOOKABLE",
-      "start_date": null
-    },
-    {
-      "airline": "marketplace",
-      "end_date": null,
-      "evidence_class": "PROXY",
-      "frequency_weekly": null,
-      "market": "SEA",
-      "observed_at": "2026-10-15T07:28:05.680687+07:00",
+      "observed_at": "2026-10-15T21:57:52.246945+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "SIN-PQC",
       "service_type": "scheduled",
@@ -83,9 +68,8 @@
   "markets": {
     "SEA": {
       "direct_records": 0,
-      "route_count": 3,
+      "route_count": 2,
       "routes": [
-        "BKK-PQC",
         "KUL-PQC",
         "SIN-PQC"
       ],
@@ -101,7 +85,7 @@
       "weekly_frequency": 0.0
     }
   },
-  "observed_at_vn": "2026-10-15T07:28:05.680687+07:00",
+  "observed_at_vn": "2026-10-15T21:57:52.246945+07:00",
   "schema_version": "forward-airlift-evidence-1.1",
   "score_gate": {
     "minimum_direct_market_coverage": 0.5,
@@ -119,7 +103,7 @@
       "route": "SGN-PQC",
       "source_id": "VNA_SGN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 10842,
+      "text_length": 10836,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-ho-chi-minh-city-to-phu-quoc"
     },
     {
@@ -132,7 +116,7 @@
       "route": "HAN-PQC",
       "source_id": "VNA_HAN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 8913,
+      "text_length": 8916,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-hanoi-to-phu-quoc"
     },
     {
@@ -154,20 +138,20 @@
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 12147,
+      "text_length": 12169,
       "url": "https://www.airasia.com/flights/from-kuala-lumpur-kul-to-phu-quoc-pqc/"
     },
     {
       "evidence_class": "PROXY",
       "final_url": "https://www.airasia.com/flights/from-bangkok-bkk-to-phu-quoc-pqc/",
-      "future_markers_passed": true,
+      "future_markers_passed": false,
       "http_status": 200,
       "market": "SEA",
       "required_markers_passed": true,
       "route": "BKK-PQC",
       "source_id": "AIRASIA_MOVE_BKK_PQC_BOOKABLE",
-      "state": "VERIFIED",
-      "text_length": 8753,
+      "state": "UNVERIFIED",
+      "text_length": 7122,
       "url": "https://www.airasia.com/flights/from-bangkok-bkk-to-phu-quoc-pqc/"
     },
     {
@@ -180,7 +164,7 @@
       "route": "SIN-PQC",
       "source_id": "AIRASIA_MOVE_SIN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 8295,
+      "text_length": 8796,
       "url": "https://www.airasia.com/flights/from-singapore-sin-to-phu-quoc-pqc/"
     },
     {
@@ -193,16 +177,20 @@
       "route": "HKG-PQC",
       "source_id": "AIRASIA_MOVE_HKG_PQC_BOOKABLE",
       "state": "UNVERIFIED",
-      "text_length": 6868,
+      "text_length": 6963,
       "url": "https://www.airasia.com/flights/from-hong-kong-hkg-to-phu-quoc-pqc/"
     },
     {
-      "error": "ReadTimeout: HTTPSConnectionPool(host='agency.pegast.ru', port=443): Read timed out. (read timeout=25)",
       "evidence_class": "DIRECT",
+      "final_url": "https://agency.pegast.ru/News/phu-quoc-2026-2027",
+      "future_markers_passed": false,
+      "http_status": 200,
       "market": "Russia_CIS",
+      "required_markers_passed": true,
       "route": "MULTI-RU-PQC",
       "source_id": "PEGAS_PHU_QUOC_WINTER_2026_27",
-      "state": "FETCH_FAILED",
+      "state": "UNVERIFIED",
+      "text_length": 341,
       "url": "https://agency.pegast.ru/News/phu-quoc-2026-2027"
     }
   ],
