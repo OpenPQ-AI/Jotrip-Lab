@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-18T03:13:13+07:00",
+  "collected_at_vn": "2026-10-18T05:19:11+07:00",
   "source_date": "2026-10-18",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 03:13",
+  "page_last_updated": "Official API fetched 05:19",
   "counts": {
     "arrivals": 69,
     "departures": 69,
@@ -2814,7 +2814,7 @@
       "status": "ĐÃ CẤT CÁNH",
       "status_code": "DEPARTED",
       "raw_status": "ĐÃ CẤT CÁNH",
-      "source_synced_at": "2026-10-17 18:37:53",
+      "source_synced_at": "2026-10-17 20:23:14",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:05"
@@ -2888,7 +2888,7 @@
       "status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
       "status_code": "SOURCE_OTHER",
       "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
-      "source_synced_at": "2026-10-17 20:08:26",
+      "source_synced_at": "2026-10-17 20:45:52",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "03:45"
