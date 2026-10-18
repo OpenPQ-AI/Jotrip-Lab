@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-19T01:40:08+07:00",
+  "collected_at_vn": "2026-10-19T04:01:58+07:00",
   "source_date": "2026-10-19",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 01:40",
+  "page_last_updated": "Official API fetched 04:01",
   "counts": {
     "arrivals": 65,
     "departures": 66,
@@ -2673,10 +2673,10 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "01:05",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "01:32",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 27,
       "checkin_time": null,
       "boarding_start": "00:25",
       "boarding_finish": "00:37",
@@ -2688,7 +2688,7 @@
       "status": "ĐÃ CẤT CÁNH",
       "status_code": "DEPARTED",
       "raw_status": "ĐÃ CẤT CÁNH",
-      "source_synced_at": "2026-10-18 18:23:24",
+      "source_synced_at": "2026-10-18 18:46:02",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:05"
@@ -2710,10 +2710,10 @@
       "aircraft": "Boeing B737-700",
       "scheduled_time": "00:25",
       "estimated_time": "01:10",
-      "actual_time": null,
+      "actual_time": "01:36",
       "delay_minutes": 45,
       "estimated_delay_minutes": 45,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 71,
       "checkin_time": null,
       "boarding_start": "00:38",
       "boarding_finish": "00:48",
@@ -2725,7 +2725,7 @@
       "status": "ĐÃ CẤT CÁNH",
       "status_code": "DEPARTED",
       "raw_status": "ĐÃ CẤT CÁNH",
-      "source_synced_at": "2026-10-18 18:21:04",
+      "source_synced_at": "2026-10-18 18:46:02",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "00:25",
