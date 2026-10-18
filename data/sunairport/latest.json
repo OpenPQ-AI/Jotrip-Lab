@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-19T04:01:58+07:00",
+  "collected_at_vn": "2026-10-19T05:58:45+07:00",
   "source_date": "2026-10-19",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 04:01",
+  "page_last_updated": "Official API fetched 05:58",
   "counts": {
     "arrivals": 65,
     "departures": 66,
