@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0-daily-raw",
   "date": "2026-10-22",
-  "collected_at_vn": "2026-10-22T02:20:48+07:00",
+  "collected_at_vn": "2026-10-22T05:28:03+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -431,41 +431,6 @@
       }
     },
     {
-      "id": 11388609,
-      "flightNo": "N43831",
-      "airline": "N4",
-      "airlineName": "NORDWIND AIRLINES",
-      "flightDate": "2026-10-22T00:00:00+00:00",
-      "route": "SVX-PQC",
-      "natureOfFlight": "---",
-      "cityName": "EKATERINBURG",
-      "country": "RU",
-      "arrDep": "A",
-      "status": "",
-      "acType": "A330",
-      "aircraft": "Airbus A330(ALL)",
-      "scheduledTime": "0925",
-      "estimatedTime": "0925",
-      "actualTime": null,
-      "boardingStart": "",
-      "boardingFinish": "",
-      "codeShare": null,
-      "parkingBay": "13A",
-      "terminal": "",
-      "ckRow": "",
-      "belt": "4",
-      "gate": "",
-      "remarks": null,
-      "synced_at": "2026-10-21 08:30:42",
-      "notesVn": "ĐÚNG GIỜ",
-      "notesEn": "ON TIME",
-      "airlineInfo": {
-        "logo": "/cms/Airlines/Norwind Airlines.png",
-        "contactInfo": "",
-        "website": "https://nordwindairlines.ru/en/"
-      }
-    },
-    {
       "id": 9511397,
       "flightNo": "AK543",
       "airline": "AK",
@@ -603,6 +568,41 @@
         "logo": "/cms/Airlines/Vietjet Air.png",
         "contactInfo": "19001886",
         "website": "https://www.vietjetair.com/"
+      }
+    },
+    {
+      "id": 11388609,
+      "flightNo": "N43831",
+      "airline": "N4",
+      "airlineName": "NORDWIND AIRLINES",
+      "flightDate": "2026-10-22T00:00:00+00:00",
+      "route": "SVX-PQC",
+      "natureOfFlight": "---",
+      "cityName": "EKATERINBURG",
+      "country": "RU",
+      "arrDep": "A",
+      "status": "",
+      "acType": "A330",
+      "aircraft": "Airbus A330(ALL)",
+      "scheduledTime": "0925",
+      "estimatedTime": "1015",
+      "actualTime": null,
+      "boardingStart": "",
+      "boardingFinish": "",
+      "codeShare": null,
+      "parkingBay": "13A",
+      "terminal": "",
+      "ckRow": "",
+      "belt": "4",
+      "gate": "",
+      "remarks": null,
+      "synced_at": "2026-10-21 22:20:04",
+      "notesVn": "ĐỔI GIỜ",
+      "notesEn": "CHANGED TIME",
+      "airlineInfo": {
+        "logo": "/cms/Airlines/Norwind Airlines.png",
+        "contactInfo": "",
+        "website": "https://nordwindairlines.ru/en/"
       }
     },
     {

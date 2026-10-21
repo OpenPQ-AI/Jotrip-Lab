@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-22T02:20:48+07:00",
+  "collected_at_vn": "2026-10-22T05:28:03+07:00",
   "source_date": "2026-10-22",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 02:20",
+  "page_last_updated": "Official API fetched 05:28",
   "counts": {
     "arrivals": 70,
     "departures": 69,
@@ -74,7 +74,8 @@
       "VLADIVOSTOK": 1
     },
     "arrivals_by_status": {
-      "ĐÚNG GIỜ": 70
+      "ĐÚNG GIỜ": 69,
+      "TRỄ": 1
     },
     "departures_by_status": {
       "LÀM THỦ TỤC LÚC": 60,
@@ -553,43 +554,6 @@
       "context": "9G1961 • SUN PHUQUOC AIRWAYS | HO CHI MINH | 09:20 | ĐÚNG GIỜ"
     },
     {
-      "source_id": 11388609,
-      "direction": "arrival",
-      "operating_flight_number": "N43831",
-      "marketing_flight_numbers": [],
-      "station": "EKATERINBURG",
-      "country": "RU",
-      "route": "SVX-PQC",
-      "market": "international",
-      "airline_code": "N4",
-      "airline_name": "NORDWIND AIRLINES",
-      "aircraft_type": "A330",
-      "aircraft": "Airbus A330(ALL)",
-      "scheduled_time": "09:25",
-      "estimated_time": null,
-      "actual_time": null,
-      "delay_minutes": null,
-      "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
-      "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
-      "gate": null,
-      "belt": "4",
-      "parking_bay": "13A",
-      "terminal": null,
-      "checkin_row": null,
-      "status": "ĐÚNG GIỜ",
-      "status_code": "ON_TIME",
-      "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-10-21 08:30:42",
-      "timing_source": "SUN_AIRPORT_OFFICIAL_API",
-      "times": [
-        "09:25"
-      ],
-      "context": "N43831 • NORDWIND AIRLINES | EKATERINBURG | 09:25 | ĐÚNG GIỜ"
-    },
-    {
       "source_id": 9511397,
       "direction": "arrival",
       "operating_flight_number": "AK543",
@@ -736,6 +700,44 @@
         "09:55"
       ],
       "context": "VJ321 • VIETJET AIR | HO CHI MINH | 09:55 | ĐÚNG GIỜ"
+    },
+    {
+      "source_id": 11388609,
+      "direction": "arrival",
+      "operating_flight_number": "N43831",
+      "marketing_flight_numbers": [],
+      "station": "EKATERINBURG",
+      "country": "RU",
+      "route": "SVX-PQC",
+      "market": "international",
+      "airline_code": "N4",
+      "airline_name": "NORDWIND AIRLINES",
+      "aircraft_type": "A330",
+      "aircraft": "Airbus A330(ALL)",
+      "scheduled_time": "09:25",
+      "estimated_time": "10:15",
+      "actual_time": null,
+      "delay_minutes": 50,
+      "estimated_delay_minutes": 50,
+      "actual_delay_minutes": null,
+      "checkin_time": null,
+      "boarding_start": null,
+      "boarding_finish": null,
+      "gate": null,
+      "belt": "4",
+      "parking_bay": "13A",
+      "terminal": null,
+      "checkin_row": null,
+      "status": "TRỄ",
+      "status_code": "RESCHEDULED",
+      "raw_status": "ĐỔI GIỜ",
+      "source_synced_at": "2026-10-21 22:20:04",
+      "timing_source": "SUN_AIRPORT_OFFICIAL_API",
+      "times": [
+        "09:25",
+        "10:15"
+      ],
+      "context": "N43831 • NORDWIND AIRLINES | EKATERINBURG | 09:25 | 10:15 | ĐỔI GIỜ"
     },
     {
       "source_id": 9511387,
