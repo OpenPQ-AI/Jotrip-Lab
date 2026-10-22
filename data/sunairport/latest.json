@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-23T02:20:00+07:00",
+  "collected_at_vn": "2026-10-23T05:28:25+07:00",
   "source_date": "2026-10-23",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 02:20",
+  "page_last_updated": "Official API fetched 05:28",
   "counts": {
     "arrivals": 71,
     "departures": 73,
@@ -81,9 +81,8 @@
     },
     "departures_by_status": {
       "LÀM THỦ TỤC LÚC": 62,
-      "ĐÃ CẤT CÁNH": 7,
+      "ĐÃ CẤT CÁNH": 8,
       "CHUYẾN BAY FERRY": 2,
-      "ĐANG LÀM THỦ TỤC": 1,
       "HỦY": 1
     },
     "arrivals_by_time_bank": {
@@ -3026,22 +3025,22 @@
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "03:11",
+      "boarding_finish": "03:22",
       "gate": "6",
       "belt": null,
       "parking_bay": "14",
       "terminal": null,
       "checkin_row": "32-33",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-10-22 17:46:32",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-22 20:41:08",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "03:45"
       ],
-      "context": "9G6321 • SUN PHUQUOC AIRWAYS | KATHMANDU | 03:45 | ĐANG LÀM THỦ TỤC"
+      "context": "9G6321 • SUN PHUQUOC AIRWAYS | KATHMANDU | 03:45 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 10780505,
