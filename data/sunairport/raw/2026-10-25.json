@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-10-25",
-  "collected_at_vn": "2026-10-24T02:13:28+07:00",
+  "collected_at_vn": "2026-10-24T05:11:25+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -991,15 +991,15 @@
       }
     },
     {
-      "id": 13363092,
-      "flightNo": "VJ327",
+      "id": 13363091,
+      "flightNo": "VJ984",
       "airline": "VJ",
       "airlineName": "VIETJET AIR",
       "flightDate": "2026-10-25T00:00:00+00:00",
-      "route": "SGN-PQC",
+      "route": "SIN-PQC",
       "natureOfFlight": "---",
-      "cityName": "HO CHI MINH",
-      "country": "VN",
+      "cityName": "SINGAPORE",
+      "country": "SG",
       "arrDep": "A",
       "status": "",
       "acType": "A321",
@@ -1026,15 +1026,15 @@
       }
     },
     {
-      "id": 13363091,
-      "flightNo": "VJ984",
+      "id": 13363092,
+      "flightNo": "VJ327",
       "airline": "VJ",
       "airlineName": "VIETJET AIR",
       "flightDate": "2026-10-25T00:00:00+00:00",
-      "route": "SIN-PQC",
+      "route": "SGN-PQC",
       "natureOfFlight": "---",
-      "cityName": "SINGAPORE",
-      "country": "SG",
+      "cityName": "HO CHI MINH",
+      "country": "VN",
       "arrDep": "A",
       "status": "",
       "acType": "A321",
@@ -1236,8 +1236,8 @@
       }
     },
     {
-      "id": 13363080,
-      "flightNo": "VN8849",
+      "id": 13363079,
+      "flightNo": "VN1833",
       "airline": "VN",
       "airlineName": "VIETNAM AIRLINES",
       "flightDate": "2026-10-25T00:00:00+00:00",
@@ -1271,8 +1271,8 @@
       }
     },
     {
-      "id": 13363079,
-      "flightNo": "VN1833",
+      "id": 13363080,
+      "flightNo": "VN8849",
       "airline": "VN",
       "airlineName": "VIETNAM AIRLINES",
       "flightDate": "2026-10-25T00:00:00+00:00",
@@ -1618,6 +1618,41 @@
         "logo": "/cms/Airlines/Vietnam Airlines.png",
         "contactInfo": "1900 1100",
         "website": "https://www.vietnamairlines.com/vn/vi/"
+      }
+    },
+    {
+      "id": 14678399,
+      "flightNo": "TW055",
+      "airline": "TW",
+      "airlineName": "T'WAY AIR",
+      "flightDate": "2026-10-25T00:00:00+00:00",
+      "route": "ICN-PQC",
+      "natureOfFlight": "---",
+      "cityName": "INCHEON",
+      "country": "KR",
+      "arrDep": "A",
+      "status": "",
+      "acType": "B737",
+      "aircraft": "Boeing B737-700",
+      "scheduledTime": "2305",
+      "estimatedTime": "2305",
+      "actualTime": null,
+      "boardingStart": "",
+      "boardingFinish": "",
+      "codeShare": null,
+      "parkingBay": "",
+      "terminal": "",
+      "ckRow": "",
+      "belt": "1",
+      "gate": "",
+      "remarks": null,
+      "synced_at": "2026-10-23 19:37:20",
+      "notesVn": "ĐÚNG GIỜ",
+      "notesEn": "ON TIME",
+      "airlineInfo": {
+        "logo": "/cms/Airlines/T'way Air.png",
+        "contactInfo": "",
+        "website": "https://www.twayair.com"
       }
     }
   ],
