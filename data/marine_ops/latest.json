@@ -8,101 +8,38 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "XVII2",
-          "category": "fast_boat",
-          "departure_port": "CANG RACH GIA KG",
-          "evidence_class": "DIRECT",
-          "imo": "9945801",
-          "issued_at_text": "24/10/2026 10:06",
-          "permit_number": "3634.2026.RG/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 18"
-        },
-        {
-          "call_sign": "XVPQ9",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9693044",
-          "issued_at_text": "24/10/2026 10:02",
-          "permit_number": "8961.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG V"
-        },
-        {
-          "call_sign": "3WML9",
-          "category": "fast_boat",
-          "departure_port": "CANG HA TIEN KG",
-          "evidence_class": "DIRECT",
-          "imo": "9784946",
-          "issued_at_text": "24/10/2026 09:57",
-          "permit_number": "5691.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG VII"
-        },
-        {
-          "call_sign": "XVQY9",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9824497",
-          "issued_at_text": "24/10/2026 09:51",
-          "permit_number": "8960.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG XII"
-        },
-        {
-          "call_sign": "XVIO2",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9945813",
-          "issued_at_text": "24/10/2026 09:44",
-          "permit_number": "8959.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 27"
-        }
-      ],
-      "evidence_count": 5,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
       "confidence_cap": 100,
       "evidence": [
         {
-          "call_sign": "XVCS7",
+          "call_sign": "XVKQ7",
           "category": "ferry",
-          "departure_port": "CANG BINH AN KGIANG",
+          "departure_port": "CANG QUOC CHANH KG",
           "evidence_class": "DIRECT",
-          "imo": "9850484",
-          "issued_at_text": "24/10/2026 09:50",
-          "permit_number": "5690.2026/KGG.HT",
+          "imo": "XVKQ7",
+          "issued_at_text": "24/10/2026 17:52",
+          "permit_number": "8977.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
-          "vessel_name": "BINH AN HA TIEN 03"
+          "vessel_name": "THRIVING 20"
         },
         {
-          "call_sign": "3WAR7",
+          "call_sign": "3WPA9",
           "category": "ferry",
-          "departure_port": "CANG THACH THOI KG",
+          "departure_port": "CANG QUOC CHANH KG",
           "evidence_class": "DIRECT",
-          "imo": "9840403",
-          "issued_at_text": "24/10/2026 09:09",
-          "permit_number": "5689.2026/KGG.HT",
+          "imo": "9795361",
+          "issued_at_text": "24/10/2026 17:51",
+          "permit_number": "8976.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 7"
+          "vessel_name": "THRIVING 3"
         },
         {
           "category": "ferry",
@@ -193,7 +130,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-10-24T10:13:39.155864+07:00",
+  "collected_at_vn": "2026-10-24T20:10:36.979368+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
