@@ -1,12 +1,12 @@
 {
-  "schema_version": "1.0-daily-raw",
+  "schema_version": "1.1-daily-raw",
   "date": "2026-10-24",
-  "collected_at_vn": "2026-10-24T23:46:14+07:00",
+  "collected_at_vn": "2026-10-25T02:03:42+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
     "api": "https://sunairport.com/phuquoc/cms/api/flights",
-    "acquisition": "Direct official JSON API via JoTrip AutoSync",
+    "acquisition": "Direct official JSON API via JoTrip AutoSync 3-day window",
     "paid_services_used": false
   },
   "arrivals": [
@@ -2266,7 +2266,7 @@
       "aircraft": "Boeing B737-700",
       "scheduledTime": "2335",
       "estimatedTime": "2335",
-      "actualTime": "",
+      "actualTime": "2352",
       "boardingStart": "",
       "boardingFinish": "",
       "codeShare": null,
@@ -2276,9 +2276,9 @@
       "belt": "4",
       "gate": "",
       "remarks": null,
-      "synced_at": "2026-10-24 16:36:01",
-      "notesVn": "TRỄ",
-      "notesEn": "DELAYED",
+      "synced_at": "2026-10-24 16:58:40",
+      "notesVn": "ĐÃ HẠ CÁNH",
+      "notesEn": "ARRIVED",
       "airlineInfo": {
         "logo": "/cms/Airlines/T'way Air.png",
         "contactInfo": "",
