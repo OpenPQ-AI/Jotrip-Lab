@@ -7,7 +7,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-10-23T22:00:31.617546+07:00",
+      "observed_at": "2026-10-24T07:33:25.375934+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "SGN-PQC",
       "service_type": "scheduled",
@@ -22,7 +22,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-10-23T22:00:31.617546+07:00",
+      "observed_at": "2026-10-24T07:33:25.375934+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "HAN-PQC",
       "service_type": "scheduled",
@@ -37,7 +37,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-10-23T22:00:31.617546+07:00",
+      "observed_at": "2026-10-24T07:33:25.375934+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "KUL-PQC",
       "service_type": "scheduled",
@@ -52,7 +52,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-10-23T22:00:31.617546+07:00",
+      "observed_at": "2026-10-24T07:33:25.375934+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "BKK-PQC",
       "service_type": "scheduled",
@@ -67,7 +67,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-10-23T22:00:31.617546+07:00",
+      "observed_at": "2026-10-24T07:33:25.375934+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "SIN-PQC",
       "service_type": "scheduled",
@@ -101,7 +101,7 @@
       "weekly_frequency": 0.0
     }
   },
-  "observed_at_vn": "2026-10-23T22:00:31.617546+07:00",
+  "observed_at_vn": "2026-10-24T07:33:25.375934+07:00",
   "schema_version": "forward-airlift-evidence-1.1",
   "score_gate": {
     "minimum_direct_market_coverage": 0.5,
@@ -132,7 +132,7 @@
       "route": "HAN-PQC",
       "source_id": "VNA_HAN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 8921,
+      "text_length": 8915,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-hanoi-to-phu-quoc"
     },
     {
@@ -154,7 +154,7 @@
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 12172,
+      "text_length": 12234,
       "url": "https://www.airasia.com/flights/from-kuala-lumpur-kul-to-phu-quoc-pqc/"
     },
     {
@@ -167,7 +167,7 @@
       "route": "BKK-PQC",
       "source_id": "AIRASIA_MOVE_BKK_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 8745,
+      "text_length": 8784,
       "url": "https://www.airasia.com/flights/from-bangkok-bkk-to-phu-quoc-pqc/"
     },
     {
@@ -180,7 +180,7 @@
       "route": "SIN-PQC",
       "source_id": "AIRASIA_MOVE_SIN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 8812,
+      "text_length": 8798,
       "url": "https://www.airasia.com/flights/from-singapore-sin-to-phu-quoc-pqc/"
     },
     {
@@ -193,7 +193,7 @@
       "route": "HKG-PQC",
       "source_id": "AIRASIA_MOVE_HKG_PQC_BOOKABLE",
       "state": "UNVERIFIED",
-      "text_length": 7055,
+      "text_length": 7054,
       "url": "https://www.airasia.com/flights/from-hong-kong-hkg-to-phu-quoc-pqc/"
     },
     {
