@@ -18,28 +18,88 @@
       "confidence_cap": 100,
       "evidence": [
         {
-          "call_sign": "3WAR7",
+          "call_sign": "3WPA9",
           "category": "ferry",
           "departure_port": "CANG THACH THOI KG",
           "evidence_class": "DIRECT",
+          "imo": "9795361",
+          "issued_at_text": "26/10/2026 05:27",
+          "permit_number": "5722.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 3"
+        },
+        {
+          "call_sign": "XVCS7",
+          "category": "ferry",
+          "departure_port": "CANG HOA BINH KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9850484",
+          "issued_at_text": "26/10/2026 05:14",
+          "permit_number": "9008.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "BINH AN HA TIEN 03"
+        },
+        {
+          "call_sign": "3WAR7",
+          "category": "ferry",
+          "departure_port": "CANG QUOC CHANH KG",
+          "evidence_class": "DIRECT",
           "imo": "9840403",
-          "issued_at_text": "25/10/2026 17:43",
-          "permit_number": "5717.2026/KGG.HT",
+          "issued_at_text": "26/10/2026 04:56",
+          "permit_number": "9007.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
           "vessel_name": "THRIVING 7"
         },
         {
-          "call_sign": "XVKQ7",
+          "call_sign": "3WXC9",
           "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
+          "departure_port": "CANG THACH THOI KG",
           "evidence_class": "DIRECT",
-          "imo": "XVKQ7",
-          "issued_at_text": "25/10/2026 17:37",
-          "permit_number": "9006.2026/KGG.PQ",
+          "imo": "9804722",
+          "issued_at_text": "26/10/2026 04:35",
+          "permit_number": "5721.2023/KGG.HT",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 20"
+          "vessel_name": "THRIVING 4"
+        },
+        {
+          "call_sign": "3WDE7",
+          "category": "ferry",
+          "departure_port": "CANG BINH AN KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9818046",
+          "issued_at_text": "26/10/2026 04:33",
+          "permit_number": "5720.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "BÌNH AN HÀ TIÊN 01"
+        },
+        {
+          "call_sign": "XVKS3",
+          "category": "ferry",
+          "departure_port": "CANG THACH THOI KG",
+          "evidence_class": "DIRECT",
+          "imo": "9908877",
+          "issued_at_text": "26/10/2026 04:32",
+          "permit_number": "5719.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 8"
+        },
+        {
+          "call_sign": "XVCN4",
+          "category": "ferry",
+          "departure_port": "CANG THACH THOI KG",
+          "evidence_class": "DIRECT",
+          "imo": "1028724",
+          "issued_at_text": "26/10/2026 04:30",
+          "permit_number": "5718.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 17"
         },
         {
           "category": "ferry",
@@ -122,7 +182,7 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 17,
       "source_tiers": [
         "OPERATOR",
         "PERMIT_PORT"
@@ -130,7 +190,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-10-25T20:36:58.344797+07:00",
+  "collected_at_vn": "2026-10-26T05:57:27.942126+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
@@ -141,5 +201,5 @@
     "permit_or_departure_slip_is_direct": true
   },
   "schema_version": "marine-ops-1.0",
-  "source_date": "25/10/2026"
+  "source_date": "26/10/2026"
 }
