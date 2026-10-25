@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-10-26T01:34:30+07:00",
+  "collected_at_vn": "2026-10-26T04:11:04+07:00",
   "source_date": "2026-10-26",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 01:34",
+  "page_last_updated": "Official API fetched 04:11",
   "counts": {
     "arrivals": 78,
     "departures": 78,
@@ -84,12 +84,9 @@
     },
     "departures_by_status": {
       "LÀM THỦ TỤC LÚC": 69,
+      "ĐÃ CẤT CÁNH": 5,
       "CHUYẾN BAY FERRY": 3,
-      "ĐÃ CẤT CÁNH": 2,
-      "CỬA KHỞI HÀNH ĐÃ ĐÓNG": 1,
-      "HỦY": 1,
-      "QUẦY THỦ TỤC ĐÃ ĐÓNG": 1,
-      "TRỄ": 1
+      "HỦY": 1
     },
     "arrivals_by_time_bank": {
       "09:00-11:59": 20,
@@ -2704,7 +2701,7 @@
       "status": "ĐÚNG GIỜ",
       "status_code": "ON_TIME",
       "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-10-25 13:00:33",
+      "source_synced_at": "2026-10-25 20:31:46",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "19:50"
@@ -3096,10 +3093,10 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "01:20",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "02:07",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 47,
       "checkin_time": null,
       "boarding_start": "00:40",
       "boarding_finish": "01:03",
@@ -3108,15 +3105,15 @@
       "parking_bay": "14",
       "terminal": null,
       "checkin_row": "34-35",
-      "status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
-      "status_code": "SOURCE_OTHER",
-      "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
-      "source_synced_at": "2026-10-25 18:21:29",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-25 20:30:13",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:20"
       ],
-      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:20 | CỬA KHỞI HÀNH ĐÃ ĐÓNG"
+      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:20 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 14912084,
@@ -3133,28 +3130,28 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "23:40",
       "estimated_time": "01:50",
-      "actual_time": null,
+      "actual_time": "02:21",
       "delay_minutes": 130,
       "estimated_delay_minutes": 130,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 161,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "01:10",
+      "boarding_finish": "01:27",
       "gate": "5",
       "belt": null,
       "parking_bay": "13",
       "terminal": null,
       "checkin_row": "30-32",
-      "status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
-      "status_code": "CHECKIN_CLOSED",
-      "raw_status": "CHUYẾN BAY 25/10 QUẦY THỦ TỤC ĐÃ ĐÓNG",
-      "source_synced_at": "2026-10-25 18:01:14",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "CHUYẾN BAY 25/10 ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-25 20:30:13",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "23:40",
         "01:50"
       ],
-      "context": "VJ968 • VIETJET AIR | BUSAN | 23:40 | 01:50 | CHUYẾN BAY 25/10 QUẦY THỦ TỤC ĐÃ ĐÓNG"
+      "context": "VJ968 • VIETJET AIR | BUSAN | 23:40 | 01:50 | CHUYẾN BAY 25/10 ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 13363117,
@@ -3171,10 +3168,10 @@
       "aircraft": "Airbus A320(ALL)",
       "scheduled_time": "23:00",
       "estimated_time": "02:00",
-      "actual_time": null,
+      "actual_time": "02:02",
       "delay_minutes": 180,
       "estimated_delay_minutes": 180,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 182,
       "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
@@ -3183,16 +3180,16 @@
       "parking_bay": "9",
       "terminal": null,
       "checkin_row": null,
-      "status": "TRỄ",
-      "status_code": "RESCHEDULED",
-      "raw_status": "CHUYẾN BAY FERRY 25/10",
-      "source_synced_at": "2026-10-25 12:28:28",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "CHUYẾN BAY FERRY 25/10 ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-25 20:31:46",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "23:00",
         "02:00"
       ],
-      "context": "VJ440 • VIETJET AIR | HA NOI | 23:00 | 02:00 | CHUYẾN BAY FERRY 25/10"
+      "context": "VJ440 • VIETJET AIR | HA NOI | 23:00 | 02:00 | CHUYẾN BAY FERRY 25/10 ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 16117064,
@@ -5631,7 +5628,7 @@
       "status": "LÀM THỦ TỤC LÚC",
       "status_code": "CHECKIN_SCHEDULED",
       "raw_status": "LÀM THỦ TỤC LÚC 18:25",
-      "source_synced_at": "2026-10-25 17:18:22",
+      "source_synced_at": "2026-10-25 20:32:33",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "20:25"
