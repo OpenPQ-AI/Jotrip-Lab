@@ -1,12 +1,12 @@
 {
   "direct_evidence_coverage_percent": 60.0,
   "failed_sources": [],
-  "generated_at_vn": "2026-10-26T10:44:03.169595+07:00",
+  "generated_at_vn": "2026-10-26T22:43:25.725615+07:00",
   "language_policy": "Ưu tiên tiếng Việt; chỉ giữ mã kỹ thuật, tên riêng, URL và trích dẫn nguyên văn khi cần.",
   "market_condition_not_data_system_condition": true,
   "missing_core_modules": [
-    "airfare",
-    "hotel_forward"
+    "hotel_forward",
+    "airfare"
   ],
   "modules": {
     "airfare": {
@@ -21,7 +21,7 @@
     },
     "aviation": {
       "direct_evidence": true,
-      "observed_at": "2026-10-26T08:12:53+07:00",
+      "observed_at": "2026-10-26T20:02:36+07:00",
       "qa_passed": true,
       "state": "OK"
     },
@@ -71,7 +71,7 @@
   "pipeline_health_score": null,
   "run_status": "DEGRADED",
   "schema_version": "tourism-readiness-1.1",
-  "source_freshness_score": 43.8,
+  "source_freshness_score": 9.3,
   "sources": [
     {
       "critical_data_gaps": [],
@@ -80,7 +80,7 @@
       "direct_ingest_pass_count": 5,
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 19882.6,
+        "age_minutes": 20602.0,
         "score": 0.0,
         "state": "STALE",
         "ttl_minutes": 90
@@ -95,13 +95,13 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 151.2,
-        "score": 0.0065,
+        "age_minutes": 160.8,
+        "score": 0.0047,
         "state": "STALE",
         "ttl_minutes": 30
       },
       "module": "aviation",
-      "observed_at": "2026-10-26T08:12:53+07:00",
+      "observed_at": "2026-10-26T20:02:36+07:00",
       "paid": false,
       "source_date": "2026-10-26",
       "source_id": "SUN_AIRPORT_D0",
@@ -111,9 +111,9 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 34.8,
-        "score": 0.5599,
-        "state": "FRESH",
+        "age_minutes": 754.2,
+        "score": 0.0,
+        "state": "STALE",
         "ttl_minutes": 60
       },
       "module": "marine_ops",
@@ -126,9 +126,9 @@
       "criticality": "CORE",
       "evidence_class": "DIRECT",
       "freshness": {
-        "age_minutes": 34.8,
-        "score": 0.5599,
-        "state": "FRESH",
+        "age_minutes": 754.2,
+        "score": 0.0,
+        "state": "STALE",
         "ttl_minutes": 60
       },
       "module": "marine_ops",
@@ -143,9 +143,9 @@
       "evidence_class": "PROXY",
       "fixed_basket_compatible": false,
       "freshness": {
-        "age_minutes": 199.3,
-        "score": 0.7582,
-        "state": "FRESH",
+        "age_minutes": 918.7,
+        "score": 0.2792,
+        "state": "STALE",
         "ttl_minutes": 720
       },
       "module": "airfare",
@@ -160,9 +160,9 @@
       "direct_market_coverage": 0.1667,
       "evidence_class": "PROXY",
       "freshness": {
-        "age_minutes": 213.0,
-        "score": 0.7439,
-        "state": "FRESH",
+        "age_minutes": 932.4,
+        "score": 0.2739,
+        "state": "STALE",
         "ttl_minutes": 720
       },
       "market_coverage": 0.3333,
@@ -176,7 +176,11 @@
   ],
   "stale_sources": [
     "WEATHER_LAB_CANONICAL",
-    "SUN_AIRPORT_D0"
+    "SUN_AIRPORT_D0",
+    "MARINE_PERMIT_KGG",
+    "THANH_THOI_OPERATOR",
+    "AIRFARE_PUBLIC_FALLBACK",
+    "FORWARD_AIRLIFT_EVIDENCE"
   ],
   "unresolved_conflicts": []
 }
