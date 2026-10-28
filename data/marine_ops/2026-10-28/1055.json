@@ -1,0 +1,96 @@
+{
+  "categories": {
+    "cano": {
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "FIELD_REQUIRED"
+    },
+    "fast_boat": {
+      "confidence_cap": 100,
+      "evidence": [
+        {
+          "call_sign": "XVQY9",
+          "category": "fast_boat",
+          "departure_port": "CANG BAI VONG KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9824497",
+          "issued_at_text": "28/10/2026 10:09",
+          "permit_number": "9056.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "SUPERDONG XII"
+        },
+        {
+          "call_sign": "XVIO2",
+          "category": "fast_boat",
+          "departure_port": "CANG BAI VONG KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9945813",
+          "issued_at_text": "28/10/2026 09:35",
+          "permit_number": "9055.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "PHU QUOC EXPRESS 27"
+        }
+      ],
+      "evidence_count": 2,
+      "source_tiers": [
+        "PERMIT_PORT"
+      ],
+      "state": "DIRECT_CONFIRMED"
+    },
+    "ferry": {
+      "confidence_cap": 100,
+      "evidence": [
+        {
+          "call_sign": "XVAV7",
+          "category": "ferry",
+          "departure_port": "CANG QUOC CHANH KG",
+          "evidence_class": "DIRECT",
+          "imo": "1110606",
+          "issued_at_text": "28/10/2026 10:40",
+          "permit_number": "9057.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 18"
+        },
+        {
+          "call_sign": "3WRP9",
+          "category": "ferry",
+          "departure_port": "CUA KHAU SONG DOC",
+          "evidence_class": "DIRECT",
+          "imo": "9758545",
+          "issued_at_text": "28/10/2026 09:51",
+          "permit_number": "3670.2026.RG/KGG",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "BINH AN VALIANT"
+        }
+      ],
+      "evidence_count": 2,
+      "source_tiers": [
+        "PERMIT_PORT"
+      ],
+      "state": "DIRECT_CONFIRMED"
+    }
+  },
+  "collected_at_vn": "2026-10-28T10:55:41.695380+07:00",
+  "errors": [
+    {
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='thanhthoi.vn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='thanhthoi.vn', port=443) at 0x7f94fa4add30>, 'Connection to thanhthoi.vn timed out. (connect timeout=25)'))",
+      "source": "THANH_THOI_OPERATOR"
+    }
+  ],
+  "market_condition_not_data_system_condition": true,
+  "rules": {
+    "cano_independent": true,
+    "no_cross_category_inference": true,
+    "one_normal_fast_boat_can_confirm_category_absent_specific_exception": true,
+    "one_normal_ferry_can_confirm_category_absent_specific_exception": true,
+    "permit_or_departure_slip_is_direct": true
+  },
+  "schema_version": "marine-ops-1.0",
+  "source_date": "28/10/2026"
+}
