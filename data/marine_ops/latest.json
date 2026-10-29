@@ -8,26 +8,11 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "XVIO2",
-          "category": "fast_boat",
-          "departure_port": "CANG RACH GIA KG",
-          "evidence_class": "DIRECT",
-          "imo": "9945813",
-          "issued_at_text": "29/10/2026 09:59",
-          "permit_number": "3674.2026.RG/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 27"
-        }
-      ],
-      "evidence_count": 1,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
       "confidence_cap": 100,
@@ -104,7 +89,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-10-29T11:19:12.212621+07:00",
+  "collected_at_vn": "2026-10-29T22:56:03.079044+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
