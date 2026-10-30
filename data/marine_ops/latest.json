@@ -8,26 +8,11 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "XVIO2",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9945813",
-          "issued_at_text": "30/10/2026 09:50",
-          "permit_number": "9084.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 27"
-        }
-      ],
-      "evidence_count": 1,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
       "confidence_cap": 100,
@@ -104,7 +89,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-10-30T11:19:09.760300+07:00",
+  "collected_at_vn": "2026-10-30T22:41:38.464656+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
