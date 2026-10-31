@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-11-01T00:57:38+07:00",
+  "collected_at_vn": "2026-11-01T03:59:50+07:00",
   "source_date": "2026-11-01",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 00:57",
+  "page_last_updated": "Official API fetched 03:59",
   "counts": {
     "arrivals": 78,
     "departures": 78,
@@ -87,8 +87,7 @@
     },
     "departures_by_status": {
       "LÀM THỦ TỤC LÚC": 72,
-      "ĐÃ CẤT CÁNH": 3,
-      "ĐANG LÀM THỦ TỤC": 2,
+      "ĐÃ CẤT CÁNH": 5,
       "CHUYẾN BAY FERRY": 1
     },
     "arrivals_by_time_bank": {
@@ -3138,28 +3137,28 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "01:05",
       "estimated_time": "02:00",
-      "actual_time": null,
+      "actual_time": "02:06",
       "delay_minutes": 55,
       "estimated_delay_minutes": 55,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 61,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "11:15",
+      "boarding_finish": "01:26",
       "gate": "10",
       "belt": null,
       "parking_bay": "12",
       "terminal": null,
       "checkin_row": "27-29",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-10-31 17:31:45",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-31 19:14:35",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:05",
         "02:00"
       ],
-      "context": "MU6034 • CHINA EASTERN AIRLINES | PUDONG- SHANGHAI | 01:05 | 02:00 | ĐANG LÀM THỦ TỤC"
+      "context": "MU6034 • CHINA EASTERN AIRLINES | PUDONG- SHANGHAI | 01:05 | 02:00 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 22334103,
@@ -3176,28 +3175,28 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "01:20",
       "estimated_time": "02:20",
-      "actual_time": null,
+      "actual_time": "02:37",
       "delay_minutes": 60,
       "estimated_delay_minutes": 60,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 77,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "02:00",
+      "boarding_finish": "02:10",
       "gate": "6",
       "belt": null,
       "parking_bay": "6",
       "terminal": null,
       "checkin_row": "35",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-10-31 17:23:58",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-10-31 19:57:22",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "01:20",
         "02:20"
       ],
-      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:20 | 02:20 | ĐANG LÀM THỦ TỤC"
+      "context": "9G450 • SUN PHUQUOC AIRWAYS | INCHEON | 01:20 | 02:20 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 21946152,
