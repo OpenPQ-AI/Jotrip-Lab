@@ -1,11 +1,11 @@
 {
-  "collected_at_vn": "2026-10-31T10:59:16.342082+07:00",
+  "collected_at_vn": "2026-10-31T22:10:24.992742+07:00",
   "collector_completed": true,
   "commit_succeeded": true,
   "failed_stage": null,
   "fallback_used": false,
   "job_started": true,
-  "last_successful_run": "2026-10-31T10:59:02.096801+07:00",
+  "last_successful_run": "2026-10-31T22:10:19.852344+07:00",
   "module": "Marine Operations",
   "normalization_passed": true,
   "parser_passed": true,
