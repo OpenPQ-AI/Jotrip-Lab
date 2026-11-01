@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-11-03",
-  "collected_at_vn": "2026-11-02T00:13:37+07:00",
+  "collected_at_vn": "2026-11-02T04:11:25+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -1693,6 +1693,41 @@
   ],
   "departures": [
     {
+      "id": 24476547,
+      "flightNo": "TW056",
+      "airline": "TW",
+      "airlineName": "T'WAY AIR",
+      "flightDate": "2026-11-03T00:00:00+00:00",
+      "route": "PQC-ICN",
+      "natureOfFlight": "---",
+      "cityName": "INCHEON",
+      "country": "KR",
+      "arrDep": "D",
+      "status": "",
+      "acType": "B737",
+      "aircraft": "Boeing B737-700",
+      "scheduledTime": "0035",
+      "estimatedTime": "0005",
+      "actualTime": null,
+      "boardingStart": "",
+      "boardingFinish": "",
+      "codeShare": null,
+      "parkingBay": "11",
+      "terminal": "",
+      "ckRow": "27-29",
+      "belt": "",
+      "gate": "6",
+      "remarks": null,
+      "synced_at": "2026-11-01 18:07:18",
+      "notesVn": "LÀM THỦ TỤC LÚC 21:05",
+      "notesEn": "CHECK-IN 21:05",
+      "airlineInfo": {
+        "logo": "/cms/Airlines/T'way Air.png",
+        "contactInfo": "",
+        "website": "https://www.twayair.com"
+      }
+    },
+    {
       "id": 24965718,
       "flightNo": "ZE982",
       "airline": "ZE",
@@ -1725,41 +1760,6 @@
         "logo": "/cms/Airlines/Eastar Jet.png",
         "contactInfo": "(82) 1544 0080",
         "website": "https://main.eastarjet.com/"
-      }
-    },
-    {
-      "id": 24476547,
-      "flightNo": "TW056",
-      "airline": "TW",
-      "airlineName": "T'WAY AIR",
-      "flightDate": "2026-11-03T00:00:00+00:00",
-      "route": "PQC-ICN",
-      "natureOfFlight": "---",
-      "cityName": "INCHEON",
-      "country": "KR",
-      "arrDep": "D",
-      "status": "",
-      "acType": "B737",
-      "aircraft": "Boeing B737-700",
-      "scheduledTime": "0035",
-      "estimatedTime": "0035",
-      "actualTime": null,
-      "boardingStart": "",
-      "boardingFinish": "",
-      "codeShare": null,
-      "parkingBay": "11",
-      "terminal": "",
-      "ckRow": "27-29",
-      "belt": "",
-      "gate": "6",
-      "remarks": null,
-      "synced_at": "2026-11-01 07:43:10",
-      "notesVn": "LÀM THỦ TỤC LÚC 21:35",
-      "notesEn": "CHECK-IN 21:35",
-      "airlineInfo": {
-        "logo": "/cms/Airlines/T'way Air.png",
-        "contactInfo": "",
-        "website": "https://www.twayair.com"
       }
     },
     {
