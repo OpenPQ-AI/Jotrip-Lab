@@ -8,125 +8,27 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "3WML9",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9784946",
-          "issued_at_text": "03/11/2026 08:42",
-          "permit_number": "9149.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG VII"
-        }
-      ],
-      "evidence_count": 1,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "XVKQ7",
-          "category": "ferry",
-          "departure_port": "CANG THACH THOI KG",
-          "evidence_class": "DIRECT",
-          "imo": "XVKQ7",
-          "issued_at_text": "03/11/2026 08:11",
-          "permit_number": "5836.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 20"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "THRIVING 18"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "THRIVING 20"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 17"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 18"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 20"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 3"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 4"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 7"
-        },
-        {
-          "category": "ferry",
-          "evidence_class": "DIRECT",
-          "source": "THANH_THOI_OPERATOR",
-          "source_tier": "OPERATOR",
-          "status": "Đã xuất bến",
-          "vessel_name": "Thriving 8"
-        }
-      ],
-      "evidence_count": 10,
-      "source_tiers": [
-        "OPERATOR",
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     }
   },
-  "collected_at_vn": "2026-11-03T09:43:33.772630+07:00",
-  "errors": [],
+  "collected_at_vn": "2026-11-03T12:18:08.749246+07:00",
+  "errors": [
+    {
+      "error": "ReadTimeout: HTTPSConnectionPool(host='thanhthoi.vn', port=443): Read timed out. (read timeout=25)",
+      "source": "THANH_THOI_OPERATOR"
+    }
+  ],
   "market_condition_not_data_system_condition": true,
   "rules": {
     "cano_independent": true,
