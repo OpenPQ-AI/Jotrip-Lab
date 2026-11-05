@@ -1,0 +1,42 @@
+{
+  "categories": {
+    "cano": {
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "FIELD_REQUIRED"
+    },
+    "fast_boat": {
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
+    },
+    "ferry": {
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
+    }
+  },
+  "collected_at_vn": "2026-11-06T00:11:31.012487+07:00",
+  "errors": [
+    {
+      "error": "ReadTimeout: HTTPSConnectionPool(host='thanhthoi.vn', port=443): Read timed out. (read timeout=25)",
+      "source": "THANH_THOI_OPERATOR"
+    }
+  ],
+  "market_condition_not_data_system_condition": true,
+  "rules": {
+    "cano_independent": true,
+    "no_cross_category_inference": true,
+    "one_normal_fast_boat_can_confirm_category_absent_specific_exception": true,
+    "one_normal_ferry_can_confirm_category_absent_specific_exception": true,
+    "permit_or_departure_slip_is_direct": true
+  },
+  "schema_version": "marine-ops-1.0",
+  "source_date": "06/11/2026"
+}
