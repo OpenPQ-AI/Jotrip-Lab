@@ -18,6 +18,30 @@
       "confidence_cap": 100,
       "evidence": [
         {
+          "call_sign": "XVKS3",
+          "category": "ferry",
+          "departure_port": "CANG THACH THOI KG",
+          "evidence_class": "DIRECT",
+          "imo": "9908877",
+          "issued_at_text": "05/11/2026 05:50",
+          "permit_number": "5846.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 8"
+        },
+        {
+          "call_sign": "XVCN4",
+          "category": "ferry",
+          "departure_port": "CANG THACH THOI KG",
+          "evidence_class": "DIRECT",
+          "imo": "1028724",
+          "issued_at_text": "05/11/2026 05:19",
+          "permit_number": "5845/2026/KGG",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "THRIVING 17"
+        },
+        {
           "category": "ferry",
           "evidence_class": "DIRECT",
           "source": "THANH_THOI_OPERATOR",
@@ -98,14 +122,15 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 12,
       "source_tiers": [
-        "OPERATOR"
+        "OPERATOR",
+        "PERMIT_PORT"
       ],
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-04T23:56:09.319161+07:00",
+  "collected_at_vn": "2026-11-05T08:13:11.530460+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
@@ -116,5 +141,5 @@
     "permit_or_departure_slip_is_direct": true
   },
   "schema_version": "marine-ops-1.0",
-  "source_date": "04/11/2026"
+  "source_date": "05/11/2026"
 }
