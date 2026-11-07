@@ -1,12 +1,12 @@
 {
-  "schema_version": "1.0-daily-raw",
+  "schema_version": "1.1-daily-raw",
   "date": "2026-11-07",
-  "collected_at_vn": "2026-11-07T23:32:40+07:00",
+  "collected_at_vn": "2026-11-08T03:26:56+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
     "api": "https://sunairport.com/phuquoc/cms/api/flights",
-    "acquisition": "Direct official JSON API via JoTrip AutoSync",
+    "acquisition": "Direct official JSON API via JoTrip AutoSync 3-day window",
     "paid_services_used": false
   },
   "arrivals": [
@@ -2616,7 +2616,7 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduledTime": "2300",
       "estimatedTime": "2300",
-      "actualTime": null,
+      "actualTime": "2259",
       "boardingStart": "",
       "boardingFinish": "",
       "codeShare": null,
@@ -2626,9 +2626,9 @@
       "belt": "2",
       "gate": "",
       "remarks": null,
-      "synced_at": "2026-11-07 16:03:00",
-      "notesVn": "TRỄ",
-      "notesEn": "DELAYED",
+      "synced_at": "2026-11-07 16:35:43",
+      "notesVn": "ĐÃ HẠ CÁNH",
+      "notesEn": "ARRIVED",
       "airlineInfo": {
         "logo": "/cms/Airlines/Vietjet Air.png",
         "contactInfo": "19001886",
@@ -5243,7 +5243,7 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduledTime": "2135",
       "estimatedTime": "2135",
-      "actualTime": null,
+      "actualTime": "2146",
       "boardingStart": "2050",
       "boardingFinish": "2110",
       "codeShare": null,
@@ -5253,7 +5253,7 @@
       "belt": "",
       "gate": "14",
       "remarks": null,
-      "synced_at": "2026-11-07 14:31:06",
+      "synced_at": "2026-11-07 16:45:51",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
@@ -5287,8 +5287,8 @@
       "ckRow": "19-21",
       "belt": "",
       "gate": "9",
-      "remarks": null,
-      "synced_at": "2026-11-07 16:15:27",
+      "remarks": "TRE 16P (RA)",
+      "synced_at": "2026-11-07 17:18:35",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
