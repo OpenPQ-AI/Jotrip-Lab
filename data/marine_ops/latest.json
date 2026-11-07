@@ -105,7 +105,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-06T23:38:33.720664+07:00",
+  "collected_at_vn": "2026-11-07T07:32:08.539043+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
@@ -116,5 +116,5 @@
     "permit_or_departure_slip_is_direct": true
   },
   "schema_version": "marine-ops-1.0",
-  "source_date": "06/11/2026"
+  "source_date": "07/11/2026"
 }
