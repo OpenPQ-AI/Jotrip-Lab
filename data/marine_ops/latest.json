@@ -18,6 +18,18 @@
       "confidence_cap": 100,
       "evidence": [
         {
+          "call_sign": "3WDE7",
+          "category": "ferry",
+          "departure_port": "CANG HOA BINH KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9818046",
+          "issued_at_text": "08/11/2026 11:17",
+          "permit_number": "9163.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "BÌNH AN HÀ TIÊN 01"
+        },
+        {
           "category": "ferry",
           "evidence_class": "DIRECT",
           "source": "THANH_THOI_OPERATOR",
@@ -98,14 +110,15 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "source_tiers": [
-        "OPERATOR"
+        "OPERATOR",
+        "PERMIT_PORT"
       ],
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-08T07:06:52.255057+07:00",
+  "collected_at_vn": "2026-11-08T11:23:40.260241+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
