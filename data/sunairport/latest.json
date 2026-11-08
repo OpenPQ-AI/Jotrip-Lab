@@ -3,7 +3,7 @@
   "parser_version": "sunairport-api-v3.0",
   "normalization_version": "jotrip-airport-v3.0",
   "report_state": "REPORT_READY",
-  "collected_at_vn": "2026-11-08T06:46:54+07:00",
+  "collected_at_vn": "2026-11-08T09:44:33+07:00",
   "source_date": "2026-11-08",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
@@ -12,7 +12,7 @@
     "acquisition": "Direct official JSON API via JoTrip AutoSync",
     "paid_services_used": false
   },
-  "page_last_updated": "Official API fetched 06:46",
+  "page_last_updated": "Official API fetched 09:44",
   "counts": {
     "arrivals": 82,
     "departures": 84,
@@ -84,16 +84,18 @@
       "XIANYANG-XI AN": 1
     },
     "arrivals_by_status": {
-      "ĐÚNG GIỜ": 71,
+      "ĐÚNG GIỜ": 67,
+      "ĐÃ HẠ CÁNH": 8,
       "TRỄ": 5,
-      "ĐÃ HẠ CÁNH": 4,
       "CHUYẾN BAY FERRY": 2
     },
     "departures_by_status": {
-      "LÀM THỦ TỤC LÚC": 69,
-      "ĐANG LÀM THỦ TỤC": 8,
-      "ĐÃ CẤT CÁNH": 6,
-      "QUẦY THỦ TỤC ĐÃ ĐÓNG": 1
+      "LÀM THỦ TỤC LÚC": 60,
+      "ĐANG LÀM THỦ TỤC": 12,
+      "ĐÃ CẤT CÁNH": 7,
+      "CỬA KHỞI HÀNH ĐÃ ĐÓNG": 2,
+      "QUẦY THỦ TỤC ĐÃ ĐÓNG": 2,
+      "HÀNH KHÁCH ĐANG LÊN TÀU BAY": 1
     },
     "arrivals_by_time_bank": {
       "09:00-11:59": 23,
@@ -211,10 +213,10 @@
       "aircraft": "Airbus A330(ALL)",
       "scheduled_time": "06:30",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "07:05",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 35,
       "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
@@ -223,15 +225,15 @@
       "parking_bay": "11",
       "terminal": null,
       "checkin_row": null,
-      "status": "TRỄ",
-      "status_code": "DELAYED",
-      "raw_status": "TRỄ",
-      "source_synced_at": "2026-11-07 23:31:14",
+      "status": "ĐÃ HẠ CÁNH",
+      "status_code": "ARRIVED",
+      "raw_status": "ĐÃ HẠ CÁNH",
+      "source_synced_at": "2026-11-08 00:06:59",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "06:30"
       ],
-      "context": "VJ5574 • VIETJET AIR | UFA | 06:30 | TRỄ"
+      "context": "VJ5574 • VIETJET AIR | UFA | 06:30 | ĐÃ HẠ CÁNH"
     },
     {
       "source_id": 32544071,
@@ -335,15 +337,15 @@
       "parking_bay": "8",
       "terminal": null,
       "checkin_row": null,
-      "status": "ĐÚNG GIỜ",
-      "status_code": "ON_TIME",
-      "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-11-07 13:11:38",
+      "status": "TRỄ",
+      "status_code": "DELAYED",
+      "raw_status": "TRỄ",
+      "source_synced_at": "2026-11-08 00:25:39",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "07:25"
       ],
-      "context": "DV5324 • SCAT AIRLINES | ALMATY | 07:25 | ĐÚNG GIỜ"
+      "context": "DV5324 • SCAT AIRLINES | ALMATY | 07:25 | TRỄ"
     },
     {
       "source_id": 32476104,
@@ -360,10 +362,10 @@
       "aircraft": "Airbus A320(ALL)",
       "scheduled_time": "07:40",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "07:32",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": -8,
       "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
@@ -372,15 +374,15 @@
       "parking_bay": "9",
       "terminal": null,
       "checkin_row": null,
-      "status": "ĐÚNG GIỜ",
-      "status_code": "ON_TIME",
-      "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-11-07 03:57:32",
+      "status": "ĐÃ HẠ CÁNH",
+      "status_code": "ARRIVED",
+      "raw_status": "ĐÃ HẠ CÁNH",
+      "source_synced_at": "2026-11-08 00:52:51",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "07:40"
       ],
-      "context": "9G1203 • SUN PHUQUOC AIRWAYS | HA NOI | 07:40 | ĐÚNG GIỜ"
+      "context": "9G1203 • SUN PHUQUOC AIRWAYS | HA NOI | 07:40 | ĐÃ HẠ CÁNH"
     },
     {
       "source_id": 30752995,
@@ -397,10 +399,10 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "07:50",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "07:26",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": -24,
       "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
@@ -409,15 +411,15 @@
       "parking_bay": "10",
       "terminal": null,
       "checkin_row": null,
-      "status": "ĐÚNG GIỜ",
-      "status_code": "ON_TIME",
-      "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-11-07 06:07:41",
+      "status": "ĐÃ HẠ CÁNH",
+      "status_code": "ARRIVED",
+      "raw_status": "ĐÃ HẠ CÁNH",
+      "source_synced_at": "2026-11-08 00:29:32",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "07:50"
       ],
-      "context": "VJ329 • VIETJET AIR | HO CHI MINH | 07:50 | ĐÚNG GIỜ"
+      "context": "VJ329 • VIETJET AIR | HO CHI MINH | 07:50 | ĐÃ HẠ CÁNH"
     },
     {
       "source_id": 32478154,
@@ -508,10 +510,10 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "08:15",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "07:55",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": -20,
       "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
@@ -520,15 +522,15 @@
       "parking_bay": "6",
       "terminal": null,
       "checkin_row": null,
-      "status": "ĐÚNG GIỜ",
-      "status_code": "ON_TIME",
-      "raw_status": "ĐÚNG GIỜ",
-      "source_synced_at": "2026-11-07 06:06:08",
+      "status": "ĐÃ HẠ CÁNH",
+      "status_code": "ARRIVED",
+      "raw_status": "ĐÃ HẠ CÁNH",
+      "source_synced_at": "2026-11-08 00:57:31",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:15"
       ],
-      "context": "KC161 • AIR ASTANA JSC | ALMATY | 08:15 | ĐÚNG GIỜ"
+      "context": "KC161 • AIR ASTANA JSC | ALMATY | 08:15 | ĐÃ HẠ CÁNH"
     },
     {
       "source_id": 30752989,
@@ -3405,27 +3407,27 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduled_time": "07:20",
       "estimated_time": null,
-      "actual_time": null,
+      "actual_time": "07:40",
       "delay_minutes": null,
       "estimated_delay_minutes": null,
-      "actual_delay_minutes": null,
+      "actual_delay_minutes": 20,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "06:52",
+      "boarding_finish": "07:07",
       "gate": "13",
       "belt": null,
       "parking_bay": "13",
       "terminal": null,
       "checkin_row": "03-04",
-      "status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
-      "status_code": "CHECKIN_CLOSED",
-      "raw_status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
-      "source_synced_at": "2026-11-07 23:41:21",
+      "status": "ĐÃ CẤT CÁNH",
+      "status_code": "DEPARTED",
+      "raw_status": "ĐÃ CẤT CÁNH",
+      "source_synced_at": "2026-11-08 00:53:38",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "07:20"
       ],
-      "context": "9G1952 • SUN PHUQUOC AIRWAYS | HO CHI MINH | 07:20 | QUẦY THỦ TỤC ĐÃ ĐÓNG"
+      "context": "9G1952 • SUN PHUQUOC AIRWAYS | HO CHI MINH | 07:20 | ĐÃ CẤT CÁNH"
     },
     {
       "source_id": 30752996,
@@ -3447,22 +3449,22 @@
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "07:40",
+      "boarding_finish": "07:58",
       "gate": "12",
       "belt": null,
       "parking_bay": "12",
       "terminal": null,
       "checkin_row": "09-10",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-11-07 23:16:23",
+      "status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
+      "status_code": "SOURCE_OTHER",
+      "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
+      "source_synced_at": "2026-11-08 00:59:51",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:15"
       ],
-      "context": "VJ448 • VIETJET AIR | HA NOI | 08:15 | ĐANG LÀM THỦ TỤC"
+      "context": "VJ448 • VIETJET AIR | HA NOI | 08:15 | CỬA KHỞI HÀNH ĐÃ ĐÓNG"
     },
     {
       "source_id": 32476780,
@@ -3484,22 +3486,22 @@
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
       "checkin_time": null,
-      "boarding_start": null,
+      "boarding_start": "07:51",
       "boarding_finish": null,
       "gate": "3",
       "belt": null,
       "parking_bay": "9",
       "terminal": null,
       "checkin_row": "05-06",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-11-07 23:21:08",
+      "status": "HÀNH KHÁCH ĐANG LÊN TÀU BAY",
+      "status_code": "SOURCE_OTHER",
+      "raw_status": "HÀNH KHÁCH ĐANG LÊN TÀU BAY",
+      "source_synced_at": "2026-11-08 00:51:18",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:20"
       ],
-      "context": "9G1202 • SUN PHUQUOC AIRWAYS | HA NOI | 08:20 | ĐANG LÀM THỦ TỤC"
+      "context": "9G1202 • SUN PHUQUOC AIRWAYS | HA NOI | 08:20 | HÀNH KHÁCH ĐANG LÊN TÀU BAY"
     },
     {
       "source_id": 30752988,
@@ -3521,22 +3523,22 @@
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
       "checkin_time": null,
-      "boarding_start": null,
-      "boarding_finish": null,
+      "boarding_start": "07:46",
+      "boarding_finish": "08:00",
       "gate": "2",
       "belt": null,
       "parking_bay": "10",
       "terminal": null,
       "checkin_row": "16-17",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-11-07 23:25:48",
+      "status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
+      "status_code": "SOURCE_OTHER",
+      "raw_status": "CỬA KHỞI HÀNH ĐÃ ĐÓNG",
+      "source_synced_at": "2026-11-08 01:00:38",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:25"
       ],
-      "context": "VJ328 • VIETJET AIR | HO CHI MINH | 08:25 | ĐANG LÀM THỦ TỤC"
+      "context": "VJ328 • VIETJET AIR | HO CHI MINH | 08:25 | CỬA KHỞI HÀNH ĐÃ ĐÓNG"
     },
     {
       "source_id": 30752986,
@@ -3565,15 +3567,15 @@
       "parking_bay": "14",
       "terminal": null,
       "checkin_row": "14-15",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-11-07 23:41:21",
+      "status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
+      "status_code": "CHECKIN_CLOSED",
+      "raw_status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
+      "source_synced_at": "2026-11-08 01:00:38",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:40"
       ],
-      "context": "VJ450 • VIETJET AIR | HA NOI | 08:40 | ĐANG LÀM THỦ TỤC"
+      "context": "VJ450 • VIETJET AIR | HA NOI | 08:40 | QUẦY THỦ TỤC ĐÃ ĐÓNG"
     },
     {
       "source_id": 32478146,
@@ -3639,15 +3641,15 @@
       "parking_bay": "7",
       "terminal": null,
       "checkin_row": "27-29",
-      "status": "ĐANG LÀM THỦ TỤC",
-      "status_code": "CHECKIN_OPEN",
-      "raw_status": "ĐANG LÀM THỦ TỤC",
-      "source_synced_at": "2026-11-07 22:50:44",
+      "status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
+      "status_code": "CHECKIN_CLOSED",
+      "raw_status": "QUẦY THỦ TỤC ĐÃ ĐÓNG",
+      "source_synced_at": "2026-11-08 01:00:38",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "08:50"
       ],
-      "context": "LO6190 • LOT POLISH AIRLINES | WARSAW | 08:50 | ĐANG LÀM THỦ TỤC"
+      "context": "LO6190 • LOT POLISH AIRLINES | WARSAW | 08:50 | QUẦY THỦ TỤC ĐÃ ĐÓNG"
     },
     {
       "source_id": 32509873,
@@ -3705,7 +3707,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:35",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "3",
@@ -3713,15 +3715,15 @@
       "parking_bay": "9",
       "terminal": null,
       "checkin_row": "11-13",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:35",
-      "source_synced_at": "2026-11-07 06:58:24",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:35:46",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "09:35"
       ],
-      "context": "VN1822 • VIETNAM AIRLINES | HO CHI MINH | 09:35 | LÀM THỦ TỤC LÚC 07:35"
+      "context": "VN1822 • VIETNAM AIRLINES | HO CHI MINH | 09:35 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32544769,
@@ -3779,7 +3781,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:50",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "14",
@@ -3787,15 +3789,15 @@
       "parking_bay": "14",
       "terminal": null,
       "checkin_row": "16-17",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:50",
-      "source_synced_at": "2026-11-07 06:59:11",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:51:18",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "09:50"
       ],
-      "context": "VJ440 • VIETJET AIR | HA NOI | 09:50 | LÀM THỦ TỤC LÚC 07:50"
+      "context": "VJ440 • VIETJET AIR | HA NOI | 09:50 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 30752980,
@@ -3816,7 +3818,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:50",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "2",
@@ -3824,15 +3826,15 @@
       "parking_bay": "10",
       "terminal": null,
       "checkin_row": "08-10",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:50",
-      "source_synced_at": "2026-11-07 06:59:11",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:51:18",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "09:50"
       ],
-      "context": "VN1236 • VIETNAM AIRLINES | HA NOI | 09:50 | LÀM THỦ TỤC LÚC 07:50"
+      "context": "VN1236 • VIETNAM AIRLINES | HA NOI | 09:50 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 30752978,
@@ -3853,7 +3855,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "06:55",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "10",
@@ -3861,15 +3863,15 @@
       "parking_bay": "5",
       "terminal": null,
       "checkin_row": "46-48",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 06:55",
-      "source_synced_at": "2026-11-07 07:11:38",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-07 23:56:07",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "09:55"
       ],
-      "context": "HY566 • UZBEKISTAN AIRWAYS | TASHKENT | 09:55 | LÀM THỦ TỤC LÚC 06:55"
+      "context": "HY566 • UZBEKISTAN AIRWAYS | TASHKENT | 09:55 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32579876,
@@ -3890,7 +3892,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:05",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "9",
@@ -3898,15 +3900,15 @@
       "parking_bay": "7",
       "terminal": null,
       "checkin_row": "50-52",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:05",
-      "source_synced_at": "2026-11-07 07:12:25",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:06:13",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "10:05"
       ],
-      "context": "AK544 • AIR ASIA | KUALA LUMPUR | 10:05 | LÀM THỦ TỤC LÚC 07:05"
+      "context": "AK544 • AIR ASIA | KUALA LUMPUR | 10:05 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32521921,
@@ -3964,7 +3966,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:25",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "6",
@@ -3972,15 +3974,15 @@
       "parking_bay": "11",
       "terminal": null,
       "checkin_row": "19-22",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:25",
-      "source_synced_at": "2026-11-07 07:12:25",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:25:39",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "10:25"
       ],
-      "context": "VJ6851 • VIETJET AIR | KRASNOJARSK | 10:25 | LÀM THỦ TỤC LÚC 07:25"
+      "context": "VJ6851 • VIETJET AIR | KRASNOJARSK | 10:25 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32546203,
@@ -4001,7 +4003,7 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:30",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "11",
@@ -4009,15 +4011,15 @@
       "parking_bay": "4",
       "terminal": null,
       "checkin_row": "27-29",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:30",
-      "source_synced_at": "2026-11-07 07:12:25",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:31:05",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "10:30"
       ],
-      "context": "UO599 • HONG KONG EXPRESS AIRWAYS LIMITED | HONG KONG | 10:30 | LÀM THỦ TỤC LÚC 07:30"
+      "context": "UO599 • HONG KONG EXPRESS AIRWAYS LIMITED | HONG KONG | 10:30 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32455929,
@@ -4038,23 +4040,23 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:35",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "5",
       "belt": null,
       "parking_bay": "12",
       "terminal": null,
-      "checkin_row": "30-31",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:35",
-      "source_synced_at": "2026-11-07 07:32:41",
+      "checkin_row": "31-32",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:52:51",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "10:35"
       ],
-      "context": "9G729 • SUN PHUQUOC AIRWAYS | SINGAPORE | 10:35 | LÀM THỦ TỤC LÚC 07:35"
+      "context": "9G729 • SUN PHUQUOC AIRWAYS | SINGAPORE | 10:35 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 32473360,
@@ -4075,23 +4077,23 @@
       "delay_minutes": null,
       "estimated_delay_minutes": null,
       "actual_delay_minutes": null,
-      "checkin_time": "07:40",
+      "checkin_time": null,
       "boarding_start": null,
       "boarding_finish": null,
       "gate": "8",
       "belt": null,
       "parking_bay": "8",
       "terminal": null,
-      "checkin_row": "32-33",
-      "status": "LÀM THỦ TỤC LÚC",
-      "status_code": "CHECKIN_SCHEDULED",
-      "raw_status": "LÀM THỦ TỤC LÚC 07:40",
-      "source_synced_at": "2026-11-07 07:13:12",
+      "checkin_row": "34-35",
+      "status": "ĐANG LÀM THỦ TỤC",
+      "status_code": "CHECKIN_OPEN",
+      "raw_status": "ĐANG LÀM THỦ TỤC",
+      "source_synced_at": "2026-11-08 00:41:12",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "10:40"
       ],
-      "context": "9G701 • SUN PHUQUOC AIRWAYS | BANGKOK | 10:40 | LÀM THỦ TỤC LÚC 07:40"
+      "context": "9G701 • SUN PHUQUOC AIRWAYS | BANGKOK | 10:40 | ĐANG LÀM THỦ TỤC"
     },
     {
       "source_id": 30752971,
@@ -4230,11 +4232,11 @@
       "belt": null,
       "parking_bay": "13",
       "terminal": null,
-      "checkin_row": "34-35",
+      "checkin_row": "32-33",
       "status": "LÀM THỦ TỤC LÚC",
       "status_code": "CHECKIN_SCHEDULED",
       "raw_status": "LÀM THỦ TỤC LÚC 08:20",
-      "source_synced_at": "2026-11-07 07:32:41",
+      "source_synced_at": "2026-11-08 00:35:46",
       "timing_source": "SUN_AIRPORT_OFFICIAL_API",
       "times": [
         "11:20"
