@@ -8,101 +8,38 @@
       "state": "FIELD_REQUIRED"
     },
     "fast_boat": {
-      "confidence_cap": 100,
-      "evidence": [
-        {
-          "call_sign": "3WPL7",
-          "category": "fast_boat",
-          "departure_port": "CANG HA TIEN KG",
-          "evidence_class": "DIRECT",
-          "imo": "9858632",
-          "issued_at_text": "10/11/2026 11:57",
-          "permit_number": "5876.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 9"
-        },
-        {
-          "call_sign": "3WDS9",
-          "category": "fast_boat",
-          "departure_port": "CANG NAM DU KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9647265",
-          "issued_at_text": "10/11/2026 10:47",
-          "permit_number": "601.2026.ND/KGG",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "SUPERDONG IV"
-        }
-      ],
-      "evidence_count": 2,
-      "source_tiers": [
-        "PERMIT_PORT"
-      ],
-      "state": "DIRECT_CONFIRMED"
+      "confidence_cap": 59,
+      "evidence": [],
+      "evidence_count": 0,
+      "source_tiers": [],
+      "state": "UNKNOWN"
     },
     "ferry": {
       "confidence_cap": 100,
       "evidence": [
-        {
-          "call_sign": "XVCN4",
-          "category": "ferry",
-          "departure_port": "CANG THACH THOI KG",
-          "evidence_class": "DIRECT",
-          "imo": "1028724",
-          "issued_at_text": "10/11/2026 12:29",
-          "permit_number": "5877.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 17"
-        },
-        {
-          "call_sign": "XVKS3",
-          "category": "ferry",
-          "departure_port": "CANG THACH THOI KG",
-          "evidence_class": "DIRECT",
-          "imo": "9908877",
-          "issued_at_text": "10/11/2026 11:56",
-          "permit_number": "5875.2026/KGG.HT",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 8"
-        },
-        {
-          "call_sign": "3WHL7",
-          "category": "ferry",
-          "departure_port": "CANG HOA BINH KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9819973",
-          "issued_at_text": "10/11/2026 11:17",
-          "permit_number": "9199.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "BINH AN HA TIEN 02"
-        },
         {
           "call_sign": "XVKQ7",
           "category": "ferry",
           "departure_port": "CANG QUOC CHANH KG",
           "evidence_class": "DIRECT",
           "imo": "XVKQ7",
-          "issued_at_text": "10/11/2026 10:52",
-          "permit_number": "9198.2026/KGG.PQ",
+          "issued_at_text": "10/11/2026 17:39",
+          "permit_number": "9209.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
           "vessel_name": "THRIVING 20"
         },
         {
-          "call_sign": "XVZN2",
+          "call_sign": "3WAR7",
           "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
+          "departure_port": "CANG THACH THOI KG",
           "evidence_class": "DIRECT",
-          "imo": "1028396",
-          "issued_at_text": "10/11/2026 10:39",
-          "permit_number": "9197.2026/KGG.PQ",
+          "imo": "9840403",
+          "issued_at_text": "10/11/2026 17:31",
+          "permit_number": "5882.2026/KGG.HT",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 16"
+          "vessel_name": "THRIVING 7"
         },
         {
           "category": "ferry",
@@ -185,7 +122,7 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 15,
+      "evidence_count": 12,
       "source_tiers": [
         "OPERATOR",
         "PERMIT_PORT"
@@ -193,7 +130,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-10T12:53:52.922808+07:00",
+  "collected_at_vn": "2026-11-10T23:51:39.486941+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
