@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-11-14",
-  "collected_at_vn": "2026-11-13T01:11:48+07:00",
+  "collected_at_vn": "2026-11-13T06:37:05+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -2653,7 +2653,7 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduledTime": "0000+",
       "estimatedTime": "0000+",
-      "actualTime": null,
+      "actualTime": "0156+",
       "boardingStart": "",
       "boardingFinish": "",
       "codeShare": null,
@@ -2663,9 +2663,9 @@
       "belt": "",
       "gate": "11",
       "remarks": null,
-      "synced_at": "2026-11-12 09:23:00",
-      "notesVn": "CHUYẾN BAY 13/11 LÀM THỦ TỤC LÚC 21:00",
-      "notesEn": "FLIGHT 13/11 CHECK-IN 21:00",
+      "synced_at": "2026-11-12 18:57:04",
+      "notesVn": "CHUYẾN BAY 13/11 ĐÃ CẤT CÁNH",
+      "notesEn": "FLIGHT 13/11 DEPARTED",
       "airlineInfo": {
         "logo": "/cms/Airlines/Vietjet Air.png",
         "contactInfo": "19001886",
