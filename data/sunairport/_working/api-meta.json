@@ -1,8 +1,8 @@
 {
-  "collected_at_vn": "2026-11-14T23:46:19+07:00",
+  "collected_at_vn": "2026-11-15T03:57:24+07:00",
   "arrival": {
-    "url": "https://sunairport.com/phuquoc/cms/api/flights?type=A&date=2026-11-14&limit=100&_t=1794674779165",
-    "rows": 82,
+    "url": "https://sunairport.com/phuquoc/cms/api/flights?type=A&date=2026-11-15&limit=100&_t=1794689844528",
+    "rows": 83,
     "headers": {
       "cache_control": "max-age=30, public",
       "content_type": "application/json",
@@ -12,8 +12,8 @@
     }
   },
   "departure": {
-    "url": "https://sunairport.com/phuquoc/cms/api/flights?type=D&date=2026-11-14&limit=100&_t=1794674779331",
-    "rows": 80,
+    "url": "https://sunairport.com/phuquoc/cms/api/flights?type=D&date=2026-11-15&limit=100&_t=1794689844583",
+    "rows": 85,
     "headers": {
       "cache_control": "max-age=30, public",
       "content_type": "application/json",
