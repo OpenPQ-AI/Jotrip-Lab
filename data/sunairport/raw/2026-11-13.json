@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-11-13",
-  "collected_at_vn": "2026-11-14T10:38:38+07:00",
+  "collected_at_vn": "2026-11-14T17:54:01+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -3083,7 +3083,7 @@
       "belt": "",
       "gate": "4",
       "remarks": "TRE 6PHUT DOI TO BAY",
-      "synced_at": "2026-11-13 07:50:15",
+      "synced_at": "2026-11-14 09:10:07",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
@@ -4403,7 +4403,7 @@
       "aircraft": "Airbus A321(ALL)",
       "scheduledTime": "1355",
       "estimatedTime": "1355",
-      "actualTime": "1355",
+      "actualTime": "1432",
       "boardingStart": "1326",
       "boardingFinish": "1346",
       "codeShare": null,
@@ -4413,7 +4413,7 @@
       "belt": "",
       "gate": "3",
       "remarks": "20P WO",
-      "synced_at": "2026-11-13 10:04:53",
+      "synced_at": "2026-11-14 03:57:28",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
