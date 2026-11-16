@@ -237,7 +237,7 @@
       "time": "06:27"
     }
   ],
-  "generated_at_vn": "2026-11-16T11:42:17.967288+07:00",
+  "generated_at_vn": "2026-11-17T02:23:58.966319+07:00",
   "schema_version": "1.0",
   "source_policy": "Historical direct confirmations only; never infer today's cano operations from an earlier day, weather, ferry or fast-boat status."
 }
