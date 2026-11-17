@@ -13,11 +13,11 @@
         {
           "call_sign": "XVIO2",
           "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
+          "departure_port": "CANG RACH GIA KG",
           "evidence_class": "DIRECT",
           "imo": "9945813",
-          "issued_at_text": "17/11/2026 10:07",
-          "permit_number": "9354.2026/KGG.PQ",
+          "issued_at_text": "17/11/2026 12:53",
+          "permit_number": "3771.2026.RG/KGG",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
           "vessel_name": "PHU QUOC EXPRESS 27"
@@ -32,30 +32,6 @@
     "ferry": {
       "confidence_cap": 100,
       "evidence": [
-        {
-          "call_sign": "3WHL7",
-          "category": "ferry",
-          "departure_port": "CANG HOA BINH KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9819973",
-          "issued_at_text": "17/11/2026 08:54",
-          "permit_number": "9353.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "BINH AN HA TIEN 02"
-        },
-        {
-          "call_sign": "XVCN4",
-          "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
-          "evidence_class": "DIRECT",
-          "imo": "1028724",
-          "issued_at_text": "17/11/2026 09:51",
-          "permit_number": "9352.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 17"
-        },
         {
           "category": "ferry",
           "evidence_class": "DIRECT",
@@ -137,15 +113,14 @@
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 12,
+      "evidence_count": 10,
       "source_tiers": [
-        "OPERATOR",
-        "PERMIT_PORT"
+        "OPERATOR"
       ],
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-17T10:19:59.266210+07:00",
+  "collected_at_vn": "2026-11-17T13:28:40.798336+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
