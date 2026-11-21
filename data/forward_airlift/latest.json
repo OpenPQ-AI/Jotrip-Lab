@@ -7,7 +7,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-11-21T01:34:21.611916+07:00",
+      "observed_at": "2026-11-21T10:08:00.406885+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "SGN-PQC",
       "service_type": "scheduled",
@@ -22,7 +22,7 @@
       "evidence_class": "DIRECT",
       "frequency_weekly": null,
       "market": "Vietnam",
-      "observed_at": "2026-11-21T01:34:21.611916+07:00",
+      "observed_at": "2026-11-21T10:08:00.406885+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "HAN-PQC",
       "service_type": "scheduled",
@@ -37,7 +37,7 @@
       "evidence_class": "PROXY",
       "frequency_weekly": null,
       "market": "SEA",
-      "observed_at": "2026-11-21T01:34:21.611916+07:00",
+      "observed_at": "2026-11-21T10:08:00.406885+07:00",
       "passenger_demand_inference_allowed": false,
       "route": "KUL-PQC",
       "service_type": "scheduled",
@@ -69,7 +69,7 @@
       "weekly_frequency": 0.0
     }
   },
-  "observed_at_vn": "2026-11-21T01:34:21.611916+07:00",
+  "observed_at_vn": "2026-11-21T10:08:00.406885+07:00",
   "schema_version": "forward-airlift-evidence-1.1",
   "score_gate": {
     "minimum_direct_market_coverage": 0.5,
@@ -87,7 +87,7 @@
       "route": "SGN-PQC",
       "source_id": "VNA_SGN_PQC_BOOKABLE",
       "state": "VERIFIED",
-      "text_length": 10842,
+      "text_length": 10847,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-ho-chi-minh-city-to-phu-quoc"
     },
     {
