@@ -11,31 +11,43 @@
       "confidence_cap": 100,
       "evidence": [
         {
-          "call_sign": "3WPL7",
-          "category": "fast_boat",
-          "departure_port": "CANG BAI VONG KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9858632",
-          "issued_at_text": "21/11/2026 08:41",
-          "permit_number": "9392.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "PHU QUOC EXPRESS 9"
-        },
-        {
           "call_sign": "XVPQ9",
           "category": "fast_boat",
           "departure_port": "CANG BAI VONG KGIANG",
           "evidence_class": "DIRECT",
           "imo": "9693044",
-          "issued_at_text": "21/11/2026 07:59",
-          "permit_number": "9389.2026/KGG.PQ",
+          "issued_at_text": "21/11/2026 11:35",
+          "permit_number": "9398.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
           "vessel_name": "SUPERDONG V"
+        },
+        {
+          "call_sign": "3WPL7",
+          "category": "fast_boat",
+          "departure_port": "CANG HA TIEN KG",
+          "evidence_class": "DIRECT",
+          "imo": "9858632",
+          "issued_at_text": "21/11/2026 10:45",
+          "permit_number": "6038.2026/KGG.HT",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "PHU QUOC EXPRESS 9"
+        },
+        {
+          "call_sign": "3WDS9",
+          "category": "fast_boat",
+          "departure_port": "CANG NAM DU KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9647265",
+          "issued_at_text": "21/11/2026 10:45",
+          "permit_number": "606.2026.ND/KGG",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "SUPERDONG IV"
         }
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "source_tiers": [
         "PERMIT_PORT"
       ],
@@ -45,37 +57,37 @@
       "confidence_cap": 100,
       "evidence": [
         {
-          "call_sign": "3WHL7",
-          "category": "ferry",
-          "departure_port": "CANG HOA BINH KGIANG",
-          "evidence_class": "DIRECT",
-          "imo": "9819973",
-          "issued_at_text": "21/11/2026 08:38",
-          "permit_number": "9391.2026/KGG.PQ",
-          "source": "PORT_CLEARANCE_KGG",
-          "source_tier": "PERMIT_PORT",
-          "vessel_name": "BINH AN HA TIEN 02"
-        },
-        {
-          "call_sign": "XVCN4",
+          "call_sign": "3WXC9",
           "category": "ferry",
           "departure_port": "CANG QUOC CHANH KG",
           "evidence_class": "DIRECT",
-          "imo": "1028724",
-          "issued_at_text": "21/11/2026 08:22",
-          "permit_number": "9390.2026/KGG.PQ",
+          "imo": "9804722",
+          "issued_at_text": "21/11/2026 12:30",
+          "permit_number": "9399.2026/KGG.PQ",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
-          "vessel_name": "THRIVING 17"
+          "vessel_name": "THRIVING 4"
+        },
+        {
+          "call_sign": "3WDE7",
+          "category": "ferry",
+          "departure_port": "CANG HOA BINH KGIANG",
+          "evidence_class": "DIRECT",
+          "imo": "9818046",
+          "issued_at_text": "21/11/2026 11:30",
+          "permit_number": "9397.2026/KGG.PQ",
+          "source": "PORT_CLEARANCE_KGG",
+          "source_tier": "PERMIT_PORT",
+          "vessel_name": "BÌNH AN HÀ TIÊN 01"
         },
         {
           "call_sign": "XVKS3",
           "category": "ferry",
-          "departure_port": "CANG QUOC CHANH KG",
+          "departure_port": "CANG THACH THOI KG",
           "evidence_class": "DIRECT",
           "imo": "9908877",
-          "issued_at_text": "21/11/2026 07:56",
-          "permit_number": "9388.2026/KGG.PQ",
+          "issued_at_text": "21/11/2026 11:22",
+          "permit_number": "6039.2026/KGG.HT",
           "source": "PORT_CLEARANCE_KGG",
           "source_tier": "PERMIT_PORT",
           "vessel_name": "THRIVING 8"
@@ -169,7 +181,7 @@
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-21T08:54:03.762703+07:00",
+  "collected_at_vn": "2026-11-21T12:35:12.617885+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
