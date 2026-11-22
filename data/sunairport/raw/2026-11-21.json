@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-11-21",
-  "collected_at_vn": "2026-11-22T09:14:16+07:00",
+  "collected_at_vn": "2026-11-22T16:48:16+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -6084,8 +6084,8 @@
       "scheduledTime": "2210",
       "estimatedTime": "2250",
       "actualTime": "2324",
-      "boardingStart": "",
-      "boardingFinish": "",
+      "boardingStart": "2243",
+      "boardingFinish": "2253",
       "codeShare": null,
       "parkingBay": "7",
       "terminal": "",
@@ -6093,7 +6093,7 @@
       "belt": "",
       "gate": "9",
       "remarks": "TRE 16P RA",
-      "synced_at": "2026-11-21 16:42:09",
+      "synced_at": "2026-11-22 07:40:41",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
