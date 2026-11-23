@@ -87,17 +87,25 @@
           "source": "THANH_THOI_OPERATOR",
           "source_tier": "OPERATOR",
           "status": "Đã xuất bến",
+          "vessel_name": "Thriving 7"
+        },
+        {
+          "category": "ferry",
+          "evidence_class": "DIRECT",
+          "source": "THANH_THOI_OPERATOR",
+          "source_tier": "OPERATOR",
+          "status": "Đã xuất bến",
           "vessel_name": "Thriving 8"
         }
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "source_tiers": [
         "OPERATOR"
       ],
       "state": "DIRECT_CONFIRMED"
     }
   },
-  "collected_at_vn": "2026-11-23T12:42:24.814364+07:00",
+  "collected_at_vn": "2026-11-24T03:57:57.930666+07:00",
   "errors": [],
   "market_condition_not_data_system_condition": true,
   "rules": {
@@ -108,5 +116,5 @@
     "permit_or_departure_slip_is_direct": true
   },
   "schema_version": "marine-ops-1.0",
-  "source_date": "23/11/2026"
+  "source_date": "24/11/2026"
 }
