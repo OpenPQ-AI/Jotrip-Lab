@@ -12,7 +12,7 @@
       "fixed_basket_compatible": false,
       "market": "Vietnam",
       "observation_type": "PUBLIC_PAGE_FLOOR",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
       "product_scope": "public one-way economy cached fare page",
       "route": "SGN-PQC",
       "source_id": "VNA_SGN_PQC_PUBLIC_FARE"
@@ -25,23 +25,10 @@
       "fixed_basket_compatible": false,
       "market": "Vietnam",
       "observation_type": "PUBLIC_PAGE_FLOOR",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
       "product_scope": "public one-way economy cached fare page",
       "route": "HAN-PQC",
       "source_id": "VNA_HAN_PQC_PUBLIC_FARE"
-    },
-    {
-      "airline": "AirAsia / marketplace",
-      "amount": 360,
-      "currency": "MYR",
-      "evidence_class": "PROXY",
-      "fixed_basket_compatible": false,
-      "market": "SEA",
-      "observation_type": "PUBLIC_DEAL_FARE",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
-      "product_scope": "public one-way/deal fare page",
-      "route": "KUL-PQC",
-      "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
     },
     {
       "airline": "AirAsia / marketplace",
@@ -51,39 +38,78 @@
       "fixed_basket_compatible": false,
       "market": "SEA",
       "observation_type": "PUBLIC_DEAL_FARE",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
       "product_scope": "public one-way/deal fare page",
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
     },
     {
       "airline": "AirAsia / marketplace",
-      "amount": 352,
+      "amount": 360,
       "currency": "MYR",
       "evidence_class": "PROXY",
       "fixed_basket_compatible": false,
       "market": "SEA",
       "observation_type": "PUBLIC_DEAL_FARE",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
       "product_scope": "public one-way/deal fare page",
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
     },
     {
       "airline": "AirAsia / marketplace",
-      "amount": 412,
+      "amount": 424,
       "currency": "MYR",
       "evidence_class": "PROXY",
       "fixed_basket_compatible": false,
       "market": "SEA",
       "observation_type": "PUBLIC_DEAL_FARE",
-      "observed_at": "2026-11-23T00:54:11.788141+07:00",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
+      "product_scope": "public one-way/deal fare page",
+      "route": "KUL-PQC",
+      "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
+    },
+    {
+      "airline": "AirAsia / marketplace",
+      "amount": 307,
+      "currency": "MYR",
+      "evidence_class": "PROXY",
+      "fixed_basket_compatible": false,
+      "market": "SEA",
+      "observation_type": "PUBLIC_DEAL_FARE",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
+      "product_scope": "public one-way/deal fare page",
+      "route": "KUL-PQC",
+      "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
+    },
+    {
+      "airline": "AirAsia / marketplace",
+      "amount": 313,
+      "currency": "MYR",
+      "evidence_class": "PROXY",
+      "fixed_basket_compatible": false,
+      "market": "SEA",
+      "observation_type": "PUBLIC_DEAL_FARE",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
+      "product_scope": "public one-way/deal fare page",
+      "route": "KUL-PQC",
+      "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
+    },
+    {
+      "airline": "AirAsia / marketplace",
+      "amount": 193,
+      "currency": "MYR",
+      "evidence_class": "PROXY",
+      "fixed_basket_compatible": false,
+      "market": "SEA",
+      "observation_type": "PUBLIC_DEAL_FARE",
+      "observed_at": "2026-11-23T09:49:29.186856+07:00",
       "product_scope": "public one-way/deal fare page",
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE"
     }
   ],
-  "observed_at_vn": "2026-11-23T00:54:11.788141+07:00",
+  "observed_at_vn": "2026-11-23T09:49:29.186856+07:00",
   "schema_version": "airfare-public-fallback-1.1",
   "source_coverage": 0.75,
   "sources": [
@@ -97,7 +123,7 @@
       "route": "SGN-PQC",
       "source_id": "VNA_SGN_PQC_PUBLIC_FARE",
       "state": "OK",
-      "text_length": 10847,
+      "text_length": 10836,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-ho-chi-minh-city-to-phu-quoc"
     },
     {
@@ -110,7 +136,7 @@
       "route": "HAN-PQC",
       "source_id": "VNA_HAN_PQC_PUBLIC_FARE",
       "state": "OK",
-      "text_length": 8927,
+      "text_length": 8918,
       "url": "https://www.vietnamairlines.com/en-vn/flights-from-hanoi-to-phu-quoc"
     },
     {
@@ -129,11 +155,11 @@
       "fixed_basket_compatible": false,
       "http_status": 200,
       "market": "SEA",
-      "parsed_count": 4,
+      "parsed_count": 6,
       "route": "KUL-PQC",
       "source_id": "AIRASIA_MOVE_KUL_PQC_PUBLIC_FARE",
       "state": "OK",
-      "text_length": 10812,
+      "text_length": 11314,
       "url": "https://www.airasia.com/flights/from-kuala-lumpur-kul-to-phu-quoc-pqc/"
     }
   ]
