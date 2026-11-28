@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1-daily-raw",
   "date": "2026-11-27",
-  "collected_at_vn": "2026-11-28T11:18:25+07:00",
+  "collected_at_vn": "2026-11-28T20:13:34+07:00",
   "source": {
     "name": "Sun Airport - Phu Quoc International Airport",
     "url": "https://sunairport.com/phuquoc/vi/chuyen-bay",
@@ -5182,8 +5182,8 @@
       "ckRow": "50-51",
       "belt": "",
       "gate": "10",
-      "remarks": null,
-      "synced_at": "2026-11-27 12:25:01",
+      "remarks": "RA/0006",
+      "synced_at": "2026-11-28 09:58:45",
       "notesVn": "ĐÃ CẤT CÁNH",
       "notesEn": "DEPARTED",
       "airlineInfo": {
